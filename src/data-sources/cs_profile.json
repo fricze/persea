@@ -1,0 +1,1369 @@
+[
+  {
+     "id":"000000115"
+    ,"phonenumber":"100000074"
+    ,"name":"Gabriela Jungová"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem"
+    ,"children":"0"
+    ,"aditional_info":"Miluje romány o lásce, italské těstoviny a moderním umění. Nedávno se šťastně vdala. Chtěla by malého psa."
+    ,"posibble_scenarios":["mortgage1", "mortgage2"]
+  },
+  {
+     "id":"000000116"
+    ,"phonenumber":"100000075"
+    ,"name":"Miluše Čechurová"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem a dětmi"
+    ,"children":"1"
+    ,"aditional_info":"Zajímá se o horolezectví, učí se francouzsky. Jejím největším snem je vylézt na K2 spolu s rodinou."
+    ,"posibble_scenarios":["creditcard1", "creditcard2"]
+  },
+  {
+     "id":"000000117"
+    ,"phonenumber":"100000076"
+    ,"name":"Romana Kubínová"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"svobodná"
+    ,"living_with":"sama"
+    ,"children":"0"
+    ,"aditional_info":"Má ráda jahody, čokoládu a křen. Je fascinovaná japonskou kulturou, plánuje začít chodit na kurz japonštiny."
+    ,"posibble_scenarios":["phone1", "phone2"]
+  },
+  {
+     "id":"000000118"
+    ,"phonenumber":"100000077"
+    ,"name":"Helena Pacáková"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"svobodná"
+    ,"living_with":"partnerem"
+    ,"children":"0"
+    ,"aditional_info":"Studentka psychologie, její koníček sledovat, jak se lidé chovají ve veřejném prostoru, vydělává si psaním do časopisů."
+    ,"posibble_scenarios":["mortgage3", "mortgage4"]
+  },
+  {
+     "id":"000000119"
+    ,"phonenumber":"100000078"
+    ,"name":"Judita Kudličková"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"svobodná"
+    ,"living_with":"rodiči"
+    ,"children":"0"
+    ,"aditional_info":"Studentka DAMU, má duši umělce. Připravuje výstavu svých děl o lidském mozku."
+    ,"posibble_scenarios":["creditcard3", "creditcard4"]
+  },
+  {
+     "id":"000000120"
+    ,"phonenumber":"100000079"
+    ,"name":"Nela Urbánková"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"svobodná"
+    ,"living_with":"dětmi"
+    ,"children":"1"
+    ,"aditional_info":"Má ráda volné večery a pěší výlety. Nepohrdne dobrou krkovičkou z grilu."
+    ,"posibble_scenarios":["phone3", "phone4"]
+  },
+  {
+     "id":"000000121"
+    ,"phonenumber":"100000080"
+    ,"name":"Aneta Budínová"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"svobodná"
+    ,"living_with":"partnerem a dětmi"
+    ,"children":"1"
+    ,"aditional_info":"Je to sociální aktivista. Je zapojena do různých charitativních akcí. Volný čas tráví v posilovně."
+    ,"posibble_scenarios":["mortgage5", "mortgage6"]
+  },
+  {
+     "id":"000000122"
+    ,"phonenumber":"100000071"
+    ,"name":"Pavlína Šlechtová"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"svobodná"
+    ,"living_with":"sama"
+    ,"children":"0"
+    ,"aditional_info":"Má rád koťata a máslo a nakupuje online. Myslí si, že ji nikdo nemiluje, a tak se pokouší koupit si štěstí."
+    ,"posibble_scenarios":["mortgage7", "mortgage8"]
+  },
+  {
+     "id":"000000123"
+    ,"phonenumber":"100000072"
+    ,"name":"Anastázie Plíšková"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"svobodná"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Zajímá se o audiovizuální umění. Spoluorganizuje festival elektronické hudby, má ráda jógu."
+    ,"posibble_scenarios":["creditcard5", "creditcard6"]
+  },
+  {
+     "id":"000000124"
+    ,"phonenumber":"100000073"
+    ,"name":"Klára Jarkovská"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"svobodná"
+    ,"living_with":"partnerem"
+    ,"children":"0"
+    ,"aditional_info":"Je vegetariánka, má rád hummus a tofuový salát. Učí se rusky."
+    ,"posibble_scenarios":["phone5", "phone6"]
+  },
+  {
+     "id":"000000125"
+    ,"phonenumber":"100000074"
+    ,"name":"Gabriela Jungová"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"svobodná"
+    ,"living_with":"partnerem a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Ráda zdobí interiéry. Zajímá se o design nábytku, nejraději má domácí cukrovinky."
+    ,"posibble_scenarios":["mortgage9", "mortgage10"]
+  },
+  {
+     "id":"000000126"
+    ,"phonenumber":"100000075"
+    ,"name":"Miluše Čechurová"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem"
+    ,"children":"0"
+    ,"aditional_info":"Nemá rádq sociální média. Ráda čte skutečné knihy a peče koláče."
+    ,"posibble_scenarios":["creditcard7", "creditcard8"]
+  },
+  {
+     "id":"000000127"
+    ,"phonenumber":"100000076"
+    ,"name":"Romana Kubínová"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Má koně v soukromé stáji. Manžel jí často dává dárky - překvapení."
+    ,"posibble_scenarios":["phone7", "phone8"]
+  },
+  {
+     "id":"000000128"
+    ,"phonenumber":"100000077"
+    ,"name":"Helena Pacáková"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem"
+    ,"children":"0"
+    ,"aditional_info":"Chtěla by být supermodelkou XL velikostí. Zajímá se o módu a design, ráda jezdí na vodu."
+    ,"posibble_scenarios":["mortgage11", "mortgage12"]
+  },
+  {
+     "id":"000000129"
+    ,"phonenumber":"100000078"
+    ,"name":"Judita Kudličková"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Její hobby je vaření. V neděli vždy uvaří vývar a v pondělí rajčotovou polévku."
+    ,"posibble_scenarios":["creditcard9", "creditcard10"]
+  },
+  {
+     "id":"000000130"
+    ,"phonenumber":"100000079"
+    ,"name":"Nela Urbánková"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"rozvedená"
+    ,"living_with":"sama"
+    ,"children":"0"
+    ,"aditional_info":"Trénuje crossfit, má ráda fyzické cvičení. Zajímá se o život celebrit."
+    ,"posibble_scenarios":["phone9", "phone10"]
+  },
+  {
+     "id":"000000131"
+    ,"phonenumber":"100000080"
+    ,"name":"Aneta Budínová"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"rozvedená"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Ráda nakupuje v nákupních centrech. Hledání slev je její vášeň."
+    ,"posibble_scenarios":["mortgage13", "mortgage14"]
+  },
+  {
+     "id":"000000132"
+    ,"phonenumber":"100000071"
+    ,"name":"Pavlína Šlechtová"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"svobodná"
+    ,"living_with":"sama"
+    ,"children":"0"
+    ,"aditional_info":"Učí angličtinu na základní škole. Její koníčej jsou vystřihovánky."
+    ,"posibble_scenarios":["mortgage15", "mortgage16"]
+  },
+  {
+     "id":"000000133"
+    ,"phonenumber":"100000072"
+    ,"name":"Anastázie Plíšková"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"svobodná"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Rád se dívá na filmy a seriály. Dává přednost jezení v restauraci, než vaření."
+    ,"posibble_scenarios":["creditcard11", "creditcard12"]
+  },
+  {
+     "id":"000000134"
+    ,"phonenumber":"100000073"
+    ,"name":"Klára Jarkovská"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"svobodná"
+    ,"living_with":"partnerem"
+    ,"children":"0"
+    ,"aditional_info":"Ráda jí popcorn a sleduje televizní seriály. Někdy čte dobrodružné knihy."
+    ,"posibble_scenarios":["phone11", "phone12"]
+  },
+  {
+     "id":"000000135"
+    ,"phonenumber":"100000074"
+    ,"name":"Gabriela Jungová"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"svobodná"
+    ,"living_with":"partnerem a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Ráda odpočívá. Sbírá staré hodiny."
+    ,"posibble_scenarios":["mortgage17", "mortgage18"]
+  },
+  {
+     "id":"000000136"
+    ,"phonenumber":"100000075"
+    ,"name":"Miluše Čechurová"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem"
+    ,"children":"0"
+    ,"aditional_info":"Je motoristkou, má vlastní dílnu, ráda obnovuje staré vozy."
+    ,"posibble_scenarios":["creditcard13", "creditcard14"]
+  },
+  {
+     "id":"000000137"
+    ,"phonenumber":"100000076"
+    ,"name":"Romana Kubínová"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Plete klobouky a šátky. Rovněž ráda sleduje chrtí závody."
+    ,"posibble_scenarios":["phone13", "phone14"]
+  },
+  {
+     "id":"000000138"
+    ,"phonenumber":"100000077"
+    ,"name":"Helena Pacáková"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem"
+    ,"children":"0"
+    ,"aditional_info":"Ráda fotí a zveřejňuje fotky v sociálních médiích. Jako hobby šije dekorativní povlaky na polštáře."
+    ,"posibble_scenarios":["mortgage19", "mortgage20"]
+  },
+  {
+     "id":"000000139"
+    ,"phonenumber":"100000078"
+    ,"name":"Judita Kudličková"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Učí se znakový jazyk. Ráda si kupuje elegantní šálky."
+    ,"posibble_scenarios":["creditcard15", "creditcard16"]
+  },
+  {
+     "id":"000000140"
+    ,"phonenumber":"100000079"
+    ,"name":"Nela Urbánková"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"rozvedená"
+    ,"living_with":"sama"
+    ,"children":"0"
+    ,"aditional_info":"Investuje do sebe, chodí do tanečních kurzů a trénuje box. Začala také kurz webového designu."
+    ,"posibble_scenarios":["phone15", "phone16"]
+  },
+  {
+     "id":"000000141"
+    ,"phonenumber":"100000080"
+    ,"name":"Aneta Budínová"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"rozvedená"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Ráda pracuje se dřevem. Má sbírku starého nábytku a chodí na zumbu."
+    ,"posibble_scenarios":["mortgage21", "mortgage22"]
+  },
+  {
+     "id":"000000142"
+    ,"phonenumber":"100000067"
+    ,"name":"Lucie Baláková"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem"
+    ,"children":"0"
+    ,"aditional_info":"Vyrábí ručně šperky z plastů pro recyklaci. Leží jí na srdci osud země."
+    ,"posibble_scenarios":["phone17", "phone18"]
+  },
+  {
+     "id":"000000143"
+    ,"phonenumber":"100000068"
+    ,"name":"Pavla Krajčová"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Ráda kouká na fotbalové zápasy, jí řízky a tančí. Chodí na kurz salsy."
+    ,"posibble_scenarios":["mortgage23", "mortgage24"]
+  },
+  {
+     "id":"000000144"
+    ,"phonenumber":"100000069"
+    ,"name":"Dana Andrýsková"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem"
+    ,"children":"0"
+    ,"aditional_info":"Bojuje za práva kožešinových zvířat. Má ráda teplé svetry."
+    ,"posibble_scenarios":["creditcard17", "creditcard8"]
+  },
+  {
+     "id":"000000145"
+    ,"phonenumber":"100000070"
+    ,"name":"Ilona Malátová"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Účastní se lekcí zpěvu. Sny o vystoupeních na velkých scénách a o nahrání vlastního alba."
+    ,"posibble_scenarios":["phone19", "phone20"]
+  },
+  {
+     "id":"000000146"
+    ,"phonenumber":"100000071"
+    ,"name":"Pavlína Šlechtová"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"rozvedená"
+    ,"living_with":"sama"
+    ,"children":"0"
+    ,"aditional_info":"Její vášní je patentový zákon. Chtěla by přijít s nějakým průkopnickým vynálezem."
+    ,"posibble_scenarios":["mortgage25", "mortgage26"]
+  },
+  {
+     "id":"000000147"
+    ,"phonenumber":"100000072"
+    ,"name":"Anastázie Plíšková"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"rozvedená"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Má ráda domácí chléb. Ve volném čase skládá limeriky."
+    ,"posibble_scenarios":["creditcard19", "creditcard20"]
+  },
+  {
+     "id":"000000148"
+    ,"phonenumber":"100000073"
+    ,"name":"Klára Jarkovská"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"svobodná"
+    ,"living_with":"sama"
+    ,"children":"0"
+    ,"aditional_info":"Je dobrovolníkem v útulku pro opuštěné psy. Má rád knedlíky s jahodami a zakysanou smetanou."
+    ,"posibble_scenarios":["phone21", "phone22"]
+  },
+  {
+     "id":"000000149"
+    ,"phonenumber":"100000074"
+    ,"name":"Gabriela Jungová"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"svobodná"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Často se setkali s přáteli. V zimě vyrábí ovocné přípravky."
+    ,"posibble_scenarios":["mortgage27", "mortgage28"]
+  },
+  {
+     "id":"000000150"
+    ,"phonenumber":"100000075"
+    ,"name":"Miluše Čechurová"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"svobodná"
+    ,"living_with":"partnerem"
+    ,"children":"0"
+    ,"aditional_info":"Její hobby je keramika. Ráda také maluje a zpívá. Čas od času tančí."
+    ,"posibble_scenarios":["creditcard21", "creditcard22"]
+  },
+  {
+     "id":"000000151"
+    ,"phonenumber":"100000076"
+    ,"name":"Romana Kubínová"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"svobodná"
+    ,"living_with":"partnerem a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Pro radost vyšívá. Ráda jí jíst sendviče se sýrem a křenem."
+    ,"posibble_scenarios":["phone23", "phone24"]
+  },
+  {
+     "id":"000000152"
+    ,"phonenumber":"100000077"
+    ,"name":"Helena Pacáková"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem"
+    ,"children":"2"
+    ,"aditional_info":"Nedávno dokončila kurz řízení malého podniku. Přemýšlí o zahájení vlastního podnikání, ve volném čase plave."
+    ,"posibble_scenarios":["mortgage29", "mortgage30"]
+  },
+  {
+     "id":"000000153"
+    ,"phonenumber":"100000078"
+    ,"name":"Judita Kudličková"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"rozvedená"
+    ,"living_with":"sama"
+    ,"children":"2"
+    ,"aditional_info":"Fascinuje jí nadpřirozeno Sleduje pohyby nebeských těles a hledá spojení mezi nimi a životem."
+    ,"posibble_scenarios":["creditcard23", "creditcard24"]
+  },
+  {
+     "id":"000000154"
+    ,"phonenumber":"100000079"
+    ,"name":"Nela Urbánková"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"svobodná"
+    ,"living_with":"sama"
+    ,"children":"2"
+    ,"aditional_info":"Její vášeň je fotografie. Rovněž ráda sleduje skoky na lyžích."
+    ,"posibble_scenarios":["phone25", "phone26"]
+  },
+  {
+     "id":"000000155"
+    ,"phonenumber":"100000080"
+    ,"name":"Aneta Budínová"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"svobodná"
+    ,"living_with":"partnerem"
+    ,"children":"2"
+    ,"aditional_info":"Nedávno se vrátila do Čech a hledá dobrou příležitost investovat své úspory. Má ráda suché bílé víno."
+    ,"posibble_scenarios":["mortgage31", "mortgage32"]
+  },
+  {
+     "id":"000000156"
+    ,"phonenumber":"100000065"
+    ,"name":"Natálie Vondrová"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem"
+    ,"children":"0"
+    ,"aditional_info":"Vytváří křížovky pro místní noviny. Nikdy neměla mazlíčka."
+    ,"posibble_scenarios":["mortgage33", "mortgage34"]
+  },
+  {
+     "id":"000000157"
+    ,"phonenumber":"100000066"
+    ,"name":"Bohumila Koňaříková"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Patří k okruhu venkovských žen v domácnosti. Ráda jí červený boršč se škvarky."
+    ,"posibble_scenarios":["creditcard25", "creditcard26"]
+  },
+  {
+     "id":"000000158"
+    ,"phonenumber":"100000067"
+    ,"name":"Lucie Baláková"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem"
+    ,"children":"0"
+    ,"aditional_info":"Zajímají jí nové techniologie a lokální vynálezy. Má sbírku porcelánových pelikánů."
+    ,"posibble_scenarios":["phone28", "phone29"]
+  },
+  {
+     "id":"000000159"
+    ,"phonenumber":"100000068"
+    ,"name":"Pavla Krajčová"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Hromadí věci. Myslí si, že všechno může být užitečné. Má fretku."
+    ,"posibble_scenarios":["mortgage35", "mortgage36"]
+  },
+  {
+     "id":"000000160"
+    ,"phonenumber":"100000069"
+    ,"name":"Dana Andrýsková"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"rozvedená"
+    ,"living_with":"sama"
+    ,"children":"0"
+    ,"aditional_info":"Její oblíbené roční období je léto. Jí tehdy ovocný salát a nápoje s paraplíčkem."
+    ,"posibble_scenarios":["creditcard27", "creditcard28"]
+  },
+  {
+     "id":"000000161"
+    ,"phonenumber":"100000070"
+    ,"name":"Ilona Malátová"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"rozvedená"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Sbírá drobné peníze do skleničky. Počítá, že jednou nasbírá jmění. Ráda se dobře nají."
+    ,"posibble_scenarios":["phone29", "phone30"]
+  },
+  {
+     "id":"000000162"
+    ,"phonenumber":"100000071"
+    ,"name":"Pavlína Šlechtová"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"svobodná"
+    ,"living_with":"sama"
+    ,"children":"0"
+    ,"aditional_info":"Má čtyři kočky, miluje je nad všechno. Ve svém volném čase háčkuje."
+    ,"posibble_scenarios":["mortgage21", "mortgage2"]
+  },
+  {
+     "id":"000000163"
+    ,"phonenumber":"100000072"
+    ,"name":"Anastázie Plíšková"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"svobodná"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Vychutnává si relaxační procedury. Věří v sílu nekonvenční medicíny."
+    ,"posibble_scenarios":["creditcard29", "creditcard30"]
+  },
+  {
+     "id":"000000164"
+    ,"phonenumber":"100000073"
+    ,"name":"Klára Jarkovská"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"svobodná"
+    ,"living_with":"partnerem"
+    ,"children":"0"
+    ,"aditional_info":"Její oblíbená látka je tyl. Vždycky snila o tom, že bude princeznou."
+    ,"posibble_scenarios":["phone31", "phone32"]
+  },
+  {
+     "id":"000000165"
+    ,"phonenumber":"100000074"
+    ,"name":"Gabriela Jungová"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"svobodná"
+    ,"living_with":"partnerem a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Zajímá se o geopolitické dějiny Evropy. Má ráda trubičky se šlehačkou a cikorkovou kávu."
+    ,"posibble_scenarios":["mortgage31", "mortgage12"]
+  },
+  {
+     "id":"000000166"
+    ,"phonenumber":"100000075"
+    ,"name":"Miluše Čechurová"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"vdaná"
+    ,"living_with":"manželem"
+    ,"children":"2"
+    ,"aditional_info":"Každý čtvrtek hraje kanastu se svými sousedy. Dělá domácí víno z různých druhů ovoce."
+    ,"posibble_scenarios":["creditcard31", "creditcard32"]
+  },
+  {
+     "id":"000000167"
+    ,"phonenumber":"100000076"
+    ,"name":"Romana Kubínová"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"rozvedená"
+    ,"living_with":"sama"
+    ,"children":"2"
+    ,"aditional_info":"Ráda organizuje párty. Peče výborné koláče a muffiny."
+    ,"posibble_scenarios":["phone33", "phone34"]
+  },
+  {
+     "id":"000000168"
+    ,"phonenumber":"100000077"
+    ,"name":"Helena Pacáková"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"svobodná"
+    ,"living_with":"sama"
+    ,"children":"2"
+    ,"aditional_info":"Zbožňuje čokládový pudink. Její oblíbená činnost je spánek."
+    ,"posibble_scenarios":["mortgage13", "mortgage24"]
+  },
+  {
+     "id":"000000169"
+    ,"phonenumber":"100000078"
+    ,"name":"Judita Kudličková"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"svobodná"
+    ,"living_with":"partnerem"
+    ,"children":"2"
+    ,"aditional_info":"Ráda pracuje na zahrádce, pěstuje okrasné květiny a luštěniny. Má slabost pro perly."
+    ,"posibble_scenarios":["creditcard33", "creditcard34"]
+  },
+  {
+     "id":"000000170"
+    ,"phonenumber":"100000079"
+    ,"name":"Nela Urbánková"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"vdova"
+    ,"living_with":"sama"
+    ,"children":"2"
+    ,"aditional_info":"Má kanárka s genetickým onemocněním, věnuje mu většinu času."
+    ,"posibble_scenarios":["phone33", "phone34"]
+  },
+  {
+     "id":"000000171"
+    ,"phonenumber":"100000080"
+    ,"name":"Aneta Budínová"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"vdova"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Ve večerních hodinách leští rodinné stříbro. Její oblíbené jídlo je kuřecí vývar."
+    ,"posibble_scenarios":["mortgage16", "mortgage28"]
+  },
+  {
+     "id":"000000172"
+    ,"phonenumber":"100000090"
+    ,"name":"Oskar Vašut"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou"
+    ,"children":"0"
+    ,"aditional_info":"Je klenotník, zbožňuje drahokamy a minerály. Nedá dopustit na pokrmy z mořských plodů."
+    ,"posibble_scenarios":["mortgage1", "mortgage2"]
+  },
+  {
+     "id":"000000173"
+    ,"phonenumber":"100000091"
+    ,"name":"Dušan Kalaš"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou a dětmi"
+    ,"children":"1"
+    ,"aditional_info":"Cvičí beatbox. Sní o seskoku s padákem."
+    ,"posibble_scenarios":["creditcard1", "creditcard2"]
+  },
+  {
+     "id":"000000174"
+    ,"phonenumber":"100000092"
+    ,"name":"Šimon Pour"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"svobodný"
+    ,"living_with":"sám"
+    ,"children":"0"
+    ,"aditional_info":"Jeho hobby je opravování starých rádiových přijímačů. Je to puntičkář."
+    ,"posibble_scenarios":["phone1", "phone2"]
+  },
+  {
+     "id":"000000175"
+    ,"phonenumber":"100000093"
+    ,"name":"Přemysl Vladyka"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"svobodný"
+    ,"living_with":"partnerkou"
+    ,"children":"0"
+    ,"aditional_info":"Je přesvědčen, že ještě ho čekají nejlepší roky života. Sbírá staré baíčky herních karet."
+    ,"posibble_scenarios":["mortgage3", "mortgage4"]
+  },
+  {
+     "id":"000000176"
+    ,"phonenumber":"100000094"
+    ,"name":"Jan Komárek"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"svobodný"
+    ,"living_with":"rodiči"
+    ,"children":"0"
+    ,"aditional_info":"Student lesnictví, má rád lego a staré plakáty. Hrajte na kontrabas."
+    ,"posibble_scenarios":["creditcard3", "creditcard4"]
+  },
+  {
+     "id":"000000177"
+    ,"phonenumber":"100000095"
+    ,"name":"Adam Plocek"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"svobodný"
+    ,"living_with":"dětmi"
+    ,"children":"1"
+    ,"aditional_info":"Je to řidič kamionu. Rád přináší magnety z míst, které navštívil."
+    ,"posibble_scenarios":["phone3", "phone4"]
+  },
+  {
+     "id":"000000178"
+    ,"phonenumber":"100000096"
+    ,"name":"Mikuláš Velek"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"svobodný"
+    ,"living_with":"partnerkou a dětmi"
+    ,"children":"1"
+    ,"aditional_info":"Filmuje a stříhá filmy z oslav a akcí. Rád poslouchá country hudbu."
+    ,"posibble_scenarios":["mortgage5", "mortgage6"]
+  },
+  {
+     "id":"000000179"
+    ,"phonenumber":"100000087"
+    ,"name":"Petr Zach"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"svobodný"
+    ,"living_with":"sám"
+    ,"children":"0"
+    ,"aditional_info":"Nezajímají ho přízemní věci. Hledá smysl života, šetří na výlet do Tibetu."
+    ,"posibble_scenarios":["mortgage7", "mortgage8"]
+  },
+  {
+     "id":"000000180"
+    ,"phonenumber":"100000088"
+    ,"name":"Igor Komenda"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"svobodný"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Tesař-amatér, staví krmítka ptáků a malé psí boudy."
+    ,"posibble_scenarios":["creditcard5", "creditcard6"]
+  },
+  {
+     "id":"000000181"
+    ,"phonenumber":"100000089"
+    ,"name":"Tadeáš Pokorný"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"svobodný"
+    ,"living_with":"partnerkou"
+    ,"children":"0"
+    ,"aditional_info":"Je fascinován soudobým divadlem a spojením hlasu a těla. Je amatérským hercem."
+    ,"posibble_scenarios":["phone5", "phone6"]
+  },
+  {
+     "id":"000000182"
+    ,"phonenumber":"100000090"
+    ,"name":"Oskar Vašut"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"svobodný"
+    ,"living_with":"partnerkou a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Udí klobásy v domácí udírně. Neopovrhne půllitrem piva."
+    ,"posibble_scenarios":["mortgage9", "mortgage10"]
+  },
+  {
+     "id":"000000183"
+    ,"phonenumber":"100000091"
+    ,"name":"Dušan Kalaš"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou"
+    ,"children":"0"
+    ,"aditional_info":"Píše blog o zahradnictví. Rád běhá, účastní se maratonů."
+    ,"posibble_scenarios":["creditcard7", "creditcard8"]
+  },
+  {
+     "id":"000000184"
+    ,"phonenumber":"100000092"
+    ,"name":"Šimon Pour"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Hraje v punkové rockové kapele. Je fascinován vampirismem."
+    ,"posibble_scenarios":["phone7", "phone8"]
+  },
+  {
+     "id":"000000185"
+    ,"phonenumber":"100000093"
+    ,"name":"Přemysl Vladyka"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou"
+    ,"children":"0"
+    ,"aditional_info":"Má ráda víkendové kempování. Jeho oblíbenou pochoutkou je pstruh z pece."
+    ,"posibble_scenarios":["mortgage11", "mortgage12"]
+  },
+  {
+     "id":"000000186"
+    ,"phonenumber":"100000094"
+    ,"name":"Jan Komárek"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Jeho dům, jeho hrad: Profesionálně se věnuje úklidu a vaření, rád hraje mikádo."
+    ,"posibble_scenarios":["creditcard9", "creditcard10"]
+  },
+  {
+     "id":"000000187"
+    ,"phonenumber":"100000095"
+    ,"name":"Adam Plocek"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"rozvedený"
+    ,"living_with":"sám"
+    ,"children":"0"
+    ,"aditional_info":"Proslavil se na internetu jako tvůrce průvodce pro osamělé muže. Večer poslouchá klasickou hudbu."
+    ,"posibble_scenarios":["phone9", "phone10"]
+  },
+  {
+     "id":"000000188"
+    ,"phonenumber":"100000096"
+    ,"name":"Mikuláš Velek"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"rozvedený"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"On je vášnivým právníkem. Po práci hraje s kolegy fotbal."
+    ,"posibble_scenarios":["mortgage13", "mortgage14"]
+  },
+  {
+     "id":"000000189"
+    ,"phonenumber":"100000087"
+    ,"name":"Petr Zach"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"svobodný"
+    ,"living_with":"sám"
+    ,"children":"0"
+    ,"aditional_info":"Ráda vaří orientální kuchyni. Jeho záliby jsou videohry a uklízení."
+    ,"posibble_scenarios":["mortgage15", "mortgage16"]
+  },
+  {
+     "id":"000000190"
+    ,"phonenumber":"100000088"
+    ,"name":"Igor Komenda"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"svobodný"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Hovoří plynně řecky a latinsky. Zpívá v kostelním sboru."
+    ,"posibble_scenarios":["creditcard11", "creditcard12"]
+  },
+  {
+     "id":"000000191"
+    ,"phonenumber":"100000089"
+    ,"name":"Tadeáš Pokorný"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"svobodný"
+    ,"living_with":"partnerkou"
+    ,"children":"0"
+    ,"aditional_info":"Nerad vychází z domu, dokáže ocenit pohodlí royzkládacího gauče a chuť likéru z vlašských ořechů."
+    ,"posibble_scenarios":["phone11", "phone12"]
+  },
+  {
+     "id":"000000192"
+    ,"phonenumber":"100000090"
+    ,"name":"Oskar Vašut"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"svobodný"
+    ,"living_with":"partnerkou a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Rád se dívá na televizi, většinu na reality show a vědomostní soutěže. Chtěl by se zúčastnit nějaké."
+    ,"posibble_scenarios":["mortgage17", "mortgage18"]
+  },
+  {
+     "id":"000000193"
+    ,"phonenumber":"100000091"
+    ,"name":"Dušan Kalaš"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou"
+    ,"children":"0"
+    ,"aditional_info":"Jeho hobby je potápění. Zamiloval se do ruské literatury."
+    ,"posibble_scenarios":["creditcard13", "creditcard14"]
+  },
+  {
+     "id":"000000194"
+    ,"phonenumber":"100000092"
+    ,"name":"Šimon Pour"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Zajímá se o biologii, zejména o původ člověka. Sní o setkání s orangutanem."
+    ,"posibble_scenarios":["phone13", "phone14"]
+  },
+  {
+     "id":"000000195"
+    ,"phonenumber":"100000093"
+    ,"name":"Přemysl Vladyka"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou"
+    ,"children":"0"
+    ,"aditional_info":"Běhá ráno a večer. Chtěl by být písničkářem."
+    ,"posibble_scenarios":["mortgage19", "mortgage20"]
+  },
+  {
+     "id":"000000196"
+    ,"phonenumber":"100000094"
+    ,"name":"Jan Komárek"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Často chodí do lesa. Rád sbírá houby a sleduje lesní zvěř."
+    ,"posibble_scenarios":["creditcard15", "creditcard16"]
+  },
+  {
+     "id":"000000197"
+    ,"phonenumber":"100000095"
+    ,"name":"Adam Plocek"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"rozvedený"
+    ,"living_with":"sám"
+    ,"children":"0"
+    ,"aditional_info":"Je trenérem na psím cvičišti. Každý den kontroluje akciový trh."
+    ,"posibble_scenarios":["phone15", "phone16"]
+  },
+  {
+     "id":"000000198"
+    ,"phonenumber":"100000096"
+    ,"name":"Mikuláš Velek"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"rozvedený"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Je námořník z lásky. V létě jezdí na Lipno, sní o výletě k moři."
+    ,"posibble_scenarios":["mortgage21", "mortgage22"]
+  },
+  {
+     "id":"000000199"
+    ,"phonenumber":"100000083"
+    ,"name":"Matouš Štefan"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou"
+    ,"children":"0"
+    ,"aditional_info":"Rád hraje vrhcáby, nedávno přešel k vegetariánství. Sam pěstuje rajčata."
+    ,"posibble_scenarios":["phone17", "phone18"]
+  },
+  {
+     "id":"000000200"
+    ,"phonenumber":"100000084"
+    ,"name":"Viktor Loukota"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Zajímá se o kriminalistiku. Rád vyřeší zapomenuté hádanky z archivu X."
+    ,"posibble_scenarios":["mortgage23", "mortgage24"]
+  },
+  {
+     "id":"000000201"
+    ,"phonenumber":"100000085"
+    ,"name":"Marián Šimánek"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou"
+    ,"children":"0"
+    ,"aditional_info":"Jeho záliby jsou společenské tance. Má rád čerstvou zeleninu a majonézu."
+    ,"posibble_scenarios":["creditcard17", "creditcard8"]
+  },
+  {
+     "id":"000000202"
+    ,"phonenumber":"100000086"
+    ,"name":"Samuel Novosád"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Sbírá staré zapalovače. Amatérsky hraje na příčné flétně."
+    ,"posibble_scenarios":["phone19", "phone20"]
+  },
+  {
+     "id":"000000203"
+    ,"phonenumber":"100000087"
+    ,"name":"Petr Zach"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"rozvedený"
+    ,"living_with":"sám"
+    ,"children":"0"
+    ,"aditional_info":"Hraje na klasickou kytaru a klavír. O víkendech vystupuje na svatbých a večírcích."
+    ,"posibble_scenarios":["mortgage25", "mortgage26"]
+  },
+  {
+     "id":"000000204"
+    ,"phonenumber":"100000088"
+    ,"name":"Igor Komenda"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"rozvedený"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Zajímá se o kaligrafii a posvátné umění. Jeho oblíbená barva je šarlatová."
+    ,"posibble_scenarios":["creditcard19", "creditcard20"]
+  },
+  {
+     "id":"000000205"
+    ,"phonenumber":"100000089"
+    ,"name":"Tadeáš Pokorný"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"svobodný"
+    ,"living_with":"sám"
+    ,"children":"0"
+    ,"aditional_info":"Má dvě kočky a papouška. Miluje zvířata, luští křížovky a sleduje seriály."
+    ,"posibble_scenarios":["phone21", "phone22"]
+  },
+  {
+     "id":"000000206"
+    ,"phonenumber":"100000090"
+    ,"name":"Oskar Vašut"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"svobodný"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Má sbírku kšiltovek, i když je nenosí. Italská kuchyně je jeho nejoblíbenější."
+    ,"posibble_scenarios":["mortgage27", "mortgage28"]
+  },
+  {
+     "id":"000000207"
+    ,"phonenumber":"100000091"
+    ,"name":"Dušan Kalaš"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"svobodný"
+    ,"living_with":"partnerkou"
+    ,"children":"0"
+    ,"aditional_info":"Je milovníkem sci-fi a komiksů. Rád jí polévky a okurkový salát."
+    ,"posibble_scenarios":["creditcard21", "creditcard22"]
+  },
+  {
+     "id":"000000208"
+    ,"phonenumber":"100000092"
+    ,"name":"Šimon Pour"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"svobodný"
+    ,"living_with":"partnerkou a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Je to kutil a renovuje starý nábytek. Chtěl by jednou letět na Mallorku."
+    ,"posibble_scenarios":["phone23", "phone24"]
+  },
+  {
+     "id":"000000209"
+    ,"phonenumber":"100000093"
+    ,"name":"Přemysl Vladyka"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou"
+    ,"children":"2"
+    ,"aditional_info":"Miluje filmy o přírodě. Chtěl by být cestovatelem."
+    ,"posibble_scenarios":["mortgage29", "mortgage30"]
+  },
+  {
+     "id":"000000210"
+    ,"phonenumber":"100000094"
+    ,"name":"Jan Komárek"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"rozvedený"
+    ,"living_with":"sám"
+    ,"children":"2"
+    ,"aditional_info":"Kinoman, má rád černobílé filmy, také němé. Chtěl bych jet do Paříže."
+    ,"posibble_scenarios":["creditcard23", "creditcard24"]
+  },
+  {
+     "id":"000000211"
+    ,"phonenumber":"100000095"
+    ,"name":"Adam Plocek"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"svobodný"
+    ,"living_with":"sám"
+    ,"children":"2"
+    ,"aditional_info":"Často sledovat videa na zvířatech na YouTube. Baví ho anglický humor."
+    ,"posibble_scenarios":["phone25", "phone26"]
+  },
+  {
+     "id":"000000212"
+    ,"phonenumber":"100000096"
+    ,"name":"Mikuláš Velek"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"svobodný"
+    ,"living_with":"partnerkou"
+    ,"children":"2"
+    ,"aditional_info":"Rád experimentuje v kuchyni. Chodí na bazén dvakrát týdně."
+    ,"posibble_scenarios":["mortgage31", "mortgage32"]
+  },
+  {
+     "id":"000000213"
+    ,"phonenumber":"100000081"
+    ,"name":"Emil Hoffmann"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou"
+    ,"children":"0"
+    ,"aditional_info":"Cyklistika je jeho vášeň. Má rád bramboračku a kyselou rybičky."
+    ,"posibble_scenarios":["mortgage33", "mortgage34"]
+  },
+  {
+     "id":"000000214"
+    ,"phonenumber":"100000082"
+    ,"name":"Štefan Rejman"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Práce je celý jeho život, bojí se odejít do důchodu. Jablečný koláč je jeho oblíbená pochoutka."
+    ,"posibble_scenarios":["creditcard25", "creditcard26"]
+  },
+  {
+     "id":"000000215"
+    ,"phonenumber":"100000083"
+    ,"name":"Matouš Štefan"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou"
+    ,"children":"0"
+    ,"aditional_info":"Rád chodí do kina v neděli. Je to horlivý šachista."
+    ,"posibble_scenarios":["phone28", "phone29"]
+  },
+  {
+     "id":"000000216"
+    ,"phonenumber":"100000084"
+    ,"name":"Viktor Loukota"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Sbírá známky, má více než 20 alb. Večer pije bourbon."
+    ,"posibble_scenarios":["mortgage35", "mortgage36"]
+  },
+  {
+     "id":"000000217"
+    ,"phonenumber":"100000085"
+    ,"name":"Marián Šimánek"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"rozvedený"
+    ,"living_with":"sám"
+    ,"children":"0"
+    ,"aditional_info":"Má dvě kočky a křečka. Rád maluje krajinky a jí čínské polévky."
+    ,"posibble_scenarios":["creditcard27", "creditcard28"]
+  },
+  {
+     "id":"000000218"
+    ,"phonenumber":"100000086"
+    ,"name":"Samuel Novosád"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"rozvedený"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Rád se domluvá na rande na slepo po internetu. Sbírá mince."
+    ,"posibble_scenarios":["phone29", "phone30"]
+  },
+  {
+     "id":"000000219"
+    ,"phonenumber":"100000087"
+    ,"name":"Petr Zach"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"svobodný"
+    ,"living_with":"sám"
+    ,"children":"0"
+    ,"aditional_info":"Rád hraje online hry a chatuje s cizími lidmi. Chová činčily."
+    ,"posibble_scenarios":["mortgage21", "mortgage2"]
+  },
+  {
+     "id":"000000220"
+    ,"phonenumber":"100000088"
+    ,"name":"Igor Komenda"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"svobodný"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Domluví se ve třinácti jazycích. Nikdy nebyl v zahraničí. Jeho oblíbená pochoutka je tlačenka."
+    ,"posibble_scenarios":["creditcard29", "creditcard30"]
+  },
+  {
+     "id":"000000221"
+    ,"phonenumber":"100000089"
+    ,"name":"Tadeáš Pokorný"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"svobodný"
+    ,"living_with":"partnerkou"
+    ,"children":"0"
+    ,"aditional_info":"Jeho oblíbenou činností je vaření ovocných knedlíky. Učí se španělsky."
+    ,"posibble_scenarios":["phone31", "phone32"]
+  },
+  {
+     "id":"000000222"
+    ,"phonenumber":"100000090"
+    ,"name":"Oskar Vašut"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"svobodný"
+    ,"living_with":"partnerkou a dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Je členem skupiny historického šermu. Zajímá se o historii Čech."
+    ,"posibble_scenarios":["mortgage31", "mortgage12"]
+  },
+  {
+     "id":"000000223"
+    ,"phonenumber":"100000091"
+    ,"name":"Dušan Kalaš"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"ženatý"
+    ,"living_with":"manželkou"
+    ,"children":"2"
+    ,"aditional_info":"Milovník piva. Sní o založení vlastního řemeslného pivovaru. Třikrát týdně jí pizzu."
+    ,"posibble_scenarios":["creditcard31", "creditcard32"]
+  },
+  {
+     "id":"000000224"
+    ,"phonenumber":"100000092"
+    ,"name":"Šimon Pour"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"rozvedený"
+    ,"living_with":"sám"
+    ,"children":"2"
+    ,"aditional_info":"Zajímá se o architekturu. Pro potěšení hraje tenis."
+    ,"posibble_scenarios":["phone33", "phone34"]
+  },
+  {
+     "id":"000000225"
+    ,"phonenumber":"100000093"
+    ,"name":"Přemysl Vladyka"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"svobodný"
+    ,"living_with":"sám"
+    ,"children":"2"
+    ,"aditional_info":"Zbožňuje nakupování. Má více než 50 párů bot. Má rád kyselé okurky."
+    ,"posibble_scenarios":["mortgage13", "mortgage24"]
+  },
+  {
+     "id":"000000226"
+    ,"phonenumber":"100000094"
+    ,"name":"Jan Komárek"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"svobodnýs"
+    ,"living_with":"partnerkou"
+    ,"children":"2"
+    ,"aditional_info":"Má rád rychlé vozy a divokou přírodu. Chtěl by jet na safari."
+    ,"posibble_scenarios":["creditcard33", "creditcard34"]
+  },
+  {
+     "id":"000000227"
+    ,"phonenumber":"100000095"
+    ,"name":"Adam Plocek"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"vdovec"
+    ,"living_with":"sám"
+    ,"children":"2"
+    ,"aditional_info":"Čte literaturu faktu, luší hodně křížovek. Má rád dršťkovou polévku."
+    ,"posibble_scenarios":["phone33", "phone34"]
+  },
+  {
+     "id":"000000228"
+    ,"phonenumber":"100000096"
+    ,"name":"Mikuláš Velek"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"vdovec"
+    ,"living_with":"dětmi"
+    ,"children":"2"
+    ,"aditional_info":"Rád chytá ryby. Nemá rád rozinky, ale vždycky dokáže ocenit domácí tvarohový koláč."
+    ,"posibble_scenarios":["mortgage16", "mortgage28"]
+  }]

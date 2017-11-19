@@ -1,18 +1,1620 @@
-[
-  {"name": "tmobile1",
-   "starting_amount": 2000,
-   "planed_expenditure": 500,
-   "questions":["11","6","7","4","2","3","9","10","8"]
-  },
-  {"name": "mortgage1",
-   "starting_amount": 3200,
-  "planed_expenditure": 1900,
-   "questions":["11","6","7","4","2","3","9","10","8"]
-  },
-  {"name": "creditcard1",
-   "starting_amount": 900,
-    "planed_expenditure": 300,
-   "questions":["11","6","7","4","2","3","9","10","8"]
-  }
-]
-
+[{"name": "mortgage1",
+"starting_amount":30000,
+"planed_expenditure":13000,
+"questions":[72, 107, 121, 75, 109, 112, 116, 69, 63, 91, 113, 187]
+},
+{"name": "creditcard1",
+"starting_amount":26000,
+"planed_expenditure":12000,
+"questions":[72, 107, 121, 75, 109, 112, 116, 69, 63, 91, 113, 187, 188]
+},
+{"name": "phone1",
+"starting_amount":26000,
+"planed_expenditure":13000,
+"questions":[72, 107, 121, 75, 109, 112, 116, 69, 63, 91, 113, 187, 188, 189]
+},
+{"name": "mortgage2",
+"starting_amount":21000,
+"planed_expenditure":12000,
+"questions":[72, 116, 79, 77, 83, 118, 64, 102, 67, 66, 95, 187]
+},
+{"name": "creditcard2",
+"starting_amount":22000,
+"planed_expenditure":13000,
+"questions":[72, 116, 79, 77, 83, 118, 64, 102, 67, 66, 95, 187, 188]
+},
+{"name": "phone2",
+"starting_amount":27000,
+"planed_expenditure":14000,
+"questions":[72, 116, 79, 77, 83, 118, 64, 102, 67, 66, 95, 187, 188, 189]
+},
+{"name": "mortgage3",
+"starting_amount":22000,
+"planed_expenditure":14000,
+"questions":[72, 99, 121, 67, 79, 116, 82, 101, 89, 94, 64, 187]
+},
+{"name": "creditcard3",
+"starting_amount":23000,
+"planed_expenditure":14000,
+"questions":[72, 99, 121, 67, 79, 116, 82, 101, 89, 94, 64, 187, 188]
+},
+{"name": "phone3",
+"starting_amount":26000,
+"planed_expenditure":13000,
+"questions":[72, 99, 121, 67, 79, 116, 82, 101, 89, 94, 64, 187, 188, 189]
+},
+{"name": "mortgage4",
+"starting_amount":27000,
+"planed_expenditure":13000,
+"questions":[72, 120, 98, 82, 62, 91, 86, 105, 116, 64, 83, 187]
+},
+{"name": "creditcard4",
+"starting_amount":30000,
+"planed_expenditure":13000,
+"questions":[72, 120, 98, 82, 62, 91, 86, 105, 116, 64, 83, 187, 188]
+},
+{"name": "phone4",
+"starting_amount":35000,
+"planed_expenditure":13000,
+"questions":[72, 120, 98, 82, 62, 91, 86, 105, 116, 64, 83, 187, 188, 189]
+},
+{"name": "mortgage5",
+"starting_amount":26000,
+"planed_expenditure":14000,
+"questions":[72, 99, 82, 98, 109, 97, 64, 113, 79, 77, 106, 187]
+},
+{"name": "creditcard5",
+"starting_amount":21000,
+"planed_expenditure":14000,
+"questions":[72, 99, 82, 98, 109, 97, 64, 113, 79, 77, 106, 187, 188]
+},
+{"name": "phone5",
+"starting_amount":27000,
+"planed_expenditure":13000,
+"questions":[72, 99, 82, 98, 109, 97, 64, 113, 79, 77, 106, 187, 188, 189]
+},
+{"name": "mortgage6",
+"starting_amount":23000,
+"planed_expenditure":14000,
+"questions":[72, 120, 117, 108, 122, 63, 99, 98, 109, 106, 87, 187]
+},
+{"name": "creditcard6",
+"starting_amount":33000,
+"planed_expenditure":12000,
+"questions":[72, 120, 117, 108, 122, 63, 99, 98, 109, 106, 87, 187, 188]
+},
+{"name": "phone6",
+"starting_amount":26000,
+"planed_expenditure":13000,
+"questions":[72, 120, 117, 108, 122, 63, 99, 98, 109, 106, 87, 187, 188, 189]
+},
+{"name": "mortgage7",
+"starting_amount":29000,
+"planed_expenditure":12000,
+"questions":[72, 118, 112, 116, 67, 81, 108, 86, 99, 113, 69, 187]
+},
+{"name": "creditcard7",
+"starting_amount":23000,
+"planed_expenditure":13000,
+"questions":[72, 118, 112, 116, 67, 81, 108, 86, 99, 113, 69, 187, 188]
+},
+{"name": "phone7",
+"starting_amount":27000,
+"planed_expenditure":14000,
+"questions":[72, 118, 112, 116, 67, 81, 108, 86, 99, 113, 69, 187, 188, 189]
+},
+{"name": "mortgage8",
+"starting_amount":26000,
+"planed_expenditure":12000,
+"questions":[72, 81, 85, 94, 69, 87, 122, 113, 101, 116, 108, 187]
+},
+{"name": "creditcard8",
+"starting_amount":35000,
+"planed_expenditure":13000,
+"questions":[72, 81, 85, 94, 69, 87, 122, 113, 101, 116, 108, 187, 188]
+},
+{"name": "phone8",
+"starting_amount":27000,
+"planed_expenditure":14000,
+"questions":[72, 81, 85, 94, 69, 87, 122, 113, 101, 116, 108, 187, 188, 189]
+},
+{"name": "mortgage9",
+"starting_amount":26000,
+"planed_expenditure":14000,
+"questions":[72, 86, 80, 101, 98, 94, 83, 95, 64, 66, 69, 187]
+},
+{"name": "creditcard9",
+"starting_amount":29000,
+"planed_expenditure":12000,
+"questions":[72, 86, 80, 101, 98, 94, 83, 95, 64, 66, 69, 187, 188]
+},
+{"name": "phone9",
+"starting_amount":25000,
+"planed_expenditure":12000,
+"questions":[72, 86, 80, 101, 98, 94, 83, 95, 64, 66, 69, 187, 188, 189]
+},
+{"name": "mortgage10",
+"starting_amount":30000,
+"planed_expenditure":12000,
+"questions":[72, 78, 102, 69, 80, 75, 113, 83, 122, 107, 111, 187]
+},
+{"name": "creditcard10",
+"starting_amount":21000,
+"planed_expenditure":13000,
+"questions":[72, 78, 102, 69, 80, 75, 113, 83, 122, 107, 111, 187, 188]
+},
+{"name": "phone10",
+"starting_amount":21000,
+"planed_expenditure":14000,
+"questions":[72, 78, 102, 69, 80, 75, 113, 83, 122, 107, 111, 187, 188, 189]
+},
+{"name": "mortgage11",
+"starting_amount":24000,
+"planed_expenditure":13000,
+"questions":[72, 105, 62, 97, 63, 94, 87, 113, 67, 82, 85, 187]
+},
+{"name": "creditcard11",
+"starting_amount":27000,
+"planed_expenditure":12000,
+"questions":[72, 105, 62, 97, 63, 94, 87, 113, 67, 82, 85, 187, 188]
+},
+{"name": "phone11",
+"starting_amount":27000,
+"planed_expenditure":13000,
+"questions":[72, 105, 62, 97, 63, 94, 87, 113, 67, 82, 85, 187, 188, 189]
+},
+{"name": "mortgage12",
+"starting_amount":24000,
+"planed_expenditure":14000,
+"questions":[72, 80, 86, 91, 116, 94, 83, 111, 95, 102, 77, 187]
+},
+{"name": "creditcard12",
+"starting_amount":25000,
+"planed_expenditure":14000,
+"questions":[72, 80, 86, 91, 116, 94, 83, 111, 95, 102, 77, 187, 188]
+},
+{"name": "phone12",
+"starting_amount":21000,
+"planed_expenditure":14000,
+"questions":[72, 80, 86, 91, 116, 94, 83, 111, 95, 102, 77, 187, 188, 189]
+},
+{"name": "mortgage13",
+"starting_amount":28000,
+"planed_expenditure":13000,
+"questions":[72, 62, 87, 122, 97, 89, 113, 76, 95, 111, 68, 187]
+},
+{"name": "creditcard13",
+"starting_amount":26000,
+"planed_expenditure":13000,
+"questions":[72, 62, 87, 122, 97, 89, 113, 76, 95, 111, 68, 187, 188]
+},
+{"name": "phone13",
+"starting_amount":21000,
+"planed_expenditure":13000,
+"questions":[72, 62, 87, 122, 97, 89, 113, 76, 95, 111, 68, 187, 188, 189]
+},
+{"name": "mortgage14",
+"starting_amount":29000,
+"planed_expenditure":14000,
+"questions":[72, 106, 121, 87, 89, 68, 108, 105, 69, 65, 99, 187]
+},
+{"name": "creditcard14",
+"starting_amount":28000,
+"planed_expenditure":12000,
+"questions":[72, 106, 121, 87, 89, 68, 108, 105, 69, 65, 99, 187, 188]
+},
+{"name": "phone14",
+"starting_amount":24000,
+"planed_expenditure":12000,
+"questions":[72, 106, 121, 87, 89, 68, 108, 105, 69, 65, 99, 187, 188, 189]
+},
+{"name": "mortgage15",
+"starting_amount":25000,
+"planed_expenditure":14000,
+"questions":[72, 116, 77, 107, 108, 121, 87, 81, 91, 122, 95, 187]
+},
+{"name": "creditcard15",
+"starting_amount":29000,
+"planed_expenditure":14000,
+"questions":[72, 116, 77, 107, 108, 121, 87, 81, 91, 122, 95, 187, 188]
+},
+{"name": "phone15",
+"starting_amount":24000,
+"planed_expenditure":13000,
+"questions":[72, 116, 77, 107, 108, 121, 87, 81, 91, 122, 95, 187, 188, 189]
+},
+{"name": "mortgage16",
+"starting_amount":30000,
+"planed_expenditure":12000,
+"questions":[72, 67, 106, 68, 117, 86, 79, 64, 75, 81, 83, 187]
+},
+{"name": "creditcard16",
+"starting_amount":33000,
+"planed_expenditure":14000,
+"questions":[72, 67, 106, 68, 117, 86, 79, 64, 75, 81, 83, 187, 188]
+},
+{"name": "phone16",
+"starting_amount":25000,
+"planed_expenditure":13000,
+"questions":[72, 67, 106, 68, 117, 86, 79, 64, 75, 81, 83, 187, 188, 189]
+},
+{"name": "mortgage17",
+"starting_amount":29000,
+"planed_expenditure":12000,
+"questions":[72, 109, 65, 121, 117, 105, 79, 102, 94, 101, 106, 187]
+},
+{"name": "creditcard17",
+"starting_amount":23000,
+"planed_expenditure":12000,
+"questions":[72, 109, 65, 121, 117, 105, 79, 102, 94, 101, 106, 187, 188]
+},
+{"name": "phone17",
+"starting_amount":33000,
+"planed_expenditure":13000,
+"questions":[72, 109, 65, 121, 117, 105, 79, 102, 94, 101, 106, 187, 188, 189]
+},
+{"name": "mortgage18",
+"starting_amount":27000,
+"planed_expenditure":14000,
+"questions":[72, 79, 83, 82, 118, 109, 105, 111, 99, 94, 75, 187]
+},
+{"name": "creditcard18",
+"starting_amount":22000,
+"planed_expenditure":13000,
+"questions":[72, 79, 83, 82, 118, 109, 105, 111, 99, 94, 75, 187, 188]
+},
+{"name": "phone18",
+"starting_amount":24000,
+"planed_expenditure":13000,
+"questions":[72, 79, 83, 82, 118, 109, 105, 111, 99, 94, 75, 187, 188, 189]
+},
+{"name": "mortgage19",
+"starting_amount":23000,
+"planed_expenditure":12000,
+"questions":[72, 67, 87, 118, 122, 63, 113, 69, 105, 85, 64, 187]
+},
+{"name": "creditcard19",
+"starting_amount":21000,
+"planed_expenditure":14000,
+"questions":[72, 67, 87, 118, 122, 63, 113, 69, 105, 85, 64, 187, 188]
+},
+{"name": "phone19",
+"starting_amount":24000,
+"planed_expenditure":12000,
+"questions":[72, 67, 87, 118, 122, 63, 113, 69, 105, 85, 64, 187, 188, 189]
+},
+{"name": "mortgage20",
+"starting_amount":24000,
+"planed_expenditure":14000,
+"questions":[72, 75, 98, 89, 83, 78, 64, 109, 122, 99, 117, 187]
+},
+{"name": "creditcard20",
+"starting_amount":21000,
+"planed_expenditure":12000,
+"questions":[72, 75, 98, 89, 83, 78, 64, 109, 122, 99, 117, 187, 188]
+},
+{"name": "phone20",
+"starting_amount":35000,
+"planed_expenditure":12000,
+"questions":[72, 75, 98, 89, 83, 78, 64, 109, 122, 99, 117, 187, 188, 189]
+},
+{"name": "mortgage21",
+"starting_amount":24000,
+"planed_expenditure":12000,
+"questions":[72, 108, 121, 86, 94, 69, 113, 97, 117, 79, 95, 187]
+},
+{"name": "creditcard21",
+"starting_amount":30000,
+"planed_expenditure":13000,
+"questions":[72, 108, 121, 86, 94, 69, 113, 97, 117, 79, 95, 187, 188]
+},
+{"name": "phone21",
+"starting_amount":28000,
+"planed_expenditure":12000,
+"questions":[72, 108, 121, 86, 94, 69, 113, 97, 117, 79, 95, 187, 188, 189]
+},
+{"name": "mortgage22",
+"starting_amount":29000,
+"planed_expenditure":14000,
+"questions":[72, 75, 62, 67, 94, 91, 111, 120, 77, 112, 108, 187]
+},
+{"name": "creditcard22",
+"starting_amount":24000,
+"planed_expenditure":12000,
+"questions":[72, 75, 62, 67, 94, 91, 111, 120, 77, 112, 108, 187, 188]
+},
+{"name": "phone22",
+"starting_amount":24000,
+"planed_expenditure":13000,
+"questions":[72, 75, 62, 67, 94, 91, 111, 120, 77, 112, 108, 187, 188, 189]
+},
+{"name": "mortgage23",
+"starting_amount":30000,
+"planed_expenditure":13000,
+"questions":[72, 66, 107, 89, 111, 76, 87, 79, 95, 120, 75, 187]
+},
+{"name": "creditcard23",
+"starting_amount":25000,
+"planed_expenditure":14000,
+"questions":[72, 66, 107, 89, 111, 76, 87, 79, 95, 120, 75, 187, 188]
+},
+{"name": "phone23",
+"starting_amount":24000,
+"planed_expenditure":13000,
+"questions":[72, 66, 107, 89, 111, 76, 87, 79, 95, 120, 75, 187, 188, 189]
+},
+{"name": "mortgage24",
+"starting_amount":30000,
+"planed_expenditure":12000,
+"questions":[72, 116, 76, 63, 67, 79, 89, 118, 66, 101, 95, 187]
+},
+{"name": "creditcard24",
+"starting_amount":33000,
+"planed_expenditure":14000,
+"questions":[72, 116, 76, 63, 67, 79, 89, 118, 66, 101, 95, 187, 188]
+},
+{"name": "phone24",
+"starting_amount":22000,
+"planed_expenditure":13000,
+"questions":[72, 116, 76, 63, 67, 79, 89, 118, 66, 101, 95, 187, 188, 189]
+},
+{"name": "mortgage25",
+"starting_amount":27000,
+"planed_expenditure":13000,
+"questions":[72, 89, 69, 68, 78, 116, 91, 65, 62, 64, 94, 187]
+},
+{"name": "creditcard25",
+"starting_amount":28000,
+"planed_expenditure":13000,
+"questions":[72, 89, 69, 68, 78, 116, 91, 65, 62, 64, 94, 187, 188]
+},
+{"name": "phone25",
+"starting_amount":27000,
+"planed_expenditure":13000,
+"questions":[72, 89, 69, 68, 78, 116, 91, 65, 62, 64, 94, 187, 188, 189]
+},
+{"name": "mortgage26",
+"starting_amount":22000,
+"planed_expenditure":12000,
+"questions":[72, 75, 117, 89, 77, 111, 62, 67, 83, 85, 120, 187]
+},
+{"name": "creditcard26",
+"starting_amount":29000,
+"planed_expenditure":13000,
+"questions":[72, 75, 117, 89, 77, 111, 62, 67, 83, 85, 120, 187, 188]
+},
+{"name": "phone26",
+"starting_amount":26000,
+"planed_expenditure":12000,
+"questions":[72, 75, 117, 89, 77, 111, 62, 67, 83, 85, 120, 187, 188, 189]
+},
+{"name": "mortgage27",
+"starting_amount":26000,
+"planed_expenditure":14000,
+"questions":[72, 108, 105, 76, 80, 63, 65, 69, 94, 83, 99, 187]
+},
+{"name": "creditcard27",
+"starting_amount":35000,
+"planed_expenditure":14000,
+"questions":[72, 108, 105, 76, 80, 63, 65, 69, 94, 83, 99, 187, 188]
+},
+{"name": "phone27",
+"starting_amount":23000,
+"planed_expenditure":12000,
+"questions":[72, 108, 105, 76, 80, 63, 65, 69, 94, 83, 99, 187, 188, 189]
+},
+{"name": "mortgage28",
+"starting_amount":22000,
+"planed_expenditure":14000,
+"questions":[72, 69, 91, 85, 122, 120, 117, 87, 79, 80, 78, 187]
+},
+{"name": "creditcard28",
+"starting_amount":33000,
+"planed_expenditure":12000,
+"questions":[72, 69, 91, 85, 122, 120, 117, 87, 79, 80, 78, 187, 188]
+},
+{"name": "phone28",
+"starting_amount":22000,
+"planed_expenditure":13000,
+"questions":[72, 69, 91, 85, 122, 120, 117, 87, 79, 80, 78, 187, 188, 189]
+},
+{"name": "mortgage29",
+"starting_amount":23000,
+"planed_expenditure":12000,
+"questions":[72, 64, 94, 63, 75, 81, 106, 91, 101, 120, 67, 187]
+},
+{"name": "creditcard29",
+"starting_amount":22000,
+"planed_expenditure":14000,
+"questions":[72, 64, 94, 63, 75, 81, 106, 91, 101, 120, 67, 187, 188]
+},
+{"name": "phone29",
+"starting_amount":30000,
+"planed_expenditure":12000,
+"questions":[72, 64, 94, 63, 75, 81, 106, 91, 101, 120, 67, 187, 188, 189]
+},
+{"name": "mortgage30",
+"starting_amount":22000,
+"planed_expenditure":14000,
+"questions":[72, 95, 94, 122, 69, 79, 83, 78, 87, 66, 68, 187]
+},
+{"name": "creditcard30",
+"starting_amount":22000,
+"planed_expenditure":14000,
+"questions":[72, 95, 94, 122, 69, 79, 83, 78, 87, 66, 68, 187, 188]
+},
+{"name": "phone30",
+"starting_amount":28000,
+"planed_expenditure":13000,
+"questions":[72, 95, 94, 122, 69, 79, 83, 78, 87, 66, 68, 187, 188, 189]
+},
+{"name": "mortgage31",
+"starting_amount":29000,
+"planed_expenditure":14000,
+"questions":[72, 67, 113, 101, 106, 112, 83, 105, 94, 66, 64, 187]
+},
+{"name": "creditcard31",
+"starting_amount":35000,
+"planed_expenditure":12000,
+"questions":[72, 67, 113, 101, 106, 112, 83, 105, 94, 66, 64, 187, 188]
+},
+{"name": "phone31",
+"starting_amount":22000,
+"planed_expenditure":14000,
+"questions":[72, 67, 113, 101, 106, 112, 83, 105, 94, 66, 64, 187, 188, 189]
+},
+{"name": "mortgage32",
+"starting_amount":26000,
+"planed_expenditure":14000,
+"questions":[72, 83, 95, 99, 77, 68, 82, 62, 63, 80, 112, 187]
+},
+{"name": "creditcard32",
+"starting_amount":22000,
+"planed_expenditure":13000,
+"questions":[72, 83, 95, 99, 77, 68, 82, 62, 63, 80, 112, 187, 188]
+},
+{"name": "phone32",
+"starting_amount":22000,
+"planed_expenditure":13000,
+"questions":[72, 83, 95, 99, 77, 68, 82, 62, 63, 80, 112, 187, 188, 189]
+},
+{"name": "mortgage33",
+"starting_amount":27000,
+"planed_expenditure":13000,
+"questions":[72, 67, 108, 86, 120, 77, 118, 112, 80, 117, 105, 187]
+},
+{"name": "creditcard33",
+"starting_amount":30000,
+"planed_expenditure":13000,
+"questions":[72, 67, 108, 86, 120, 77, 118, 112, 80, 117, 105, 187, 188]
+},
+{"name": "phone33",
+"starting_amount":35000,
+"planed_expenditure":13000,
+"questions":[72, 67, 108, 86, 120, 77, 118, 112, 80, 117, 105, 187, 188, 189]
+},
+{"name": "mortgage34",
+"starting_amount":33000,
+"planed_expenditure":13000,
+"questions":[72, 76, 105, 112, 120, 82, 87, 117, 118, 95, 68, 187]
+},
+{"name": "creditcard34",
+"starting_amount":23000,
+"planed_expenditure":13000,
+"questions":[72, 76, 105, 112, 120, 82, 87, 117, 118, 95, 68, 187, 188]
+},
+{"name": "phone34",
+"starting_amount":30000,
+"planed_expenditure":13000,
+"questions":[72, 76, 105, 112, 120, 82, 87, 117, 118, 95, 68, 187, 188, 189]
+},
+{"name": "mortgage35",
+"starting_amount":26000,
+"planed_expenditure":14000,
+"questions":[72, 112, 82, 118, 120, 77, 95, 98, 67, 107, 76, 187]
+},
+{"name": "creditcard35",
+"starting_amount":26000,
+"planed_expenditure":14000,
+"questions":[72, 112, 82, 118, 120, 77, 95, 98, 67, 107, 76, 187, 188]
+},
+{"name": "phone35",
+"starting_amount":25000,
+"planed_expenditure":12000,
+"questions":[72, 112, 82, 118, 120, 77, 95, 98, 67, 107, 76, 187, 188, 189]
+},
+{"name": "mortgage36",
+"starting_amount":28000,
+"planed_expenditure":12000,
+"questions":[72, 63, 79, 65, 113, 62, 106, 85, 98, 121, 82, 187]
+},
+{"name": "creditcard36",
+"starting_amount":33000,
+"planed_expenditure":12000,
+"questions":[72, 63, 79, 65, 113, 62, 106, 85, 98, 121, 82, 187, 188]
+},
+{"name": "phone36",
+"starting_amount":35000,
+"planed_expenditure":12000,
+"questions":[72, 63, 79, 65, 113, 62, 106, 85, 98, 121, 82, 187, 188, 189]
+},
+{"name": "mortgage37",
+"starting_amount":4300,
+"planed_expenditure":2000,
+"questions":[11, 26, 57, 37, 47, 40, 6, 55, 38, 48, 56, 184]
+},
+{"name": "creditcard37",
+"starting_amount":4500,
+"planed_expenditure":2100,
+"questions":[11, 26, 57, 37, 47, 40, 6, 55, 38, 48, 56, 184, 185]
+},
+{"name": "phone37",
+"starting_amount":5800,
+"planed_expenditure":2000,
+"questions":[11, 26, 57, 37, 47, 40, 6, 55, 38, 48, 56, 184, 185, 186]
+},
+{"name": "mortgage38",
+"starting_amount":5500,
+"planed_expenditure":2000,
+"questions":[11, 44, 38, 34, 22, 6, 1, 15, 59, 40, 2, 184]
+},
+{"name": "creditcard38",
+"starting_amount":3500,
+"planed_expenditure":2100,
+"questions":[11, 44, 38, 34, 22, 6, 1, 15, 59, 40, 2, 184, 185]
+},
+{"name": "phone38",
+"starting_amount":4500,
+"planed_expenditure":2100,
+"questions":[11, 44, 38, 34, 22, 6, 1, 15, 59, 40, 2, 184, 185, 186]
+},
+{"name": "mortgage39",
+"starting_amount":5000,
+"planed_expenditure":2300,
+"questions":[11, 52, 2, 57, 19, 16, 17, 21, 61, 46, 8, 184]
+},
+{"name": "creditcard39",
+"starting_amount":5000,
+"planed_expenditure":2300,
+"questions":[11, 52, 2, 57, 19, 16, 17, 21, 61, 46, 8, 184, 185]
+},
+{"name": "phone39",
+"starting_amount":5500,
+"planed_expenditure":2300,
+"questions":[11, 52, 2, 57, 19, 16, 17, 21, 61, 46, 8, 184, 185, 186]
+},
+{"name": "mortgage40",
+"starting_amount":4000,
+"planed_expenditure":2000,
+"questions":[11, 57, 50, 46, 19, 52, 5, 7, 38, 22, 37, 184]
+},
+{"name": "creditcard40",
+"starting_amount":3800,
+"planed_expenditure":2100,
+"questions":[11, 57, 50, 46, 19, 52, 5, 7, 38, 22, 37, 184, 185]
+},
+{"name": "phone40",
+"starting_amount":4000,
+"planed_expenditure":2100,
+"questions":[11, 57, 50, 46, 19, 52, 5, 7, 38, 22, 37, 184, 185, 186]
+},
+{"name": "mortgage41",
+"starting_amount":3800,
+"planed_expenditure":2000,
+"questions":[11, 16, 51, 2, 33, 30, 57, 45, 55, 41, 28, 184]
+},
+{"name": "creditcard41",
+"starting_amount":5000,
+"planed_expenditure":2100,
+"questions":[11, 16, 51, 2, 33, 30, 57, 45, 55, 41, 28, 184, 185]
+},
+{"name": "phone41",
+"starting_amount":4600,
+"planed_expenditure":2100,
+"questions":[11, 16, 51, 2, 33, 30, 57, 45, 55, 41, 28, 184, 185, 186]
+},
+{"name": "mortgage42",
+"starting_amount":5800,
+"planed_expenditure":2300,
+"questions":[11, 20, 44, 8, 48, 5, 21, 15, 1, 51, 33, 184]
+},
+{"name": "creditcard42",
+"starting_amount":3500,
+"planed_expenditure":2100,
+"questions":[11, 20, 44, 8, 48, 5, 21, 15, 1, 51, 33, 184, 185]
+},
+{"name": "phone42",
+"starting_amount":4800,
+"planed_expenditure":2300,
+"questions":[11, 20, 44, 8, 48, 5, 21, 15, 1, 51, 33, 184, 185, 186]
+},
+{"name": "mortgage43",
+"starting_amount":4600,
+"planed_expenditure":2100,
+"questions":[11, 21, 19, 15, 55, 26, 34, 38, 18, 36, 57, 184]
+},
+{"name": "creditcard43",
+"starting_amount":4300,
+"planed_expenditure":2300,
+"questions":[11, 21, 19, 15, 55, 26, 34, 38, 18, 36, 57, 184, 185]
+},
+{"name": "phone43",
+"starting_amount":5500,
+"planed_expenditure":2000,
+"questions":[11, 21, 19, 15, 55, 26, 34, 38, 18, 36, 57, 184, 185, 186]
+},
+{"name": "mortgage44",
+"starting_amount":4600,
+"planed_expenditure":2100,
+"questions":[11, 5, 44, 15, 3, 55, 52, 28, 16, 18, 26, 184]
+},
+{"name": "creditcard44",
+"starting_amount":3600,
+"planed_expenditure":2300,
+"questions":[11, 5, 44, 15, 3, 55, 52, 28, 16, 18, 26, 184, 185]
+},
+{"name": "phone44",
+"starting_amount":3600,
+"planed_expenditure":2000,
+"questions":[11, 5, 44, 15, 3, 55, 52, 28, 16, 18, 26, 184, 185, 186]
+},
+{"name": "mortgage45",
+"starting_amount":4600,
+"planed_expenditure":2300,
+"questions":[11, 26, 61, 33, 52, 30, 28, 24, 21, 55, 38, 184]
+},
+{"name": "creditcard45",
+"starting_amount":4000,
+"planed_expenditure":2300,
+"questions":[11, 26, 61, 33, 52, 30, 28, 24, 21, 55, 38, 184, 185]
+},
+{"name": "phone45",
+"starting_amount":4500,
+"planed_expenditure":2000,
+"questions":[11, 26, 61, 33, 52, 30, 28, 24, 21, 55, 38, 184, 185, 186]
+},
+{"name": "mortgage46",
+"starting_amount":4000,
+"planed_expenditure":2300,
+"questions":[11, 21, 59, 55, 5, 60, 52, 56, 61, 30, 1, 184]
+},
+{"name": "creditcard46",
+"starting_amount":3600,
+"planed_expenditure":2300,
+"questions":[11, 21, 59, 55, 5, 60, 52, 56, 61, 30, 1, 184, 185]
+},
+{"name": "phone46",
+"starting_amount":4300,
+"planed_expenditure":2000,
+"questions":[11, 21, 59, 55, 5, 60, 52, 56, 61, 30, 1, 184, 185, 186]
+},
+{"name": "mortgage47",
+"starting_amount":4300,
+"planed_expenditure":2000,
+"questions":[11, 28, 7, 60, 6, 25, 57, 34, 22, 1, 24, 184]
+},
+{"name": "creditcard47",
+"starting_amount":5000,
+"planed_expenditure":2000,
+"questions":[11, 28, 7, 60, 6, 25, 57, 34, 22, 1, 24, 184, 185]
+},
+{"name": "phone47",
+"starting_amount":3600,
+"planed_expenditure":2000,
+"questions":[11, 28, 7, 60, 6, 25, 57, 34, 22, 1, 24, 184, 185, 186]
+},
+{"name": "mortgage48",
+"starting_amount":3800,
+"planed_expenditure":2000,
+"questions":[11, 21, 8, 60, 34, 61, 47, 59, 44, 37, 4, 184]
+},
+{"name": "creditcard48",
+"starting_amount":4600,
+"planed_expenditure":2000,
+"questions":[11, 21, 8, 60, 34, 61, 47, 59, 44, 37, 4, 184, 185]
+},
+{"name": "phone48",
+"starting_amount":3600,
+"planed_expenditure":2100,
+"questions":[11, 21, 8, 60, 34, 61, 47, 59, 44, 37, 4, 184, 185, 186]
+},
+{"name": "mortgage49",
+"starting_amount":3600,
+"planed_expenditure":2300,
+"questions":[11, 24, 37, 34, 48, 14, 8, 18, 30, 20, 15, 184]
+},
+{"name": "creditcard49",
+"starting_amount":3800,
+"planed_expenditure":2300,
+"questions":[11, 24, 37, 34, 48, 14, 8, 18, 30, 20, 15, 184, 185]
+},
+{"name": "phone49",
+"starting_amount":4300,
+"planed_expenditure":2000,
+"questions":[11, 24, 37, 34, 48, 14, 8, 18, 30, 20, 15, 184, 185, 186]
+},
+{"name": "mortgage50",
+"starting_amount":4100,
+"planed_expenditure":2300,
+"questions":[11, 52, 16, 50, 40, 21, 38, 33, 60, 7, 44, 184]
+},
+{"name": "creditcard50",
+"starting_amount":4300,
+"planed_expenditure":2000,
+"questions":[11, 52, 16, 50, 40, 21, 38, 33, 60, 7, 44, 184, 185]
+},
+{"name": "phone50",
+"starting_amount":3600,
+"planed_expenditure":2300,
+"questions":[11, 52, 16, 50, 40, 21, 38, 33, 60, 7, 44, 184, 185, 186]
+},
+{"name": "mortgage51",
+"starting_amount":5800,
+"planed_expenditure":2000,
+"questions":[11, 56, 1, 44, 21, 45, 55, 33, 19, 28, 36, 184]
+},
+{"name": "creditcard51",
+"starting_amount":4300,
+"planed_expenditure":2100,
+"questions":[11, 56, 1, 44, 21, 45, 55, 33, 19, 28, 36, 184, 185]
+},
+{"name": "phone51",
+"starting_amount":3800,
+"planed_expenditure":2000,
+"questions":[11, 56, 1, 44, 21, 45, 55, 33, 19, 28, 36, 184, 185, 186]
+},
+{"name": "mortgage52",
+"starting_amount":4600,
+"planed_expenditure":2000,
+"questions":[11, 38, 22, 41, 60, 14, 4, 52, 6, 51, 1, 184]
+},
+{"name": "creditcard52",
+"starting_amount":3800,
+"planed_expenditure":2000,
+"questions":[11, 38, 22, 41, 60, 14, 4, 52, 6, 51, 1, 184, 185]
+},
+{"name": "phone52",
+"starting_amount":4600,
+"planed_expenditure":2300,
+"questions":[11, 38, 22, 41, 60, 14, 4, 52, 6, 51, 1, 184, 185, 186]
+},
+{"name": "mortgage53",
+"starting_amount":3600,
+"planed_expenditure":2300,
+"questions":[11, 3, 36, 47, 37, 57, 56, 61, 46, 7, 45, 184]
+},
+{"name": "creditcard53",
+"starting_amount":5800,
+"planed_expenditure":2300,
+"questions":[11, 3, 36, 47, 37, 57, 56, 61, 46, 7, 45, 184, 185]
+},
+{"name": "phone53",
+"starting_amount":3600,
+"planed_expenditure":2100,
+"questions":[11, 3, 36, 47, 37, 57, 56, 61, 46, 7, 45, 184, 185, 186]
+},
+{"name": "mortgage54",
+"starting_amount":4300,
+"planed_expenditure":2100,
+"questions":[11, 55, 15, 24, 21, 4, 28, 41, 22, 7, 56, 184]
+},
+{"name": "creditcard54",
+"starting_amount":5500,
+"planed_expenditure":2300,
+"questions":[11, 55, 15, 24, 21, 4, 28, 41, 22, 7, 56, 184, 185]
+},
+{"name": "phone54",
+"starting_amount":4000,
+"planed_expenditure":2300,
+"questions":[11, 55, 15, 24, 21, 4, 28, 41, 22, 7, 56, 184, 185, 186]
+},
+{"name": "mortgage55",
+"starting_amount":3800,
+"planed_expenditure":2000,
+"questions":[11, 4, 55, 15, 17, 3, 16, 41, 24, 33, 52, 184]
+},
+{"name": "creditcard55",
+"starting_amount":4300,
+"planed_expenditure":2000,
+"questions":[11, 4, 55, 15, 17, 3, 16, 41, 24, 33, 52, 184, 185]
+},
+{"name": "phone55",
+"starting_amount":4000,
+"planed_expenditure":2100,
+"questions":[11, 4, 55, 15, 17, 3, 16, 41, 24, 33, 52, 184, 185, 186]
+},
+{"name": "mortgage56",
+"starting_amount":3600,
+"planed_expenditure":2100,
+"questions":[11, 25, 40, 60, 57, 37, 1, 38, 34, 16, 44, 184]
+},
+{"name": "creditcard56",
+"starting_amount":5000,
+"planed_expenditure":2000,
+"questions":[11, 25, 40, 60, 57, 37, 1, 38, 34, 16, 44, 184, 185]
+},
+{"name": "phone56",
+"starting_amount":5000,
+"planed_expenditure":2000,
+"questions":[11, 25, 40, 60, 57, 37, 1, 38, 34, 16, 44, 184, 185, 186]
+},
+{"name": "mortgage57",
+"starting_amount":5800,
+"planed_expenditure":2100,
+"questions":[11, 1, 34, 3, 26, 2, 25, 61, 57, 45, 6, 184]
+},
+{"name": "creditcard57",
+"starting_amount":4100,
+"planed_expenditure":2300,
+"questions":[11, 1, 34, 3, 26, 2, 25, 61, 57, 45, 6, 184, 185]
+},
+{"name": "phone57",
+"starting_amount":4800,
+"planed_expenditure":2300,
+"questions":[11, 1, 34, 3, 26, 2, 25, 61, 57, 45, 6, 184, 185, 186]
+},
+{"name": "mortgage58",
+"starting_amount":5000,
+"planed_expenditure":2300,
+"questions":[11, 50, 3, 16, 40, 36, 17, 28, 47, 45, 51, 184]
+},
+{"name": "creditcard58",
+"starting_amount":3800,
+"planed_expenditure":2000,
+"questions":[11, 50, 3, 16, 40, 36, 17, 28, 47, 45, 51, 184, 185]
+},
+{"name": "phone58",
+"starting_amount":4600,
+"planed_expenditure":2000,
+"questions":[11, 50, 3, 16, 40, 36, 17, 28, 47, 45, 51, 184, 185, 186]
+},
+{"name": "mortgage59",
+"starting_amount":4800,
+"planed_expenditure":2000,
+"questions":[11, 4, 51, 37, 5, 3, 19, 46, 8, 20, 41, 184]
+},
+{"name": "creditcard59",
+"starting_amount":4100,
+"planed_expenditure":2000,
+"questions":[11, 4, 51, 37, 5, 3, 19, 46, 8, 20, 41, 184, 185]
+},
+{"name": "phone59",
+"starting_amount":4000,
+"planed_expenditure":2100,
+"questions":[11, 4, 51, 37, 5, 3, 19, 46, 8, 20, 41, 184, 185, 186]
+},
+{"name": "mortgage60",
+"starting_amount":3800,
+"planed_expenditure":2000,
+"questions":[11, 44, 3, 7, 50, 28, 8, 36, 19, 33, 60, 184]
+},
+{"name": "creditcard60",
+"starting_amount":4600,
+"planed_expenditure":2100,
+"questions":[11, 44, 3, 7, 50, 28, 8, 36, 19, 33, 60, 184, 185]
+},
+{"name": "phone60",
+"starting_amount":5000,
+"planed_expenditure":2100,
+"questions":[11, 44, 3, 7, 50, 28, 8, 36, 19, 33, 60, 184, 185, 186]
+},
+{"name": "mortgage61",
+"starting_amount":3600,
+"planed_expenditure":2300,
+"questions":[11, 38, 59, 16, 21, 57, 25, 34, 30, 37, 52, 184]
+},
+{"name": "creditcard61",
+"starting_amount":4600,
+"planed_expenditure":2000,
+"questions":[11, 38, 59, 16, 21, 57, 25, 34, 30, 37, 52, 184, 185]
+},
+{"name": "phone61",
+"starting_amount":3800,
+"planed_expenditure":2300,
+"questions":[11, 38, 59, 16, 21, 57, 25, 34, 30, 37, 52, 184, 185, 186]
+},
+{"name": "mortgage62",
+"starting_amount":4500,
+"planed_expenditure":2000,
+"questions":[11, 24, 40, 36, 33, 8, 22, 30, 60, 47, 3, 184]
+},
+{"name": "creditcard62",
+"starting_amount":4000,
+"planed_expenditure":2100,
+"questions":[11, 24, 40, 36, 33, 8, 22, 30, 60, 47, 3, 184, 185]
+},
+{"name": "phone62",
+"starting_amount":5000,
+"planed_expenditure":2100,
+"questions":[11, 24, 40, 36, 33, 8, 22, 30, 60, 47, 3, 184, 185, 186]
+},
+{"name": "mortgage63",
+"starting_amount":3500,
+"planed_expenditure":2000,
+"questions":[11, 45, 21, 51, 28, 4, 44, 60, 47, 18, 41, 184]
+},
+{"name": "creditcard63",
+"starting_amount":4000,
+"planed_expenditure":2300,
+"questions":[11, 45, 21, 51, 28, 4, 44, 60, 47, 18, 41, 184, 185]
+},
+{"name": "phone63",
+"starting_amount":4100,
+"planed_expenditure":2000,
+"questions":[11, 45, 21, 51, 28, 4, 44, 60, 47, 18, 41, 184, 185, 186]
+},
+{"name": "mortgage64",
+"starting_amount":4300,
+"planed_expenditure":2100,
+"questions":[11, 15, 22, 36, 33, 44, 56, 55, 52, 21, 24, 184]
+},
+{"name": "creditcard64",
+"starting_amount":5800,
+"planed_expenditure":2300,
+"questions":[11, 15, 22, 36, 33, 44, 56, 55, 52, 21, 24, 184, 185]
+},
+{"name": "phone64",
+"starting_amount":4300,
+"planed_expenditure":2100,
+"questions":[11, 15, 22, 36, 33, 44, 56, 55, 52, 21, 24, 184, 185, 186]
+},
+{"name": "mortgage65",
+"starting_amount":4800,
+"planed_expenditure":2000,
+"questions":[11, 14, 47, 51, 41, 15, 6, 34, 5, 8, 7, 184]
+},
+{"name": "creditcard65",
+"starting_amount":4800,
+"planed_expenditure":2300,
+"questions":[11, 14, 47, 51, 41, 15, 6, 34, 5, 8, 7, 184, 185]
+},
+{"name": "phone65",
+"starting_amount":5800,
+"planed_expenditure":2000,
+"questions":[11, 14, 47, 51, 41, 15, 6, 34, 5, 8, 7, 184, 185, 186]
+},
+{"name": "mortgage66",
+"starting_amount":4800,
+"planed_expenditure":2000,
+"questions":[11, 18, 34, 19, 60, 3, 55, 44, 5, 22, 16, 184]
+},
+{"name": "creditcard66",
+"starting_amount":5500,
+"planed_expenditure":2000,
+"questions":[11, 18, 34, 19, 60, 3, 55, 44, 5, 22, 16, 184, 185]
+},
+{"name": "phone66",
+"starting_amount":4600,
+"planed_expenditure":2300,
+"questions":[11, 18, 34, 19, 60, 3, 55, 44, 5, 22, 16, 184, 185, 186]
+},
+{"name": "mortgage67",
+"starting_amount":4500,
+"planed_expenditure":2300,
+"questions":[11, 4, 57, 24, 36, 51, 37, 52, 14, 38, 60, 184]
+},
+{"name": "creditcard67",
+"starting_amount":4800,
+"planed_expenditure":2300,
+"questions":[11, 4, 57, 24, 36, 51, 37, 52, 14, 38, 60, 184, 185]
+},
+{"name": "phone67",
+"starting_amount":4600,
+"planed_expenditure":2300,
+"questions":[11, 4, 57, 24, 36, 51, 37, 52, 14, 38, 60, 184, 185, 186]
+},
+{"name": "mortgage68",
+"starting_amount":4500,
+"planed_expenditure":2300,
+"questions":[11, 19, 50, 41, 16, 4, 56, 47, 24, 8, 44, 184]
+},
+{"name": "creditcard68",
+"starting_amount":5800,
+"planed_expenditure":2300,
+"questions":[11, 19, 50, 41, 16, 4, 56, 47, 24, 8, 44, 184, 185]
+},
+{"name": "phone68",
+"starting_amount":4600,
+"planed_expenditure":2300,
+"questions":[11, 19, 50, 41, 16, 4, 56, 47, 24, 8, 44, 184, 185, 186]
+},
+{"name": "mortgage69",
+"starting_amount":5500,
+"planed_expenditure":2100,
+"questions":[11, 25, 17, 37, 34, 52, 60, 6, 38, 5, 15, 184]
+},
+{"name": "creditcard69",
+"starting_amount":5000,
+"planed_expenditure":2000,
+"questions":[11, 25, 17, 37, 34, 52, 60, 6, 38, 5, 15, 184, 185]
+},
+{"name": "phone69",
+"starting_amount":4800,
+"planed_expenditure":2000,
+"questions":[11, 25, 17, 37, 34, 52, 60, 6, 38, 5, 15, 184, 185, 186]
+},
+{"name": "mortgage70",
+"starting_amount":4300,
+"planed_expenditure":2000,
+"questions":[11, 34, 50, 52, 17, 18, 61, 22, 30, 21, 3, 184]
+},
+{"name": "creditcard70",
+"starting_amount":5500,
+"planed_expenditure":2000,
+"questions":[11, 34, 50, 52, 17, 18, 61, 22, 30, 21, 3, 184, 185]
+},
+{"name": "phone70",
+"starting_amount":5800,
+"planed_expenditure":2100,
+"questions":[11, 34, 50, 52, 17, 18, 61, 22, 30, 21, 3, 184, 185, 186]
+},
+{"name": "mortgage71",
+"starting_amount":4000,
+"planed_expenditure":2000,
+"questions":[11, 16, 44, 25, 57, 28, 6, 61, 36, 50, 21, 184]
+},
+{"name": "creditcard71",
+"starting_amount":4600,
+"planed_expenditure":2300,
+"questions":[11, 16, 44, 25, 57, 28, 6, 61, 36, 50, 21, 184, 185]
+},
+{"name": "phone71",
+"starting_amount":5500,
+"planed_expenditure":2300,
+"questions":[11, 16, 44, 25, 57, 28, 6, 61, 36, 50, 21, 184, 185, 186]
+},
+{"name": "mortgage72",
+"starting_amount":4800,
+"planed_expenditure":2000,
+"questions":[11, 25, 33, 48, 18, 22, 14, 44, 24, 26, 36, 184]
+},
+{"name": "creditcard72",
+"starting_amount":4000,
+"planed_expenditure":2000,
+"questions":[11, 25, 33, 48, 18, 22, 14, 44, 24, 26, 36, 184, 185]
+},
+{"name": "phone72",
+"starting_amount":4600,
+"planed_expenditure":2000,
+"questions":[11, 25, 33, 48, 18, 22, 14, 44, 24, 26, 36, 184, 185, 186]
+},
+{"name": "mortgage73",
+"starting_amount":3600,
+"planed_expenditure":2000,
+"questions":[133, 128, 179, 167, 172, 125, 160, 173, 123, 174, 183, 190]
+},
+{"name": "creditcard73",
+"starting_amount":4000,
+"planed_expenditure":2000,
+"questions":[133, 128, 179, 167, 172, 125, 160, 173, 123, 174, 183, 190, 191]
+},
+{"name": "phone73",
+"starting_amount":3500,
+"planed_expenditure":2000,
+"questions":[133, 128, 179, 167, 172, 125, 160, 173, 123, 174, 183, 190, 191, 192]
+},
+{"name": "mortgage74",
+"starting_amount":4500,
+"planed_expenditure":2000,
+"questions":[133, 181, 169, 178, 168, 130, 124, 182, 177, 127, 170, 190]
+},
+{"name": "creditcard74",
+"starting_amount":5800,
+"planed_expenditure":2000,
+"questions":[133, 181, 169, 178, 168, 130, 124, 182, 177, 127, 170, 190, 191]
+},
+{"name": "phone74",
+"starting_amount":4600,
+"planed_expenditure":2000,
+"questions":[133, 181, 169, 178, 168, 130, 124, 182, 177, 127, 170, 190, 191, 192]
+},
+{"name": "mortgage75",
+"starting_amount":3800,
+"planed_expenditure":2100,
+"questions":[133, 173, 127, 136, 150, 130, 129, 170, 125, 172, 147, 190]
+},
+{"name": "creditcard75",
+"starting_amount":5000,
+"planed_expenditure":2100,
+"questions":[133, 173, 127, 136, 150, 130, 129, 170, 125, 172, 147, 190, 191]
+},
+{"name": "phone75",
+"starting_amount":5800,
+"planed_expenditure":2000,
+"questions":[133, 173, 127, 136, 150, 130, 129, 170, 125, 172, 147, 190, 191, 192]
+},
+{"name": "mortgage76",
+"starting_amount":3600,
+"planed_expenditure":2100,
+"questions":[133, 150, 142, 152, 139, 181, 128, 147, 140, 166, 167, 190]
+},
+{"name": "creditcard76",
+"starting_amount":4500,
+"planed_expenditure":2100,
+"questions":[133, 150, 142, 152, 139, 181, 128, 147, 140, 166, 167, 190, 191]
+},
+{"name": "phone76",
+"starting_amount":5500,
+"planed_expenditure":2000,
+"questions":[133, 150, 142, 152, 139, 181, 128, 147, 140, 166, 167, 190, 191, 192]
+},
+{"name": "mortgage77",
+"starting_amount":4000,
+"planed_expenditure":2100,
+"questions":[133, 147, 129, 162, 181, 167, 143, 136, 169, 152, 137, 190]
+},
+{"name": "creditcard77",
+"starting_amount":4800,
+"planed_expenditure":2300,
+"questions":[133, 147, 129, 162, 181, 167, 143, 136, 169, 152, 137, 190, 191]
+},
+{"name": "phone77",
+"starting_amount":5500,
+"planed_expenditure":2100,
+"questions":[133, 147, 129, 162, 181, 167, 143, 136, 169, 152, 137, 190, 191, 192]
+},
+{"name": "mortgage78",
+"starting_amount":3800,
+"planed_expenditure":2000,
+"questions":[133, 144, 182, 125, 152, 128, 168, 141, 178, 142, 163, 190]
+},
+{"name": "creditcard78",
+"starting_amount":3800,
+"planed_expenditure":2100,
+"questions":[133, 144, 182, 125, 152, 128, 168, 141, 178, 142, 163, 190, 191]
+},
+{"name": "phone78",
+"starting_amount":4100,
+"planed_expenditure":2300,
+"questions":[133, 144, 182, 125, 152, 128, 168, 141, 178, 142, 163, 190, 191, 192]
+},
+{"name": "mortgage79",
+"starting_amount":3800,
+"planed_expenditure":2000,
+"questions":[133, 137, 144, 177, 126, 169, 128, 158, 179, 178, 127, 190]
+},
+{"name": "creditcard79",
+"starting_amount":4800,
+"planed_expenditure":2300,
+"questions":[133, 137, 144, 177, 126, 169, 128, 158, 179, 178, 127, 190, 191]
+},
+{"name": "phone79",
+"starting_amount":3600,
+"planed_expenditure":2000,
+"questions":[133, 137, 144, 177, 126, 169, 128, 158, 179, 178, 127, 190, 191, 192]
+},
+{"name": "mortgage80",
+"starting_amount":4100,
+"planed_expenditure":2100,
+"questions":[133, 137, 179, 123, 168, 125, 141, 150, 144, 183, 128, 190]
+},
+{"name": "creditcard80",
+"starting_amount":4300,
+"planed_expenditure":2000,
+"questions":[133, 137, 179, 123, 168, 125, 141, 150, 144, 183, 128, 190, 191]
+},
+{"name": "phone80",
+"starting_amount":4800,
+"planed_expenditure":2300,
+"questions":[133, 137, 179, 123, 168, 125, 141, 150, 144, 183, 128, 190, 191, 192]
+},
+{"name": "mortgage81",
+"starting_amount":5000,
+"planed_expenditure":2000,
+"questions":[133, 126, 169, 158, 137, 182, 156, 143, 163, 155, 150, 190]
+},
+{"name": "creditcard81",
+"starting_amount":5800,
+"planed_expenditure":2300,
+"questions":[133, 126, 169, 158, 137, 182, 156, 143, 163, 155, 150, 190, 191]
+},
+{"name": "phone81",
+"starting_amount":5500,
+"planed_expenditure":2000,
+"questions":[133, 126, 169, 158, 137, 182, 156, 143, 163, 155, 150, 190, 191, 192]
+},
+{"name": "mortgage82",
+"starting_amount":4100,
+"planed_expenditure":2000,
+"questions":[133, 143, 182, 166, 155, 130, 177, 179, 174, 160, 172, 190]
+},
+{"name": "creditcard82",
+"starting_amount":4300,
+"planed_expenditure":2300,
+"questions":[133, 143, 182, 166, 155, 130, 177, 179, 174, 160, 172, 190, 191]
+},
+{"name": "phone82",
+"starting_amount":4000,
+"planed_expenditure":2300,
+"questions":[133, 143, 182, 166, 155, 130, 177, 179, 174, 160, 172, 190, 191, 192]
+},
+{"name": "mortgage83",
+"starting_amount":5000,
+"planed_expenditure":2300,
+"questions":[133, 125, 140, 162, 130, 156, 177, 137, 143, 166, 128, 190]
+},
+{"name": "creditcard83",
+"starting_amount":5500,
+"planed_expenditure":2300,
+"questions":[133, 125, 140, 162, 130, 156, 177, 137, 143, 166, 128, 190, 191]
+},
+{"name": "phone83",
+"starting_amount":3500,
+"planed_expenditure":2100,
+"questions":[133, 125, 140, 162, 130, 156, 177, 137, 143, 166, 128, 190, 191, 192]
+},
+{"name": "mortgage84",
+"starting_amount":5000,
+"planed_expenditure":2300,
+"questions":[133, 170, 147, 174, 124, 156, 148, 128, 178, 173, 162, 190]
+},
+{"name": "creditcard84",
+"starting_amount":4800,
+"planed_expenditure":2100,
+"questions":[133, 170, 147, 174, 124, 156, 148, 128, 178, 173, 162, 190, 191]
+},
+{"name": "phone84",
+"starting_amount":4100,
+"planed_expenditure":2300,
+"questions":[133, 170, 147, 174, 124, 156, 148, 128, 178, 173, 162, 190, 191, 192]
+},
+{"name": "mortgage85",
+"starting_amount":3800,
+"planed_expenditure":2300,
+"questions":[133, 139, 152, 128, 148, 150, 147, 140, 156, 158, 182, 190]
+},
+{"name": "creditcard85",
+"starting_amount":5800,
+"planed_expenditure":2100,
+"questions":[133, 139, 152, 128, 148, 150, 147, 140, 156, 158, 182, 190, 191]
+},
+{"name": "phone85",
+"starting_amount":5000,
+"planed_expenditure":2000,
+"questions":[133, 139, 152, 128, 148, 150, 147, 140, 156, 158, 182, 190, 191, 192]
+},
+{"name": "mortgage86",
+"starting_amount":4000,
+"planed_expenditure":2000,
+"questions":[133, 138, 174, 152, 160, 156, 155, 172, 163, 168, 178, 190]
+},
+{"name": "creditcard86",
+"starting_amount":4100,
+"planed_expenditure":2100,
+"questions":[133, 138, 174, 152, 160, 156, 155, 172, 163, 168, 178, 190, 191]
+},
+{"name": "phone86",
+"starting_amount":5800,
+"planed_expenditure":2000,
+"questions":[133, 138, 174, 152, 160, 156, 155, 172, 163, 168, 178, 190, 191, 192]
+},
+{"name": "mortgage87",
+"starting_amount":4800,
+"planed_expenditure":2100,
+"questions":[133, 183, 142, 163, 146, 127, 155, 178, 138, 166, 136, 190]
+},
+{"name": "creditcard87",
+"starting_amount":5000,
+"planed_expenditure":2000,
+"questions":[133, 183, 142, 163, 146, 127, 155, 178, 138, 166, 136, 190, 191]
+},
+{"name": "phone87",
+"starting_amount":4800,
+"planed_expenditure":2000,
+"questions":[133, 183, 142, 163, 146, 127, 155, 178, 138, 166, 136, 190, 191, 192]
+},
+{"name": "mortgage88",
+"starting_amount":4000,
+"planed_expenditure":2300,
+"questions":[133, 127, 160, 141, 150, 168, 139, 155, 147, 126, 140, 190]
+},
+{"name": "creditcard88",
+"starting_amount":3800,
+"planed_expenditure":2000,
+"questions":[133, 127, 160, 141, 150, 168, 139, 155, 147, 126, 140, 190, 191]
+},
+{"name": "phone88",
+"starting_amount":4500,
+"planed_expenditure":2100,
+"questions":[133, 127, 160, 141, 150, 168, 139, 155, 147, 126, 140, 190, 191, 192]
+},
+{"name": "mortgage89",
+"starting_amount":4300,
+"planed_expenditure":2000,
+"questions":[133, 183, 150, 163, 127, 139, 129, 179, 156, 173, 174, 190]
+},
+{"name": "creditcard89",
+"starting_amount":4000,
+"planed_expenditure":2100,
+"questions":[133, 183, 150, 163, 127, 139, 129, 179, 156, 173, 174, 190, 191]
+},
+{"name": "phone89",
+"starting_amount":4800,
+"planed_expenditure":2100,
+"questions":[133, 183, 150, 163, 127, 139, 129, 179, 156, 173, 174, 190, 191, 192]
+},
+{"name": "mortgage90",
+"starting_amount":4600,
+"planed_expenditure":2100,
+"questions":[133, 183, 168, 173, 128, 178, 139, 152, 130, 144, 138, 190]
+},
+{"name": "creditcard90",
+"starting_amount":3600,
+"planed_expenditure":2100,
+"questions":[133, 183, 168, 173, 128, 178, 139, 152, 130, 144, 138, 190, 191]
+},
+{"name": "phone90",
+"starting_amount":4500,
+"planed_expenditure":2000,
+"questions":[133, 183, 168, 173, 128, 178, 139, 152, 130, 144, 138, 190, 191, 192]
+},
+{"name": "mortgage91",
+"starting_amount":4100,
+"planed_expenditure":2100,
+"questions":[133, 155, 150, 147, 127, 177, 166, 162, 144, 172, 178, 190]
+},
+{"name": "creditcard91",
+"starting_amount":5800,
+"planed_expenditure":2000,
+"questions":[133, 155, 150, 147, 127, 177, 166, 162, 144, 172, 178, 190, 191]
+},
+{"name": "phone91",
+"starting_amount":4000,
+"planed_expenditure":2300,
+"questions":[133, 155, 150, 147, 127, 177, 166, 162, 144, 172, 178, 190, 191, 192]
+},
+{"name": "mortgage92",
+"starting_amount":4500,
+"planed_expenditure":2100,
+"questions":[133, 125, 170, 128, 130, 152, 147, 123, 144, 126, 124, 190]
+},
+{"name": "creditcard92",
+"starting_amount":3800,
+"planed_expenditure":2300,
+"questions":[133, 125, 170, 128, 130, 152, 147, 123, 144, 126, 124, 190, 191]
+},
+{"name": "phone92",
+"starting_amount":5500,
+"planed_expenditure":2000,
+"questions":[133, 125, 170, 128, 130, 152, 147, 123, 144, 126, 124, 190, 191, 192]
+},
+{"name": "mortgage93",
+"starting_amount":4000,
+"planed_expenditure":2000,
+"questions":[133, 160, 148, 142, 168, 138, 150, 170, 174, 152, 125, 190]
+},
+{"name": "creditcard93",
+"starting_amount":4500,
+"planed_expenditure":2300,
+"questions":[133, 160, 148, 142, 168, 138, 150, 170, 174, 152, 125, 190, 191]
+},
+{"name": "phone93",
+"starting_amount":4600,
+"planed_expenditure":2300,
+"questions":[133, 160, 148, 142, 168, 138, 150, 170, 174, 152, 125, 190, 191, 192]
+},
+{"name": "mortgage94",
+"starting_amount":4000,
+"planed_expenditure":2300,
+"questions":[133, 127, 167, 128, 173, 126, 182, 156, 146, 172, 137, 190]
+},
+{"name": "creditcard94",
+"starting_amount":4300,
+"planed_expenditure":2000,
+"questions":[133, 127, 167, 128, 173, 126, 182, 156, 146, 172, 137, 190, 191]
+},
+{"name": "phone94",
+"starting_amount":5800,
+"planed_expenditure":2000,
+"questions":[133, 127, 167, 128, 173, 126, 182, 156, 146, 172, 137, 190, 191, 192]
+},
+{"name": "mortgage95",
+"starting_amount":3500,
+"planed_expenditure":2300,
+"questions":[133, 137, 152, 140, 139, 138, 144, 123, 172, 183, 146, 190]
+},
+{"name": "creditcard95",
+"starting_amount":3500,
+"planed_expenditure":2300,
+"questions":[133, 137, 152, 140, 139, 138, 144, 123, 172, 183, 146, 190, 191]
+},
+{"name": "phone95",
+"starting_amount":3500,
+"planed_expenditure":2300,
+"questions":[133, 137, 152, 140, 139, 138, 144, 123, 172, 183, 146, 190, 191, 192]
+},
+{"name": "mortgage96",
+"starting_amount":5800,
+"planed_expenditure":2100,
+"questions":[133, 172, 159, 152, 144, 140, 181, 147, 158, 178, 150, 190]
+},
+{"name": "creditcard96",
+"starting_amount":3500,
+"planed_expenditure":2300,
+"questions":[133, 172, 159, 152, 144, 140, 181, 147, 158, 178, 150, 190, 191]
+},
+{"name": "phone96",
+"starting_amount":4300,
+"planed_expenditure":2100,
+"questions":[133, 172, 159, 152, 144, 140, 181, 147, 158, 178, 150, 190, 191, 192]
+},
+{"name": "mortgage97",
+"starting_amount":5800,
+"planed_expenditure":2000,
+"questions":[133, 172, 181, 148, 174, 142, 162, 178, 126, 130, 158, 190]
+},
+{"name": "creditcard97",
+"starting_amount":3500,
+"planed_expenditure":2000,
+"questions":[133, 172, 181, 148, 174, 142, 162, 178, 126, 130, 158, 190, 191]
+},
+{"name": "phone97",
+"starting_amount":4800,
+"planed_expenditure":2100,
+"questions":[133, 172, 181, 148, 174, 142, 162, 178, 126, 130, 158, 190, 191, 192]
+},
+{"name": "mortgage98",
+"starting_amount":4300,
+"planed_expenditure":2300,
+"questions":[133, 177, 167, 170, 183, 137, 181, 150, 173, 142, 141, 190]
+},
+{"name": "creditcard98",
+"starting_amount":5500,
+"planed_expenditure":2000,
+"questions":[133, 177, 167, 170, 183, 137, 181, 150, 173, 142, 141, 190, 191]
+},
+{"name": "phone98",
+"starting_amount":4300,
+"planed_expenditure":2300,
+"questions":[133, 177, 167, 170, 183, 137, 181, 150, 173, 142, 141, 190, 191, 192]
+},
+{"name": "mortgage99",
+"starting_amount":4000,
+"planed_expenditure":2000,
+"questions":[133, 137, 156, 140, 160, 142, 139, 178, 128, 130, 127, 190]
+},
+{"name": "creditcard99",
+"starting_amount":3600,
+"planed_expenditure":2300,
+"questions":[133, 137, 156, 140, 160, 142, 139, 178, 128, 130, 127, 190, 191]
+},
+{"name": "phone99",
+"starting_amount":4300,
+"planed_expenditure":2000,
+"questions":[133, 137, 156, 140, 160, 142, 139, 178, 128, 130, 127, 190, 191, 192]
+},
+{"name": "mortgage100",
+"starting_amount":5000,
+"planed_expenditure":2300,
+"questions":[133, 169, 139, 178, 138, 166, 150, 143, 168, 125, 156, 190]
+},
+{"name": "creditcard100",
+"starting_amount":3800,
+"planed_expenditure":2000,
+"questions":[133, 169, 139, 178, 138, 166, 150, 143, 168, 125, 156, 190, 191]
+},
+{"name": "phone100",
+"starting_amount":4300,
+"planed_expenditure":2000,
+"questions":[133, 169, 139, 178, 138, 166, 150, 143, 168, 125, 156, 190, 191, 192]
+},
+{"name": "mortgage101",
+"starting_amount":4600,
+"planed_expenditure":2100,
+"questions":[133, 150, 173, 127, 147, 142, 179, 146, 177, 137, 172, 190]
+},
+{"name": "creditcard101",
+"starting_amount":4000,
+"planed_expenditure":2100,
+"questions":[133, 150, 173, 127, 147, 142, 179, 146, 177, 137, 172, 190, 191]
+},
+{"name": "phone101",
+"starting_amount":4000,
+"planed_expenditure":2000,
+"questions":[133, 150, 173, 127, 147, 142, 179, 146, 177, 137, 172, 190, 191, 192]
+},
+{"name": "mortgage102",
+"starting_amount":3500,
+"planed_expenditure":2300,
+"questions":[133, 174, 142, 128, 127, 124, 125, 179, 138, 181, 166, 190]
+},
+{"name": "creditcard102",
+"starting_amount":4800,
+"planed_expenditure":2300,
+"questions":[133, 174, 142, 128, 127, 124, 125, 179, 138, 181, 166, 190, 191]
+},
+{"name": "phone102",
+"starting_amount":4600,
+"planed_expenditure":2300,
+"questions":[133, 174, 142, 128, 127, 124, 125, 179, 138, 181, 166, 190, 191, 192]
+},
+{"name": "mortgage103",
+"starting_amount":4600,
+"planed_expenditure":2000,
+"questions":[133, 168, 178, 127, 140, 181, 130, 166, 158, 182, 174, 190]
+},
+{"name": "creditcard103",
+"starting_amount":3800,
+"planed_expenditure":2100,
+"questions":[133, 168, 178, 127, 140, 181, 130, 166, 158, 182, 174, 190, 191]
+},
+{"name": "phone103",
+"starting_amount":5500,
+"planed_expenditure":2100,
+"questions":[133, 168, 178, 127, 140, 181, 130, 166, 158, 182, 174, 190, 191, 192]
+},
+{"name": "mortgage104",
+"starting_amount":3600,
+"planed_expenditure":2300,
+"questions":[133, 124, 169, 179, 156, 155, 147, 146, 150, 181, 172, 190]
+},
+{"name": "creditcard104",
+"starting_amount":4800,
+"planed_expenditure":2300,
+"questions":[133, 124, 169, 179, 156, 155, 147, 146, 150, 181, 172, 190, 191]
+},
+{"name": "phone104",
+"starting_amount":4100,
+"planed_expenditure":2000,
+"questions":[133, 124, 169, 179, 156, 155, 147, 146, 150, 181, 172, 190, 191, 192]
+},
+{"name": "mortgage105",
+"starting_amount":3600,
+"planed_expenditure":2100,
+"questions":[133, 123, 182, 156, 152, 126, 137, 150, 146, 125, 173, 190]
+},
+{"name": "creditcard105",
+"starting_amount":3800,
+"planed_expenditure":2300,
+"questions":[133, 123, 182, 156, 152, 126, 137, 150, 146, 125, 173, 190, 191]
+},
+{"name": "phone105",
+"starting_amount":5000,
+"planed_expenditure":2000,
+"questions":[133, 123, 182, 156, 152, 126, 137, 150, 146, 125, 173, 190, 191, 192]
+},
+{"name": "mortgage106",
+"starting_amount":4800,
+"planed_expenditure":2300,
+"questions":[133, 129, 140, 183, 160, 172, 179, 170, 156, 126, 168, 190]
+},
+{"name": "creditcard106",
+"starting_amount":3500,
+"planed_expenditure":2300,
+"questions":[133, 129, 140, 183, 160, 172, 179, 170, 156, 126, 168, 190, 191]
+},
+{"name": "phone106",
+"starting_amount":4000,
+"planed_expenditure":2300,
+"questions":[133, 129, 140, 183, 160, 172, 179, 170, 156, 126, 168, 190, 191, 192]
+},
+{"name": "mortgage107",
+"starting_amount":5800,
+"planed_expenditure":2000,
+"questions":[133, 146, 159, 129, 139, 125, 174, 166, 160, 141, 138, 190]
+},
+{"name": "creditcard107",
+"starting_amount":3500,
+"planed_expenditure":2100,
+"questions":[133, 146, 159, 129, 139, 125, 174, 166, 160, 141, 138, 190, 191]
+},
+{"name": "phone107",
+"starting_amount":3800,
+"planed_expenditure":2000,
+"questions":[133, 146, 159, 129, 139, 125, 174, 166, 160, 141, 138, 190, 191, 192]
+},
+{"name": "mortgage108",
+"starting_amount":3600,
+"planed_expenditure":2000,
+"questions":[133, 169, 152, 127, 143, 155, 163, 159, 182, 166, 136, 190]
+},
+{"name": "creditcard108",
+"starting_amount":5500,
+"planed_expenditure":2000,
+"questions":[133, 169, 152, 127, 143, 155, 163, 159, 182, 166, 136, 190, 191]
+},
+{"name": "phone108",
+"starting_amount":5500,
+"planed_expenditure":2300,
+"questions":[133, 169, 152, 127, 143, 155, 163, 159, 182, 166, 136, 190, 191, 192]
+}]

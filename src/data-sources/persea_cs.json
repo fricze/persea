@@ -7,24 +7,24 @@
   "gender_label": "Pohlaví",
   "gender_options": [
     {"value":"female",
-     "label":"žena"},
+      "label":"žena"},
     {"value":"male",
-     "label":"muž"}
+      "label":"muž"}
   ],
   "education_label": "Vzdělání",
   "education_options": [
     {"value": "no_education",
-     "label": "Bez vzdělání"},
+      "label": "Bez vzdělání"},
     {"value": "primary",
-     "label": "Základní"},
+      "label": "Základní"},
     {"value": "secondary",
-     "label": "Střední"},
+      "label": "Střední"},
     {"value": "bachalor",
-     "label": "Bakalářské"},
+      "label": "Bakalářské"},
     {"value": "master",
-     "label": "Magisterské"},
+      "label": "Magisterské"},
     {"value": "doctor",
-     "label": "Doctorské nebo vyšší"}
+      "label": "Doktorské nebo vyšší"}
   ],
   "country_label": "Země",
   "email_label": "E-mail (volitelné)",

@@ -81,15 +81,10 @@ export const data$ = combineLatest(
         rxMap(arr => arr
             .map(e => e
                 .map(x => x[0]))),
-        rxMap(([ qs, s ]) => {
-            return s.map(e => {
-                return merge(e, {
-                    'scenario/questions': e['scenario/questions'][0].map(
-                        qId => qs.find(q => {
-                            return q['question/question_id'] === qId
-                        })
-                    )
-                })
-            })
-        }),
+        rxMap(([ qs, s ]) => s.map(e => merge(e, {
+            'scenario/questions': e['scenario/questions'][0].map(
+                qId => qs.find(q =>
+                    String(q['question/question_id']) === String(qId))
+            )
+        }))),
     )

@@ -25,12 +25,20 @@ import textsEn from './data-sources/persea_en.json'
 import textsPl from './data-sources/persea_pl.json'
 import textsCs from './data-sources/persea_cs.json'
 
-const profilesPl = toPairs(require('./data-sources/pl_profiles.json'))
+const profilesPl = toPairs(require('./data-sources/pl_profile.json'))
+const profilesEn = toPairs(require('./data-sources/en_profile.json'))
+const profilesCz = toPairs(require('./data-sources/cs_profile.json'))
 
 const langs = {
     PL: textsPl,
     EN: textsEn,
     CZ: textsCs,
+}
+
+const profilesObj = {
+    CZ: profilesCz,
+    EN: profilesEn,
+    PL: profilesPl,
 }
 
 const { vector, parse, toJs } = mori
@@ -92,9 +100,12 @@ class App extends Component {
 
         personData$.subscribe(x => this.setState({ person: x }))
 
-        const profiles$ = personData$.map(
-            person => {
-                const profiles = profilesPl
+        const profiles$ = combineLatest(
+            personData$, lang$,
+            (person, language) => [ person, language ]
+        ).map(
+            ([ person, language ]) => {
+                const profiles = profilesObj[language]
                 const chosenGender = person['person/gender']
                 const chosenAge = Number(person['person/age'])
 
@@ -118,9 +129,15 @@ class App extends Component {
         const chosenScenario$ = combineLatest(
             scenariosData$,
             profileData$,
-            (scenarios, profile) => scenarios.find(
-                s => s['scenario/name'] === profile.posibble_scenarios
-            )
+            (scenarios, profile) => {
+                const scenario = profile.posibble_scenarios[
+                    Math.floor(Math.random()*profile.posibble_scenarios.length)
+                ]
+
+                return scenarios.find(
+                    s => s['scenario/name'] === scenario
+                )
+            }
         )
 
         chosenScenario$.subscribe(x => {
