@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import './ChooseProfile.css'
 import h from 'react-hyperscript'
-import { path, compose, identity } from 'ramda'
+import { path, compose, identity, map, toPairs, range } from 'ramda'
 import elements from 'hyperscript-helpers'
-import { map, toPairs } from 'ramda'
 import { mori, helpers } from 'datascript-mori'
 import {
     q$, entity$, nextTx
@@ -97,6 +96,20 @@ class ChooseProfile extends Component {
         active: profile.phonenumber,
     })
 
+    componentWillMount() {
+        this.setState({
+            randomProfiles: range(1, 4).reduce(({ chosen, profiles }, el) => {
+                const index = Math.floor(Math.random()*profiles.length)
+                const randElement = profiles[index]
+
+                return {
+                    chosen: chosen.concat([ randElement ]),
+                    profiles: profiles.filter((_, i) => i !== index)
+                }
+            }, { chosen: [], profiles: this.props.profiles }).chosen
+        })
+    }
+
     render() {
         const { texts, profiles } = this.props
 
@@ -109,7 +122,7 @@ class ChooseProfile extends Component {
                        h2(texts.choose_profile_h1),
                        p('.InfoText', texts.choose_profile_text),
                        div('.Profiles', Profiles({
-                           profiles, texts, activateProfile, active
+                           profiles: this.state.randomProfiles, texts, activateProfile, active
                        })),
                        div('.ChooseProfileButton', [
                            div('.Container', [
