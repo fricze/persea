@@ -1,0 +1,30 @@
+#ChooseLanguage {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #ChooseLanguage h1, #ChooseLanguage h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 2rem; }
+  #ChooseLanguage ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem; }
+  #ChooseLanguage li {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    border: 3px solid #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #ChooseLanguage li:not(:last-child) {
+      margin-right: 20px; }
+    #ChooseLanguage li span {
+      font-size: 2.4rem; }

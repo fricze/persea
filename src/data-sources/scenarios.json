@@ -1,0 +1,18 @@
+[
+  {"name": "tmobile1",
+   "starting_amount": 2000,
+   "planed_expenditure": 500,
+   "questions":["11","6","7","4","2","3","9","10","8"]
+  },
+  {"name": "mortgage1",
+   "starting_amount": 3200,
+  "planed_expenditure": 1900,
+   "questions":["11","6","7","4","2","3","9","10","8"]
+  },
+  {"name": "creditcard1",
+   "starting_amount": 900,
+    "planed_expenditure": 300,
+   "questions":["11","6","7","4","2","3","9","10","8"]
+  }
+]
+

@@ -1,0 +1,41 @@
+#Research h2 {
+  margin-bottom: 2rem; }
+
+#Research form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 2rem 0;
+  /* [type="text"], [type="number"] { */
+  /*   font-size: 1rem; */
+  /* } */ }
+  #Research form .checkbox {
+    position: relative;
+    top: 3px; }
+  #Research form .label-first {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end; }
+    #Research form .label-first span {
+      min-width: 100px; }
+    #Research form .label-first input, #Research form .label-first select {
+      margin-left: 10px; }
+  #Research form .label-second {
+    display: flex;
+    flex-direction: row; }
+    #Research form .label-second input {
+      margin-right: 20px; }
+  #Research form label {
+    margin-bottom: 1rem; }
+  #Research form button {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    padding: .5rem 0;
+    background: none;
+    border: 2px solid #333;
+    border-radius: 2px; }
+    #Research form button.Error {
+      outline-color: red;
+      transition: .5s all ease-in-out;
+      outline-style: auto;
+      outline-width: 5px; }

@@ -1,0 +1,53 @@
+{
+  "name": "katrin-phd",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ibm/type": "^0.4.3",
+    "@storybook/addon-actions": "^3.2.15",
+    "@storybook/addon-knobs": "^3.2.15",
+    "@storybook/addon-options": "^3.2.15",
+    "classnames": "^2.2.5",
+    "csv-js": "^1.0.0",
+    "csv-loader": "^2.1.1",
+    "datascript": "^0.16.2",
+    "datascript-mori": "^0.17.0",
+    "hyperscript-helpers": "^3.0.3",
+    "mori-devtools": "^1.1.1",
+    "node-sass-chokidar": "^0.0.3",
+    "normalize.css": "^7.0.0",
+    "npm-run-all": "^4.1.2",
+    "papaparse": "^4.3.6",
+    "ramda": "^0.25.0",
+    "react": "^16.1.1",
+    "react-dev-utils": "^4.2.1",
+    "react-dom": "^16.1.1",
+    "react-hyperscript": "^3.0.0",
+    "react-hyperscript-helpers": "^1.2.0",
+    "react-scripts": "1.0.17",
+    "rxjs": "^5.5.2",
+    "ud": "^3.1.1"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "dev": "npm-run-all -p watch-css start-js storybook-watch",
+    "build-js": "node ./node_modules/react-scripts/bin/react-scripts.js build",
+    "build": "npm-run-all build-css build-js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow",
+    "storybook-watch": "start-storybook -p 9010 -s public",
+    "storybook": "start-storybook -p 9010 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.15",
+    "@storybook/addon-links": "^3.2.15",
+    "@storybook/react": "^3.2.15",
+    "json-loader": "^0.5.7",
+    "raw-loader": "^0.5.1"
+  }
+}

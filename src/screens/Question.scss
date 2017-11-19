@@ -1,0 +1,125 @@
+.Question {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(auto-fill, minmax(120px, max-content));
+
+  .ChatAnswer {
+    margin: 1rem 0;
+  }
+
+  .ChatAnswer.Lekta {
+    margin-left: 20px;
+  }
+
+  .ChatAnswer.User {
+    margin-right: 20px;
+    font-style: italic;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  input {
+    font-size: 1.2rem;
+    height: 1.2rem;
+    position: relative;
+    top: 3px;
+
+    &.Money {
+      max-width: 60%;
+    }
+  }
+
+  #Chat {
+    grid-column: 2/6;
+    margin-top: 2rem;
+    border: 2px solid #333;
+    padding: 20px;
+
+    label {
+      display: flex;
+      flex-direction: row;
+
+      button {
+        font-size: .8rem;
+        padding: 4px 12px;
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 4px;
+      }
+
+      input {
+        flex-grow: 1;
+        height: 2rem;
+      }
+    }
+  }
+
+  #OpenQuestion {
+    grid-column: 3/5;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    label {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    p {
+      width: 100%;
+      font-size: 1.2rem;
+    }
+  }
+
+  #YesNoQuestion {
+    grid-column: 2/6;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    button {
+      flex-basis: 48%;
+    }
+
+    p {
+      width: 100%;
+      font-size: 1.2rem;
+    }
+  }
+
+  #YourProfile {
+    grid-column: 1/3;
+  }
+
+  #YourFinSituation {
+    grid-column: 5/7;
+  }
+
+  #YourFinSituation,
+  #YourProfile {
+    border: 2px solid #333;
+    border-radius: 2px;
+    padding: 10px;
+
+    h3 {
+      margin-bottom: .5rem;
+    }
+  }
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  white-space: pre;
+}

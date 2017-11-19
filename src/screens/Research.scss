@@ -1,0 +1,64 @@
+#Research {
+  h2 {
+    margin-bottom: 2rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 2rem 0;
+
+    .checkbox {
+      position: relative;
+      top: 3px;
+    }
+
+    /* [type="text"], [type="number"] { */
+    /*   font-size: 1rem; */
+    /* } */
+
+    .label-first {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+
+      span {
+        min-width: 100px;
+      }
+
+      input, select {
+        margin-left: 10px;
+      }
+    }
+
+    .label-second {
+      display: flex;
+      flex-direction: row;
+
+      input {
+        margin-right: 20px;
+      }
+    }
+
+    label {
+      margin-bottom: 1rem;
+    }
+
+    button {
+      margin-top: 1.5rem;
+      font-size: 1rem;
+      padding: .5rem 0;
+      background: none;
+      border: 2px solid #333;
+      border-radius: 2px;
+
+      &.Error {
+        outline-color: red;
+        transition: .5s all ease-in-out;
+        outline-style: auto;
+        outline-width: 5px;
+      }
+    }
+  }
+}

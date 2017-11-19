@@ -1,0 +1,84 @@
+.Question {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(auto-fill, minmax(120px, max-content)); }
+  .Question .ChatAnswer {
+    margin: 1rem 0; }
+  .Question .ChatAnswer.Lekta {
+    margin-left: 20px; }
+  .Question .ChatAnswer.User {
+    margin-right: 20px;
+    font-style: italic; }
+  .Question label {
+    display: block;
+    margin-bottom: 1rem; }
+  .Question input {
+    font-size: 1.2rem;
+    height: 1.2rem;
+    position: relative;
+    top: 3px; }
+    .Question input.Money {
+      max-width: 60%; }
+  .Question #Chat {
+    grid-column: 2/6;
+    margin-top: 2rem;
+    border: 2px solid #333;
+    padding: 20px; }
+    .Question #Chat label {
+      display: flex;
+      flex-direction: row; }
+      .Question #Chat label button {
+        font-size: .8rem;
+        padding: 4px 12px;
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 4px; }
+      .Question #Chat label input {
+        flex-grow: 1;
+        height: 2rem; }
+  .Question #OpenQuestion {
+    grid-column: 3/5;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .Question #OpenQuestion label {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+    .Question #OpenQuestion p {
+      width: 100%;
+      font-size: 1.2rem; }
+  .Question #YesNoQuestion {
+    grid-column: 2/6;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .Question #YesNoQuestion button {
+      flex-basis: 48%; }
+    .Question #YesNoQuestion p {
+      width: 100%;
+      font-size: 1.2rem; }
+  .Question #YourProfile {
+    grid-column: 1/3; }
+  .Question #YourFinSituation {
+    grid-column: 5/7; }
+  .Question #YourFinSituation,
+  .Question #YourProfile {
+    border: 2px solid #333;
+    border-radius: 2px;
+    padding: 10px; }
+    .Question #YourFinSituation h3,
+    .Question #YourProfile h3 {
+      margin-bottom: .5rem; }
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  white-space: pre; }

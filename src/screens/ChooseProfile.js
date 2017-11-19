@@ -1,0 +1,126 @@
+import React, { Component } from 'react'
+import './ChooseProfile.css'
+import h from 'react-hyperscript'
+import { path, compose, identity } from 'ramda'
+import elements from 'hyperscript-helpers'
+import { map, toPairs } from 'ramda'
+import { mori, helpers } from 'datascript-mori'
+import {
+    q$, entity$, nextTx
+} from '../data-processing/rx-datascript'
+import { report$, tx$ } from '../db'
+
+const { vector, parse, toJs } = mori
+const {
+    DB_ADD
+} = helpers
+
+const {
+    input, label, select, option, button,
+    h1, h2, p, div, ul, li, span, form
+} = elements(h)
+
+const comp = (...fns) => compose(...fns, identity)
+
+const textFromState = comp(p, path(['text']))
+
+const Labeled = (a = 'Label', b) => h('label', a, [
+    b
+])
+
+const Profiles = ({
+    profiles, texts, activateProfile, active
+}) => {
+    profiles = map(a => a[1], profiles)
+
+    const pairs = [
+        ['profile_age_label', 'age'],
+        ['profile_gender_label', 'gender'],
+        ['profile_family_label', 'family'],
+        ['profile_children_label', 'Children'],
+        ['profile_info_label', 'aditional_info'],
+        ['profile_housing_label', 'living_with'],
+    ]
+
+    return map(
+        profile => div({
+            key: profile.phonenumber,
+            className: 'Profile' + ((active === profile.phonenumber) ? ' Active': ''),
+            onClick() { activateProfile(profile) }
+        }, [
+            h1(profile.name),
+            div(map(
+                pair => h('p', { key: pair[0] }, [
+                    span(texts[pair[0]] + ': '),
+                    span(profile[pair[1]])
+                ]),
+                pairs
+            ))
+        ]),
+        profiles
+    )
+}
+
+const profileKeys = [
+    `profile/phonenumber`,
+    `profile/name`,
+    `profile/gender`,
+    `profile/age`,
+    `profile/family_status`,
+    `profile/living_with`,
+    `profile/Children`,
+    `profile/aditional_info`,
+    `profile/posibble_scenarios`,
+]
+
+const setProfile = profile => {
+    nextTx(tx$, vector(
+        vector(DB_ADD, vector(`__holder`, `system`), "app/profile", profile),
+
+        vector(DB_ADD, -1, `profile/phonenumber`, profile.phonenumber),
+        vector(DB_ADD, -1, `profile/name`, profile.name),
+        vector(DB_ADD, -1, `profile/gender`, profile.gender),
+        vector(DB_ADD, -1, `profile/age`, profile.age),
+        vector(DB_ADD, -1, `profile/family_status`, profile.family_status),
+        vector(DB_ADD, -1, `profile/living_with`, profile.living_with),
+        vector(DB_ADD, -1, `profile/Children`, profile.Children),
+        vector(DB_ADD, -1, `profile/aditional_info`, profile.aditional_info),
+        vector(DB_ADD, -1, `profile/posibble_scenarios`, profile.posibble_scenarios),
+    ))
+}
+
+class ChooseProfile extends Component {
+    state = {}
+
+    activateProfile = (profile) => this.setState({
+        profile,
+        active: profile.phonenumber,
+    })
+
+    render() {
+        const { texts, profiles } = this.props
+
+        const { active } = this.state
+
+        const { activateProfile } = this
+
+        return div('#ChooseProfile',
+                   [
+                       h2(texts.choose_profile_h1),
+                       p('.InfoText', texts.choose_profile_text),
+                       div('.Profiles', Profiles({
+                           profiles, texts, activateProfile, active
+                       })),
+                       div('.ChooseProfileButton', [
+                           div('.Container', [
+                               button({
+                                   onClick: () => this.state.profile && setProfile(this.state.profile)
+                               }, texts.continue_button)
+                           ])
+                       ])
+                   ]
+        )
+    }
+}
+
+export default ChooseProfile

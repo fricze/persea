@@ -1,0 +1,10 @@
+#ThankYou {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(auto-fill, minmax(80px, 1fr)); }
+  #ThankYou p {
+    grid-column: 2/6;
+    grid-row: 6/auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 600; }
