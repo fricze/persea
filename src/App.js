@@ -15,7 +15,9 @@ import { report$, tx$ } from './db'
 import { data$ as scenariosData$ } from './ScenariosData'
 import ChooseLanguage from './screens/ChooseLanguage'
 import ChooseProfile from './screens/ChooseProfile'
-import { YesNoQuestion, OpenQuestion, Chat } from './screens/Question'
+import {
+    YesNoQuestion, OpenQuestion, Chat, FinalQuestion
+} from './screens/Question'
 import Research from './screens/Research'
 import { filter } from 'rxjs/operators/filter'
 import { map as rxMap } from 'rxjs/operators/map'
@@ -74,14 +76,34 @@ const pullPerson = `
 (pull ?e [${formKeys.map(e => `"${e}"`).join(' ')}])
 `
 
+const toJsTransformers = [
+    rxMap(x => toJs(x)),
+    filter(x => x && x[0] && x[0][0]),
+    rxMap(x => x[0][0]),
+]
+
 const personData$ = q$(
     report$,
     parse(`[:find ${pullPerson}
             :where [?e "person/data" ?d]]`)
 ).pipe(
-    rxMap(x => toJs(x)),
-    filter(x => x && x[0] && x[0][0]),
-    rxMap(x => x[0][0]),
+    ...toJsTransformers
+)
+
+const lektaChat$ = q$(
+    report$,
+    parse(`[:find ?c
+            :where [_ "lekta/chat" ?c]]`)
+).pipe(
+    ...toJsTransformers
+)
+
+const finalAnswer$ = q$(
+    report$,
+    parse(`[:find ?c
+            :where [_ "scenario/final-answer" ?c]]`)
+).pipe(
+    ...toJsTransformers
 )
 
 const profileData$ = q$(
@@ -89,14 +111,27 @@ const profileData$ = q$(
     parse(`[:find ?d
             :where [_ "app/profile" ?d]]`)
 ).pipe(
-    rxMap(x => toJs(x)),
-    filter(x => x && x[0] && x[0][0]),
-    rxMap(x => x[0][0]),
+    ...toJsTransformers
 )
+
+const lastQuestionKeys = [
+    "last_question_text",
+    "last_question_answerA",
+    "last_question_answerB",
+    "last_question_answerC",
+    "last_question_answerD",
+    "last_question_answerE",
+    "last_question_answerF",
+    "thank_you_text",
+]
 
 class App extends Component {
     componentWillMount() {
         lang$.subscribe(x => this.setState({ lang: x }))
+
+        lektaChat$.subscribe(x => this.setState({
+            lektaChat: x
+        }))
 
         personData$.subscribe(x => this.setState({ person: x }))
 
@@ -125,6 +160,10 @@ class App extends Component {
         profiles$.subscribe(x => this.setState({ profiles: x }))
 
         profileData$.subscribe(x => this.setState({ profile: x }))
+
+        /* finalAnswer$.subscribe(x => {
+         *     debugger
+         * })*/
 
         const chosenScenario$ = combineLatest(
             scenariosData$,
@@ -160,6 +199,16 @@ class App extends Component {
 
         const lang = pathOr({}, [this.state.lang], langs)
 
+        const {
+            last_question_text,
+            last_question_answerA,
+            last_question_answerB,
+            last_question_answerC,
+            last_question_answerD,
+            last_question_answerE,
+            last_question_answerF,
+        } = lang
+
         const { profiles } = this.state
 
         return h('div#app', [
@@ -181,7 +230,7 @@ class App extends Component {
                 }))
             ) : null,
 
-            scenarioFinished ? h(Chat, {
+            (!this.state.lektaChat && scenarioFinished) ? h(Chat, {
                 texts: lang,
                 scenario: this.state.scenario,
                 person: this.state.person,
@@ -191,6 +240,27 @@ class App extends Component {
                     PL: 'Polish',
                     CZ: 'Czech',
                 })
+            }) : null,
+
+            this.state.lektaChat ? h(FinalQuestion, {
+                texts: lang,
+                scenario: this.state.scenario,
+                person: this.state.person,
+                profile: this.state.profile,
+                lang: pathOr('English', [this.state.lang], {
+                    EN: 'English',
+                    PL: 'Polish',
+                    CZ: 'Czech',
+                }),
+                lastQuestion: {
+                    last_question_text,
+                    last_question_answerA,
+                    last_question_answerB,
+                    last_question_answerC,
+                    last_question_answerD,
+                    last_question_answerE,
+                    last_question_answerF,
+                }
             }) : null,
         ])
     }

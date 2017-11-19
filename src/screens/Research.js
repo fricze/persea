@@ -47,6 +47,8 @@ const formKeys = [
     'age',
 ]
 
+const state = { mounted: false }
+
 class Research extends Component {
     state = {
         age: 18,
@@ -72,6 +74,12 @@ class Research extends Component {
     }
 
     normalizeState = debounce((k, v) => {
+        if (!state.mounted) {
+            state.mounted = true
+
+            return
+        }
+
         const transformer = pathOr(identity, [k], this.formTransformers)
 
         this.setState({
@@ -126,6 +134,7 @@ class Research extends Component {
                     value: this.state.age,
                     onChange: e => {
                         this.normalizeState('age', e.target.value)
+
                         this.handleChange('age', e.target.value)
                     }
                 }), span(texts.age_label) ]),

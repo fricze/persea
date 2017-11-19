@@ -75,7 +75,8 @@
   .Question #YourProfile {
     border: 2px solid #333;
     border-radius: 2px;
-    padding: 10px; }
+    padding: 10px;
+    align-self: flex-start; }
     .Question #YourFinSituation h3,
     .Question #YourProfile h3 {
       margin-bottom: .5rem; }

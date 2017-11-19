@@ -43,6 +43,8 @@ const Profiles = ({
 }
 
 const setProfile = profile => {
+    const children = profile.children || profile.Children
+
     nextTx(tx$, vector(
         vector(DB_ADD, vector(`__holder`, `system`), "app/profile", profile),
 
@@ -52,7 +54,7 @@ const setProfile = profile => {
         vector(DB_ADD, -1, `profile/age`, profile.age),
         vector(DB_ADD, -1, `profile/family_status`, profile.family_status),
         vector(DB_ADD, -1, `profile/living_with`, profile.living_with),
-        vector(DB_ADD, -1, `profile/children`, profile.children),
+        vector(DB_ADD, -1, `profile/children`, children),
         vector(DB_ADD, -1, `profile/aditional_info`, profile.aditional_info),
         vector(DB_ADD, -1, `profile/posibble_scenarios`,
                profile.posibble_scenarios),
