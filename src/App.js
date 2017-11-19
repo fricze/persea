@@ -1,14 +1,13 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import './App.css'
 import h from 'react-hyperscript'
 import {
-    path, compose, identity, toPairs,
-    merge, pathOr, range, contains, equals,
+    toPairs, pathOr, range, contains, equals,
     and
 } from 'ramda'
 import elements from 'hyperscript-helpers'
 import {
-    q$, entity$, nextTx
+    q$, nextTx
 } from './data-processing/rx-datascript'
 import { datascript, mori, helpers } from 'datascript-mori'
 import { report$, tx$ } from './db'

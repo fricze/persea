@@ -1,16 +1,16 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import './ChooseProfile.css'
 import h from 'react-hyperscript'
-import { path, compose, identity, map, toPairs, range } from 'ramda'
+import { path, compose, identity, map, range } from 'ramda'
 import elements from 'hyperscript-helpers'
 import { mori, helpers } from 'datascript-mori'
 import {
-    q$, entity$, nextTx
+    nextTx
 } from '../data-processing/rx-datascript'
-import { report$, tx$ } from '../db'
+import { tx$ } from '../db'
 import { Profile } from './Profile'
 
-const { vector, parse, toJs } = mori
+const { vector } = mori
 const {
     DB_ADD
 } = helpers
