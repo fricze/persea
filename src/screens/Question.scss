@@ -99,6 +99,11 @@
 
   #YourProfile {
     grid-column: 1/3;
+
+    h1 {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
   }
 
   #YourFinSituation {
@@ -122,4 +127,8 @@
   flex-direction: row;
   justify-content: flex-start;
   white-space: pre;
+
+  label {
+    margin-bottom: .5rem;
+  }
 }

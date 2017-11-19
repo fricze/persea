@@ -1,0 +1,12 @@
+question_id;question_text;answerA_text;answerA_action;answerA_flag;answerB_text;answerB_action;answerB_flag
+1;Co sobie kupisz?;Buty za 300 złotych;-300;;Kolacja dla dwojga za 200 złotych;-200;
+2;Zostałaś zaproszona na wesele, będzie tam twoja rodzina i znajomi;Kupuję nową sukienkę za 180 zł;-180;;Idę w starej, w której widzieli mnie już kilka razy o potrzebuje poprawki krawieckiej kosztującej 50 złotych;-50;
+3;Wczesną zimą masz delikatną stłuczkę, auto trzeba oddać do naprawy;Oddaję auto jak najszybciej, muszę mieć czym dojeżdżać do pracy, place 500 złotych;-500;;Nie naprawiam auta, kupuję bilet miesięczny za 180 złotych;-180;
+4;Jesteś na wakacjach. Co zrobisz?;Pójdę na obiad do polecanej restauracji za 200 złotych;-200;;Kupuję przeceniony strój znanej projektantki, o którym marzyłaś od roku za 250 zlotych;-250;
+5;Przyjacielowi brakuje 100 złotych do zapłacenia czynszu, będzie mógł oddać 2 dni po Twojej wypłacie;Pożyczam mu 100 złotych;-100;;Nie pożyczam pieniędzy i kupuję sobie potrzebne kosmetyki za 50 złotych;-50;
+6;Przyjaciółka ma urodziny:;Na prezent wybieram coś, o czym od dawna marzy, ale kosztuje 145 złotych;-145;;Kupuję jej coś zabawnego, ale przydatnego za 65 złotych;-65;
+7;Co wolisz?;Sprzedać starą lodówkę za 100 zł;100;;Oddać starą lodówkę biednej rodzinie ;0;
+8;Od paru lat marzy Ci się kurtka jednej firmy, znajdujesz przeceniony model w twoim rozmiarze, który idealnie pasuje do i na ciebie;Kupuję, mimo że wciąż jest droga, 400 złotych;-400;;Kupuję inną kurtkę w sieciówce za 200 złotych;-200;
+9;Dziecko się rozchorowało. Co dziś zrobisz?;Kupuję leki dla dziecka za 150 złotych;-150;no_debt;Opłacam abonamen telefonu komórkowego za 35 złotych;-35;debt_arised
+10;Na drugiej randce mężczyzna zabrał Cię na kolację i zapłacił za całość 200 złotych, zagraliście w kamień papier nożyce, kto płaci na następnej i wypadło na Ciebie;Zabieram go do kina i wydaję 50 złotych;-50;;Proponuję mu wejście do Escape roomu i na piwo, razem będzie to kosztować około 80 złotych;-80;
+11;Grając za wybrany profil, będziesz teraz robić kilka decyzji finansowych. Nie testujemy Ciebie, ale system, więc się nie martw a po prostu się baw. W lewej górnej części jest Twój profil, może Ci się przydają jakieś informacje. W prawej części jest aktualny stan twojego konta finansowego. Zaczynamy? Co wolisz kupić?;Kupon na Lotto na 10 gier za 40 złotych;-40;;Bilet do kina dla dwojga i popcorn za 70 złotych;-70;

@@ -66,6 +66,9 @@
       font-size: 1.2rem; }
   .Question #YourProfile {
     grid-column: 1/3; }
+    .Question #YourProfile h1 {
+      font-size: 1rem;
+      line-height: 1.5; }
   .Question #YourFinSituation {
     grid-column: 5/7; }
   .Question #YourFinSituation,
@@ -82,3 +85,5 @@
   flex-direction: row;
   justify-content: flex-start;
   white-space: pre; }
+  .Row label {
+    margin-bottom: .5rem; }

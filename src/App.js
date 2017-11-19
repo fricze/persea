@@ -41,7 +41,7 @@ const {
 
 nextTx(tx$, vector(vector(DB_ADD, -1, `__holder`, `system`)))
 
-const { h1, h2, p } = elements(h)
+const { h1, h2, p, div } = elements(h)
 
 const lang$ = q$(
     report$,
@@ -137,7 +137,9 @@ class App extends Component {
         const questions = this.state.scenario['scenario/questions'] ?
                           this.state.scenario['scenario/questions'] : []
 
-        const scenarioFinished = pathOr(false, ['scenario/finished'], this.state.scenario)
+        const scenarioFinished = pathOr(
+            false, ['scenario/finished'], this.state.scenario
+        )
 
         const lang = pathOr({}, [this.state.lang], langs)
 
@@ -158,6 +160,7 @@ class App extends Component {
                     texts: lang,
                     question,
                     scenario: this.state.scenario,
+                    profile: this.state.profile
                 }))
             ) : null,
 

@@ -13,8 +13,10 @@ const { vector, concat, apply, parse, get, first, hashMap, map, find, nth, reduc
 const { DB_ID, DB_ADD, TX_DATA, TX_META, DB_AFTER, DB_BEFORE,
         DB_UNIQUE, DB_UNIQUE_IDENTITY } = helpers
 
+const url = 'http://localhost:3005/questions.csv'
+
 const scenarios = require('./data-sources/scenarios.json')
-const myRequest = new Request('http://fricze.usermd.net/persea/src/data-sources/questions.csv');
+const myRequest = new Request(url)
 
 const questionHeads = [
     "question_id", "question_text", "answerA_text", "answerA_action",
@@ -22,14 +24,14 @@ const questionHeads = [
 ].map(e => `question/${e}`)
 
 fetch(myRequest)
- .then((response) => response.text()).then(x => Papa.parse(x).data)
+ .then((response) => response.text())
+ .then(x => Papa.parse(x).data)
  .then(([ heads, ...content ]) => content
-     .map((e) => {
-         return e.map((e, i) => ([heads[i], e]))
-     }))
- .then(questions => nextTx(tx$, toClj(questions.map((questions, idx) => questions.map(
-     ([ name, value ]) => [ DB_ADD, -idx - 1, `question/${name}`, value ]
- )).reduce((acc, el) => acc.concat(el), []))))
+     .map((e) => e.map((e, i) => ([heads[i], e]))))
+ .then(questions =>
+     nextTx(tx$, toClj(questions.map((questions, idx) => questions.map(
+         ([ name, value ]) => [ DB_ADD, -idx - 1, `question/${name}`, value ]
+     )).reduce((acc, el) => acc.concat(el), []))))
 
 const pullQ = `
 (pull ?e [${questionHeads.map(e => `"${e}"`).join(' ')}])

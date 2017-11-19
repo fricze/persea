@@ -8,6 +8,7 @@ import {
     q$, entity$, nextTx
 } from '../data-processing/rx-datascript'
 import { report$, tx$ } from '../db'
+import { Profile } from './Profile'
 
 const { vector, parse, toJs } = mori
 const {
@@ -32,30 +33,11 @@ const Profiles = ({
 }) => {
     profiles = map(a => a[1], profiles)
 
-    const pairs = [
-        ['profile_age_label', 'age'],
-        ['profile_gender_label', 'gender'],
-        ['profile_family_label', 'family'],
-        ['profile_children_label', 'Children'],
-        ['profile_info_label', 'aditional_info'],
-        ['profile_housing_label', 'living_with'],
-    ]
-
     return map(
-        profile => div({
-            key: profile.phonenumber,
-            className: 'Profile' + ((active === profile.phonenumber) ? ' Active': ''),
-            onClick() { activateProfile(profile) }
-        }, [
-            h1(profile.name),
-            div(map(
-                pair => h('p', { key: pair[0] }, [
-                    span(texts[pair[0]] + ': '),
-                    span(profile[pair[1]])
-                ]),
-                pairs
-            ))
-        ]),
+        Profile({
+            texts, activateProfile,
+            active
+        }),
         profiles
     )
 }
@@ -84,7 +66,8 @@ const setProfile = profile => {
         vector(DB_ADD, -1, `profile/living_with`, profile.living_with),
         vector(DB_ADD, -1, `profile/Children`, profile.Children),
         vector(DB_ADD, -1, `profile/aditional_info`, profile.aditional_info),
-        vector(DB_ADD, -1, `profile/posibble_scenarios`, profile.posibble_scenarios),
+        vector(DB_ADD, -1, `profile/posibble_scenarios`,
+               profile.posibble_scenarios),
     ))
 }
 
@@ -112,27 +95,25 @@ class ChooseProfile extends Component {
 
     render() {
         const { texts, profiles } = this.props
-
         const { active } = this.state
-
         const { activateProfile } = this
 
-        return div('#ChooseProfile',
-                   [
-                       h2(texts.choose_profile_h1),
-                       p('.InfoText', texts.choose_profile_text),
-                       div('.Profiles', Profiles({
-                           profiles: this.state.randomProfiles, texts, activateProfile, active
-                       })),
-                       div('.ChooseProfileButton', [
-                           div('.Container', [
-                               button({
-                                   onClick: () => this.state.profile && setProfile(this.state.profile)
-                               }, texts.continue_button)
-                           ])
-                       ])
-                   ]
-        )
+        return div('#ChooseProfile', [
+            h2(texts.choose_profile_h1),
+            p('.InfoText', texts.choose_profile_text),
+            div('.Profiles', Profiles({
+                profiles: this.state.randomProfiles, texts,
+                activateProfile, active
+            })),
+            div('.ChooseProfileButton', [
+                div('.Container', [
+                    button({
+                        onClick: () => this.state.profile &&
+                                     setProfile(this.state.profile)
+                    }, texts.continue_button)
+                ])
+            ])
+        ])
     }
 }
 

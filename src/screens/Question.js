@@ -9,6 +9,7 @@ import {
 } from '../data-processing/rx-datascript'
 import { datascript, mori, helpers } from 'datascript-mori'
 import { report$, tx$ } from '../db'
+import { Profile } from './Profile'
 
 const { DB_ID, DB_ADD } = helpers
 const { vector, toClj } = mori
@@ -18,8 +19,12 @@ const {
     label, button, input, form
 } = elements(h)
 
-const YourProfile = ({ texts }) => div('#YourProfile', [
+const YourProfile = ({ texts, profile }) => div('#YourProfile', [
     h3(texts.your_profile_header),
+    Profile({
+        texts, activateProfile: () => void 0,
+        active: false
+    })(profile)
 ])
 
 const YourFinSituation = ({ texts, scenario }) => div('#YourFinSituation', [
@@ -80,9 +85,9 @@ const questionHeads = [
     "answerB_action", "answerB_flag"
 ].map(e => `question/${e}`)
 
-const YesNoQuestion = ({ texts, question, scenario }) =>
+const YesNoQuestion = ({ texts, question, scenario, profile }) =>
     div('.Question', [
-        YourProfile({ texts }),
+        YourProfile({ texts, profile }),
         YourFinSituation({ texts, scenario }),
         YesNoQuestionContent({ question, scenario }),
     ])
@@ -256,7 +261,7 @@ class Chat extends Component {
         } = this.props
 
         return div('.Question', [
-            YourProfile({ texts }),
+            YourProfile({ texts, profile }),
             YourFinSituation({ texts, scenario }),
             h(ChatContent, {
                 texts, lekta: this.state.lekta,
