@@ -1,8 +1,8 @@
-import { path, compose, identity, toPairs, merge } from 'ramda'
+import { toPairs, merge } from 'ramda'
 import {
-    q$, entity$, nextTx
+    q$, nextTx
 } from './data-processing/rx-datascript'
-import { datascript, mori, helpers } from 'datascript-mori'
+import { mori, helpers } from 'datascript-mori'
 import { report$, tx$ } from './db'
 import Papa from 'papaparse'
 import { combineLatest } from 'rxjs/observable/combineLatest'

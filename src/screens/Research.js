@@ -1,32 +1,28 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import './Research.css'
 import h from 'react-hyperscript'
-import { path, compose, identity,
+import { identity,
          T, always, cond, lte, gte, pathOr } from 'ramda'
 import elements from 'hyperscript-helpers'
 import { map } from 'ramda'
 import {
-  q$, entity$, nextTx
+  nextTx
 } from '../data-processing/rx-datascript'
-import { report$, tx$ } from '../db'
+import { tx$ } from '../db'
 import { mori, helpers } from 'datascript-mori'
 import countries from 'world-countries'
 
 const countriesList = countries.map(c => c.name.common)
 
-const { vector, parse, toJs } = mori
+const { vector } = mori
 const {
     DB_ADD
 } = helpers
 
 const {
     input, label, select, option, button,
-    h1, h2, p, div, ul, li, span, form
+    h2, p, div, span, form
 } = elements(h)
-
-const comp = (...fns) => compose(...fns, identity)
-
-const textFromState = comp(p, path(['text']))
 
 const setData = state => nextTx(tx$, vector(
     vector(DB_ADD, -1, `person/data`, true),
@@ -92,7 +88,6 @@ class Research extends Component {
 
     render() {
         const { texts } = this.props
-        const { handleChange } = this
 
         return div('#Research', [
             h2(texts.research_h1),

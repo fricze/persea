@@ -1,9 +1,8 @@
-import { path, compose, identity, map, toPairs, range } from 'ramda'
+import { map } from 'ramda'
 import h from 'react-hyperscript'
 import elements from 'hyperscript-helpers'
 const {
-  input, label, select, option, button,
-  h1, h2, p, div, ul, li, span, form
+  h1, div, span,
 } = elements(h)
 
 const pairs = [
