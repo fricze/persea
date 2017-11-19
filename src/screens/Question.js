@@ -1,21 +1,19 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import './Question.css'
 import h from 'react-hyperscript'
-import { path, compose, identity } from 'ramda'
 import elements from 'hyperscript-helpers'
-import { map } from 'ramda'
 import {
-    nextTx, q$, entity$
+    nextTx
 } from '../data-processing/rx-datascript'
-import { datascript, mori, helpers } from 'datascript-mori'
-import { report$, tx$ } from '../db'
+import { mori, helpers } from 'datascript-mori'
+import { tx$ } from '../db'
 import { Profile } from './Profile'
 
-const { DB_ID, DB_ADD } = helpers
+const { DB_ADD } = helpers
 const { vector, toClj } = mori
 
 const {
-    h1, h2, h3, p, div, ul, li, span,
+    h3, p, div, span,
     label, button, input, form
 } = elements(h)
 
@@ -78,16 +76,6 @@ const YesNoQuestionContent = ({ question, scenario }) => {
 }
 
 const LastQuestionContent = ({ lastQuestion, scenario }) => {
-    const amount = scenario["scenario/starting_amount"]
-
-    const _questions = scenario['scenario/questions'].map(
-        x => x['question/question_id']
-    ).slice(1)
-
-    const questions = toClj(_questions)
-
-    const finished = !_questions.length
-
     const answers = [
         'last_question_answerA',
         'last_question_answerB',
@@ -117,12 +105,6 @@ const OpenQuestionContent = ({ question, texts }) =>
             span(texts.currency_shortcut),
         ]),
     ])
-
-const questionHeads = [
-    "question_id", "question_text", "answerA_text",
-    "answerA_action", "answerA_flag", "answerB_text",
-    "answerB_action", "answerB_flag"
-].map(e => `question/${e}`)
 
 const YesNoQuestion = ({ texts, question, scenario, profile }) =>
     div('.Question', [
@@ -250,10 +232,10 @@ const lektaData = (lang, phoneNumber) => {
         "language": lang,
         "interface": "Written",
         "operation": "Fluency",
-        "context": `{ \"InputContextData\" : { \"DebtorPhoneNumber\" : \"${phoneNumber}\",
-  		 \"SystemNLGStyle\" : \"polite\",
-	  	 \"PersuasiveStrategy\" :  \"waiter\",
-	  	 \"PersuasiveTechniques\" :\"${randomTechnique}\" }}`
+        "context": `{ "InputContextData": { "DebtorPhoneNumber": "${phoneNumber}",
+        "SystemNLGStyle": "polite",
+        "PersuasiveStrategy": "waiter",
+        "PersuasiveTechniques": "${randomTechnique}" }}`
     }
 }
 
@@ -313,8 +295,7 @@ class Chat extends Component {
 
     componentWillMount() {
         const {
-            texts, scenario,
-            person, profile, lang
+            profile, lang
         } = this.props
 
         const data = lektaData(lang, profile["phonenumber"])
@@ -343,7 +324,7 @@ class Chat extends Component {
     render() {
         const {
             texts, scenario,
-            person, profile, lang
+            profile
         } = this.props
 
         return div('.Question', [

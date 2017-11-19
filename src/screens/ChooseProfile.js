@@ -1,7 +1,7 @@
 import { Component } from 'react'
 import './ChooseProfile.css'
 import h from 'react-hyperscript'
-import { path, compose, identity, map, range } from 'ramda'
+import { map, range } from 'ramda'
 import elements from 'hyperscript-helpers'
 import { mori, helpers } from 'datascript-mori'
 import {
@@ -16,17 +16,9 @@ const {
 } = helpers
 
 const {
-    input, label, select, option, button,
-    h1, h2, p, div, ul, li, span, form
+    button,
+    h2, p, div
 } = elements(h)
-
-const comp = (...fns) => compose(...fns, identity)
-
-const textFromState = comp(p, path(['text']))
-
-const Labeled = (a = 'Label', b) => h('label', a, [
-    b
-])
 
 const Profiles = ({
     profiles, texts, activateProfile, active
@@ -84,7 +76,7 @@ class ChooseProfile extends Component {
     }
 
     render() {
-        const { texts, profiles } = this.props
+        const { texts } = this.props
         const { active } = this.state
         const { activateProfile } = this
 
@@ -92,7 +84,8 @@ class ChooseProfile extends Component {
             h2(texts.choose_profile_h1),
             p('.InfoText', texts.choose_profile_text),
             div('.Profiles', Profiles({
-                profiles: this.state.randomProfiles, texts,
+                profiles: this.state.randomProfiles,
+                texts,
                 activateProfile, active
             })),
             div('.ChooseProfileButton', [
