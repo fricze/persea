@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import './Research.css'
 import h from 'react-hyperscript'
-import { path, compose, identity } from 'ramda'
+import { path, compose, identity,
+         T, always, cond, lte, gte, pathOr } from 'ramda'
 import elements from 'hyperscript-helpers'
 import { map } from 'ramda'
 import {
@@ -9,6 +10,9 @@ import {
 } from '../data-processing/rx-datascript'
 import { report$, tx$ } from '../db'
 import { mori, helpers } from 'datascript-mori'
+import countries from 'world-countries'
+
+const countriesList = countries.map(c => c.name.common)
 
 const { vector, parse, toJs } = mori
 const {
@@ -45,12 +49,20 @@ const formKeys = [
 
 class Research extends Component {
     state = {
-        age: 0,
+        age: 18,
         education: 'no_education',
-        country: '',
+        country: countriesList[0],
         email: '',
         check: false,
         gender: 'female',
+    }
+
+    formTransformers = {
+        age: cond([
+            [lte(65), always(65)],
+            [gte(18), always(18)],
+            [T, identity]
+        ])
     }
 
     handleChange(k, v) {
@@ -58,6 +70,14 @@ class Research extends Component {
             [k]: v
         })
     }
+
+    normalizeState = debounce((k, v) => {
+        const transformer = pathOr(identity, [k], this.formTransformers)
+
+        this.setState({
+            [k]: transformer(v)
+        })
+    }, 500)
 
     allSet = () => formKeys.map(key => this.state[key])
                            .every(identity)
@@ -101,7 +121,13 @@ class Research extends Component {
 
                 label('.label-first', [ input({
                     type: 'number',
-                    value: this.state.age, onChange: e => this.handleChange('age', e.target.value)
+                    max: 65,
+                    min: 18,
+                    value: this.state.age,
+                    onChange: e => {
+                        this.normalizeState('age', e.target.value)
+                        this.handleChange('age', e.target.value)
+                    }
                 }), span(texts.age_label) ]),
 
                 label('.label-first', [
@@ -119,10 +145,15 @@ class Research extends Component {
                     span(texts.education_label)
                 ]),
 
-                label('.label-first', [ input({
-                    type: 'text',
-                    value: this.state.country, onChange: e => this.handleChange('country', e.target.value)
-                }), span(texts.country_label) ]),
+
+                label('.label-first', [
+                    select({
+                        value: this.state.country,
+                        onChange: e => this.handleChange('country', e.target.value)
+                    }, map(x => option(x), countriesList)
+                    ),
+                    span(texts.country_label)
+                ]),
 
                 label('.label-first', [ input({
                     type: 'text',
@@ -132,6 +163,17 @@ class Research extends Component {
                 button({ className: this.state.formError ? 'Error' : '' }, 'Start'),
             ]),
         ]) }
+}
+
+function debounce(fn, delay) {
+    var timer = null
+    return function () {
+        var context = this, args = arguments
+        clearTimeout(timer)
+        timer = setTimeout(function () {
+            fn.apply(context, args)
+        }, delay)
+    }
 }
 
 export default Research;
