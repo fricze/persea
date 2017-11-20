@@ -105,6 +105,16 @@ const finalAnswer$ = q$(
     ...toJsTransformers
 )
 
+const answers$ = q$(
+    report$,
+    parse(`[:find ?q ?a
+            :where [?e "answered/id" ?q]
+                   [?e "answered/answer" ?a]]`)
+).pipe(
+    rxMap(x => toJs(x)),
+    filter(x => x && x[0] && x[0][0]),
+)
+
 const profileData$ = q$(
     report$,
     parse(`[:find ?d
@@ -180,19 +190,21 @@ class App extends Component {
 
         combineLatest(
             finalAnswer$,
+            answers$,
             profileData$,
             personData$,
             chosenScenario$,
             lektaChat$,
             lang$,
-            (finalAnswer, profile, person, scenario, lekta, lang) => ({
+            (finalAnswer, answers, profile, person, scenario, lekta, lang) => ({
                 finalAnswer, profile, person, scenario, lekta, lang
             })
         ).pipe(
             map(postData => ({
                 lang: postData.lang,
-                lekta: postData.lekta,
-                person: postData.person,
+                lekta: JSON.stringify(postData.lekta),
+                answers: JSON.stringify(postData.answers),
+                person: JSON.stringify(postData.person),
                 finalAnswer: postData.finalAnswer,
                 profileId: postData.profile.id,
                 scenarioName: postData.scenario['scenario/name'],

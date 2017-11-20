@@ -31,13 +31,20 @@ const YourFinSituation = ({ texts, scenario }) => div('#YourFinSituation', [
     div('.Row', [ label(texts.planned_expenditure_label + ': '), span(scenario['scenario/planed_expenditure']) ]),
 ])
 
-const transactAmount = (name, questions, amount, finished) => nextTx(tx$, vector(
+const transactAmount = (name, questions, amount, finished,
+                        question, answer
+) => nextTx(tx$, vector(
     vector(DB_ADD, vector('scenario/name', name),
            'scenario/questions', questions),
     vector(DB_ADD, vector('scenario/name', name),
            'scenario/starting_amount', amount),
     vector(DB_ADD, vector('scenario/name', name),
            'scenario/finished', finished),
+
+    vector(DB_ADD, -1,
+           'answered/id', question),
+    vector(DB_ADD, -1,
+           'answered/answer', answer),
 ))
 
 const transactFinalAnswer = (answer) =>
@@ -62,14 +69,14 @@ const YesNoQuestionContent = ({ question, scenario }) => {
             onClick: () => transactAmount(
                 scenario['scenario/name'], questions,
                 amount + Number(question['question/answerA_action']),
-                finished
+                finished, question['question/question_id'], 'A'
             )
         }, question['question/answerA_text']),
         button({
             onClick: () => transactAmount(
                 scenario['scenario/name'], questions,
                 amount + Number(question['question/answerB_action']),
-                finished
+                finished, question['question/question_id'], 'B'
             )
         }, question['question/answerB_text']),
     ])
