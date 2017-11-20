@@ -3,7 +3,7 @@ import './App.css'
 import h from 'react-hyperscript'
 import {
     toPairs, pathOr, range, contains, equals,
-    and
+    and, map
 } from 'ramda'
 import elements from 'hyperscript-helpers'
 import {
@@ -160,10 +160,6 @@ class App extends Component {
 
         profileData$.subscribe(x => this.setState({ profile: x }))
 
-        /* finalAnswer$.subscribe(x => {
-         *     debugger
-         * })*/
-
         const chosenScenario$ = combineLatest(
             scenariosData$,
             profileData$,
@@ -181,6 +177,32 @@ class App extends Component {
         chosenScenario$.subscribe(x => {
             this.setState({ scenario: x })
         })
+
+        combineLatest(
+            finalAnswer$,
+            profileData$,
+            personData$,
+            chosenScenario$,
+            lektaChat$,
+            lang$,
+            (finalAnswer, profile, person, scenario, lekta, lang) => ({
+                finalAnswer, profile, person, scenario, lekta, lang
+            })
+        ).pipe(
+            map(postData => ({
+                lang: postData.lang,
+                lekta: postData.lekta,
+                person: postData.person,
+                finalAnswer: postData.finalAnswer,
+                profileId: postData.profile.id,
+                scenarioName: postData.scenario['scenario/name'],
+            }))
+        ).subscribe(
+            postData => fetch('http://localhost:3010/final', {
+                method: "POST",
+                body: JSON.stringify(postData),
+            }).then((response) => response.text())
+        )
     }
 
     state = {
