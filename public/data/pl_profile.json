@@ -1,0 +1,1370 @@
+[
+  {
+     "id":"000000115"
+    ,"phonenumber":"100000042"
+    ,"name":"Zofia Stasiak"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem"
+    ,"Children":"0"
+    ,"aditional_info":"Lubi powieści o miłości, włoskie makarony i sztukę nowoczesną. Od niedawna szczęśliwa mężatka. Chciałaby małego pieska."
+    ,"posibble_scenarios":["mortgage37", "mortgage38"]
+  },
+  {
+     "id":"000000116"
+    ,"phonenumber":"100000043"
+    ,"name":"Anna Marciniak"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem i dziećmi"
+    ,"Children":"1"
+    ,"aditional_info":"Interesuje się wspinaczką górską, uczy się francuskiego. Jej największe marzenie to zdobycie Korony Świata razem ze swoją rodziną."
+    ,"posibble_scenarios":["creditcard37", "creditcard38"]
+  },
+  {
+     "id":"000000117"
+    ,"phonenumber":"100000044"
+    ,"name":"Adrianna Kwiatkowska"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"panna"
+    ,"living_with":"sama"
+    ,"Children":"0"
+    ,"aditional_info":"Lubi truskawki, czekoladę i chrzan. Zafascynowana kulturą Japonii, planuje niedługo zacząć kurs japońśkiego."
+    ,"posibble_scenarios":["phone37", "phone38"]
+  },
+  {
+     "id":"000000118"
+    ,"phonenumber":"100000045"
+    ,"name":"Karolina Wierzbicka"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"panna"
+    ,"living_with":"partnerem"
+    ,"Children":"0"
+    ,"aditional_info":"Studentka psychologii, jej hobby to obserwowanie zachowań ludzi w przestrzeni publicznej."
+    ,"posibble_scenarios":["mortgage39", "mortgage40"]
+  },
+  {
+     "id":"000000119"
+    ,"phonenumber":"100000046"
+    ,"name":"Magdalena Chmielewska"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"panna"
+    ,"living_with":"rodzicami"
+    ,"Children":"0"
+    ,"aditional_info":"Studentka ASP, ma duszę artystki. Przygotowuje wystawę swoich prac związanych z mózgiem człowieka."
+    ,"posibble_scenarios":["creditcard39", "creditcard40"]
+  },
+  {
+     "id":"000000120"
+    ,"phonenumber":"100000047"
+    ,"name":"Zuzanna Osińska"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"panna"
+    ,"living_with":"dziećmi"
+    ,"Children":"1"
+    ,"aditional_info":"Lubi wolne wieczory i wycieczki górskie. Nie pogardzi dobrą karkówką z grilla."
+    ,"posibble_scenarios":["phone39", "phone40"]
+  },
+  {
+     "id":"000000121"
+    ,"phonenumber":"100000048"
+    ,"name":"Izabela Maciejewska"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"panna"
+    ,"living_with":"partnerem i dziećmi"
+    ,"Children":"1"
+    ,"aditional_info":"Jest aktywistką społeczną. Angażuje się w różne akcje charytatywne. Wolny czas spędza na siłowni."
+    ,"posibble_scenarios":["mortgage41", "mortgage42"]
+  },
+  {
+     "id":"000000122"
+    ,"phonenumber":"100000039"
+    ,"name":"Natalia Matuszewska"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"panna"
+    ,"living_with":"sama"
+    ,"Children":"0"
+    ,"aditional_info":"Najbardziej lubi kotki i masło oraz zakupy przez internet. Uważa, że nikt jej nie kocha, dlatego próbuje kupić sobie szczęście."
+    ,"posibble_scenarios":["mortgage43", "mortgage44"]
+  },
+  {
+     "id":"000000123"
+    ,"phonenumber":"100000040"
+    ,"name":"Emilia Urbańska"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"panna"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Interesują ją sztuki audio-wizualne. Współorganizuje festiwal muzyki elektronicznej, lubi jogę."
+    ,"posibble_scenarios":["creditcard41", "creditcard42"]
+  },
+  {
+     "id":"000000124"
+    ,"phonenumber":"100000041"
+    ,"name":"Katarzyna Nowak"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"panna"
+    ,"living_with":"partnerem"
+    ,"Children":"0"
+    ,"aditional_info":"Jest wegetarianką, lubi hummus i sałatkę z tofu. Uczy się języka rosyjskiego."
+    ,"posibble_scenarios":["phone41", "phone42"]
+  },
+  {
+     "id":"000000125"
+    ,"phonenumber":"100000042"
+    ,"name":"Zofia Stasiak"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"panna"
+    ,"living_with":"partnerem i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Lubi dekorować wnętrza. Interesuje się projektowaniem mebli, lubi domowe konfiruty."
+    ,"posibble_scenarios":["mortgage45", "mortgage46"]
+  },
+  {
+     "id":"000000126"
+    ,"phonenumber":"100000043"
+    ,"name":"Anna Marciniak"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem"
+    ,"Children":"0"
+    ,"aditional_info":"Nie przepada za mediami społecznościowymi. Lubi czytać prawdziwe książki i piec babeczki."
+    ,"posibble_scenarios":["creditcard43", "creditcard44"]
+  },
+  {
+     "id":"000000127"
+    ,"phonenumber":"100000044"
+    ,"name":"Adrianna Kwiatkowska"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Ma konia w prywatnej stajni. Mąż często obdarowuje ją prezentami-niespodziankami."
+    ,"posibble_scenarios":["phone43", "phone44"]
+  },
+  {
+     "id":"000000128"
+    ,"phonenumber":"100000045"
+    ,"name":"Karolina Wierzbicka"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem"
+    ,"Children":"0"
+    ,"aditional_info":"Chciałaby zostać supermodelką plus size. Interesuje się modą i projektowaniem, lubi kajmak."
+    ,"posibble_scenarios":["mortgage47", "mortgage48"]
+  },
+  {
+     "id":"000000129"
+    ,"phonenumber":"100000046"
+    ,"name":"Magdalena Chmielewska"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Jej hobby to gotowanie. W niedziele zawsze gotuje rosół, a w poniedziałek pomidorówkę."
+    ,"posibble_scenarios":["creditcard45", "creditcard46"]
+  },
+  {
+     "id":"000000130"
+    ,"phonenumber":"100000047"
+    ,"name":"Zuzanna Osińska"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"rozwiedziona"
+    ,"living_with":"sama"
+    ,"Children":"0"
+    ,"aditional_info":"Trenuje crossfit, bardzo lubi ćwiczenia fizyczne. Interesuje się życiem celebrytów."
+    ,"posibble_scenarios":["phone45", "phone46"]
+  },
+  {
+     "id":"000000131"
+    ,"phonenumber":"100000048"
+    ,"name":"Izabela Maciejewska"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"rozwiedziona"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Lubi robić zakupy w galeriach handlowych. Wyszukiwanie promocji to jej pasja."
+    ,"posibble_scenarios":["mortgage49", "mortgage50"]
+  },
+  {
+     "id":"000000132"
+    ,"phonenumber":"100000039"
+    ,"name":"Natalia Matuszewska"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"panna"
+    ,"living_with":"sama"
+    ,"Children":"0"
+    ,"aditional_info":"Uczy języka angielskiego w szkole podstawowej. Jej hobby to wycinanki."
+    ,"posibble_scenarios":["mortgage51", "mortgage52"]
+  },
+  {
+     "id":"000000133"
+    ,"phonenumber":"100000040"
+    ,"name":"Emilia Urbańska"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"panna"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Lubi oglądać filmy i seriale. Woli jeść na mieście niż gotować."
+    ,"posibble_scenarios":["creditcard47", "creditcard48"]
+  },
+  {
+     "id":"000000134"
+    ,"phonenumber":"100000041"
+    ,"name":"Katarzyna Nowak"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"panna"
+    ,"living_with":"partnerem"
+    ,"Children":"0"
+    ,"aditional_info":"Lubi jeść popcorn i oglądać seriale. Czasami czyta ksiązki przygodowe."
+    ,"posibble_scenarios":["phone47", "phone48"]
+  },
+  {
+     "id":"000000135"
+    ,"phonenumber":"100000042"
+    ,"name":"Zofia Stasiak"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"panna"
+    ,"living_with":"partnerem i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Lubi marnować czas. Zbiera stare zegary."
+    ,"posibble_scenarios":["mortgage53", "mortgage54"]
+  },
+  {
+     "id":"000000136"
+    ,"phonenumber":"100000043"
+    ,"name":"Anna Marciniak"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem"
+    ,"Children":"0"
+    ,"aditional_info":"Instersuje się motoryzacją, ma swój warsztat, lubi odnawiać stare samochody."
+    ,"posibble_scenarios":["creditcard49", "creditcard50"]
+  },
+  {
+     "id":"000000137"
+    ,"phonenumber":"100000044"
+    ,"name":"Adrianna Kwiatkowska"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Robi na drutach czapki i szaliki. Lubi też oglądać wyścigi psich zaprzęgów."
+    ,"posibble_scenarios":["phone49", "phone50"]
+  },
+  {
+     "id":"000000138"
+    ,"phonenumber":"100000045"
+    ,"name":"Karolina Wierzbicka"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem"
+    ,"Children":"0"
+    ,"aditional_info":"Lubi robić zdjęcia i publikować je w mediach społecznościowych. Hobbystycznie szyje ozdobne poszwy na poduszki."
+    ,"posibble_scenarios":["mortgage55", "mortgage56"]
+  },
+  {
+     "id":"000000139"
+    ,"phonenumber":"100000046"
+    ,"name":"Magdalena Chmielewska"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Uczy się języka migowego. Lubi kupować sobie eleganckie filiżanki."
+    ,"posibble_scenarios":["creditcard51", "creditcard52"]
+  },
+  {
+     "id":"000000140"
+    ,"phonenumber":"100000047"
+    ,"name":"Zuzanna Osińska"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"rozwiedziona"
+    ,"living_with":"sama"
+    ,"Children":"0"
+    ,"aditional_info":"Inwestuje w siebie, chodzi na lekcje tańca, trenuje boks. Zaczęła też kurs projektowania stron internetowych."
+    ,"posibble_scenarios":["phone51", "phone52"]
+  },
+  {
+     "id":"000000141"
+    ,"phonenumber":"100000048"
+    ,"name":"Izabela Maciejewska"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"rozwiedziona"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Lubi pielęgnować drewno. Ma kolekcję starych mebli i chodzi na zumbę."
+    ,"posibble_scenarios":["mortgage57", "mortgage58"]
+  },
+  {
+     "id":"000000142"
+    ,"phonenumber":"100000035"
+    ,"name":"Ada Kowalska"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem"
+    ,"Children":"0"
+    ,"aditional_info":"Robi ręcznie biżuterię z plastiku do recyklingu. Leży jej na sercu los Ziemi."
+    ,"posibble_scenarios":["phone53", "phone54"]
+  },
+  {
+     "id":"000000143"
+    ,"phonenumber":"100000036"
+    ,"name":"Oliwia Nawrocka"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Lubi oglądać mecze piłki nożnej, jeść kotlety i tańczyć. Chodzi na kurs salsy."
+    ,"posibble_scenarios":["mortgage59", "mortgage60"]
+  },
+  {
+     "id":"000000144"
+    ,"phonenumber":"100000037"
+    ,"name":"Wiktoria Czerwińska"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem"
+    ,"Children":"0"
+    ,"aditional_info":"Walczy o prawa zwięrząt futerkowych. Lubi ciepłe swetry."
+    ,"posibble_scenarios":["creditcard53", "creditcard44"]
+  },
+  {
+     "id":"000000145"
+    ,"phonenumber":"100000038"
+    ,"name":"Hanna Wójcik"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Uczestniczy w lekcjach śpiewu. Marzy o występach na wielkich scenach i o nagraniu własnej płyty."
+    ,"posibble_scenarios":["phone55", "phone56"]
+  },
+  {
+     "id":"000000146"
+    ,"phonenumber":"100000039"
+    ,"name":"Natalia Matuszewska"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"rozwiedziona"
+    ,"living_with":"sama"
+    ,"Children":"0"
+    ,"aditional_info":"Jej pasją jest prawo patentowe. Chciałaby wymyślić jakiś przełomowy wynalazek."
+    ,"posibble_scenarios":["mortgage61", "mortgage62"]
+  },
+  {
+     "id":"000000147"
+    ,"phonenumber":"100000040"
+    ,"name":"Emilia Urbańska"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"rozwiedziona"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Bardzo lubi domowe pieczywo własnego wyrobu. Hobbystycznie układa limeryki."
+    ,"posibble_scenarios":["creditcard55", "creditcard56"]
+  },
+  {
+     "id":"000000148"
+    ,"phonenumber":"100000041"
+    ,"name":"Katarzyna Nowak"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"panna"
+    ,"living_with":"sama"
+    ,"Children":"0"
+    ,"aditional_info":"Jest wolontariuszką w schronisku dla porzuconych psów. Lubi pierogi z truskawkami i śmietaną."
+    ,"posibble_scenarios":["phone57", "phone58"]
+  },
+  {
+     "id":"000000149"
+    ,"phonenumber":"100000042"
+    ,"name":"Zofia Stasiak"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"panna"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Często spotyka się z koleżankami. Robi na zimę przetwory z owoców."
+    ,"posibble_scenarios":["mortgage63", "mortgage64"]
+  },
+  {
+     "id":"000000150"
+    ,"phonenumber":"100000043"
+    ,"name":"Anna Marciniak"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"panna"
+    ,"living_with":"partnerem"
+    ,"Children":"0"
+    ,"aditional_info":"Jej hobby to garncarstwo. Lubi też malować i śpiewać. Od czasu do czasu stepuje."
+    ,"posibble_scenarios":["creditcard57", "creditcard58"]
+  },
+  {
+     "id":"000000151"
+    ,"phonenumber":"100000044"
+    ,"name":"Adrianna Kwiatkowska"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"panna"
+    ,"living_with":"partnerem i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Dla przyjemności haftuje. Najbardziej lubi jeść kanapki z serkiem chrzanowym."
+    ,"posibble_scenarios":["phone59", "phone60"]
+  },
+  {
+     "id":"000000152"
+    ,"phonenumber":"100000045"
+    ,"name":"Karolina Wierzbicka"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem"
+    ,"Children":"2"
+    ,"aditional_info":"Niedawno ukończyła kurs zarządzania małym biznesem. Myśli o założeniu własnej działalności, w czasie wolnym pływa."
+    ,"posibble_scenarios":["mortgage65", "mortgage66"]
+  },
+  {
+     "id":"000000153"
+    ,"phonenumber":"100000046"
+    ,"name":"Magdalena Chmielewska"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"rozwiedziona"
+    ,"living_with":"sama"
+    ,"Children":"2"
+    ,"aditional_info":"Fascynują ją sprawy nadprzyrodzone. Obserwuje ruchy ciał niebieskich i szuka połączeń między nimi a życiem."
+    ,"posibble_scenarios":["creditcard59", "creditcard60"]
+  },
+  {
+     "id":"000000154"
+    ,"phonenumber":"100000047"
+    ,"name":"Zuzanna Osińska"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"panna"
+    ,"living_with":"sama"
+    ,"Children":"2"
+    ,"aditional_info":"Jej pasją jest fotografia. Lubi też oglądać skoki narciarskie."
+    ,"posibble_scenarios":["phone61", "phone62"]
+  },
+  {
+     "id":"000000155"
+    ,"phonenumber":"100000048"
+    ,"name":"Izabela Maciejewska"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"panna"
+    ,"living_with":"partnerem"
+    ,"Children":"2"
+    ,"aditional_info":"Niedawno wróciła do Polski, szuka dobrej okazji na inwestycję swoich oszczędności. Lubi wytrawne białe wino."
+    ,"posibble_scenarios":["mortgage67", "mortgage68"]
+  },
+  {
+     "id":"000000156"
+    ,"phonenumber":"100000033"
+    ,"name":"Julia Pawlik"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem"
+    ,"Children":"0"
+    ,"aditional_info":"Dorabia sobie wymyślając krzyżówki do lokalnej gazety. Nigdy nie miała żadnego zwierzątka."
+    ,"posibble_scenarios":["mortgage69", "mortgage70"]
+  },
+  {
+     "id":"000000157"
+    ,"phonenumber":"100000034"
+    ,"name":"Agata Pietrzak"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Należy do koła gospodyń wiejskich. Lubi jeść barszcz czerwony ze skwarkami."
+    ,"posibble_scenarios":["creditcard61", "creditcard62"]
+  },
+  {
+     "id":"000000158"
+    ,"phonenumber":"100000035"
+    ,"name":"Ada Kowalska"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem"
+    ,"Children":"0"
+    ,"aditional_info":"Ciekawią ją nowe technologie i polskie wynalazki. Kolekcjonuje porcelanowe pelikany."
+    ,"posibble_scenarios":["phone64", "phone65"]
+  },
+  {
+     "id":"000000159"
+    ,"phonenumber":"100000036"
+    ,"name":"Oliwia Nawrocka"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Jest klasyczną zbieraczką. Uważa, że wszystko może się kiedyś przydać. Ma fretkę."
+    ,"posibble_scenarios":["mortgage71", "mortgage72"]
+  },
+  {
+     "id":"000000160"
+    ,"phonenumber":"100000037"
+    ,"name":"Wiktoria Czerwińska"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"rozwiedziona"
+    ,"living_with":"sama"
+    ,"Children":"0"
+    ,"aditional_info":"Jej ulubiona pora roku to lato. Jada wtedy sałatki owocowe i pija drinki z palemką."
+    ,"posibble_scenarios":["creditcard63", "creditcard64"]
+  },
+  {
+     "id":"000000161"
+    ,"phonenumber":"100000038"
+    ,"name":"Hanna Wójcik"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"rozwiedziona"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Zbiera drobne pieniądze do słoików. Liczy, że kiedyś zbierze fortunę. Lubi dobrze pojeść."
+    ,"posibble_scenarios":["phone65", "phone66"]
+  },
+  {
+     "id":"000000162"
+    ,"phonenumber":"100000039"
+    ,"name":"Natalia Matuszewska"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"panna"
+    ,"living_with":"sama"
+    ,"Children":"0"
+    ,"aditional_info":"Ma 4 koty, kocha je ponad wszystko. W wolnym czasie szydełkuje."
+    ,"posibble_scenarios":["mortgage57", "mortgage38"]
+  },
+  {
+     "id":"000000163"
+    ,"phonenumber":"100000040"
+    ,"name":"Emilia Urbańska"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"panna"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Ceni sobie zabiegi relaksujące. Wierzy w moc medycyny niekonwencjonalnej."
+    ,"posibble_scenarios":["creditcard65", "creditcard66"]
+  },
+  {
+     "id":"000000164"
+    ,"phonenumber":"100000041"
+    ,"name":"Katarzyna Nowak"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"panna"
+    ,"living_with":"partnerem"
+    ,"Children":"0"
+    ,"aditional_info":"Jej ulubiony materiał to tiul. Zawsze marzyła, aby być księżniczką."
+    ,"posibble_scenarios":["phone67", "phone68"]
+  },
+  {
+     "id":"000000165"
+    ,"phonenumber":"100000042"
+    ,"name":"Zofia Stasiak"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"panna"
+    ,"living_with":"partnerem i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Interesuje się geopolityczną historią Europy. Lubi kremówki i kawę zbożową."
+    ,"posibble_scenarios":["mortgage67", "mortgage48"]
+  },
+  {
+     "id":"000000166"
+    ,"phonenumber":"100000043"
+    ,"name":"Anna Marciniak"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"zamężna"
+    ,"living_with":"mężem"
+    ,"Children":"2"
+    ,"aditional_info":"Co czwartek gra w brydża z sąsiadami. Robi nalewki z różnych owoców."
+    ,"posibble_scenarios":["creditcard67", "creditcard68"]
+  },
+  {
+     "id":"000000167"
+    ,"phonenumber":"100000044"
+    ,"name":"Adrianna Kwiatkowska"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"rozwiedziona"
+    ,"living_with":"sama"
+    ,"Children":"2"
+    ,"aditional_info":"Lubi organizować przyjęcia. Piecze wyborne torty i babeczki."
+    ,"posibble_scenarios":["phone69", "phone70"]
+  },
+  {
+     "id":"000000168"
+    ,"phonenumber":"100000045"
+    ,"name":"Karolina Wierzbicka"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"panna"
+    ,"living_with":"sama"
+    ,"Children":"2"
+    ,"aditional_info":"Przepada za baleronem na kromce chleba. Jej ulubione zajęcie to spanie."
+    ,"posibble_scenarios":["mortgage49", "mortgage60"]
+  },
+  {
+     "id":"000000169"
+    ,"phonenumber":"100000046"
+    ,"name":"Magdalena Chmielewska"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"panna"
+    ,"living_with":"partnerem"
+    ,"Children":"2"
+    ,"aditional_info":"Lubi działkowanie, uprawia kwiaty ozdobne i rośliny strączkowe. Ma słabość do pereł."
+    ,"posibble_scenarios":["creditcard69", "creditcard70"]
+  },
+  {
+     "id":"000000170"
+    ,"phonenumber":"100000047"
+    ,"name":"Zuzanna Osińska"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"wdowa"
+    ,"living_with":"sama"
+    ,"Children":"2"
+    ,"aditional_info":"Ma kanarka z chorobą genetyczną, poświęca mu większość swojego czasu."
+    ,"posibble_scenarios":["phone69", "phone70"]
+  },
+  {
+     "id":"000000171"
+    ,"phonenumber":"100000048"
+    ,"name":"Izabela Maciejewska"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"wdowa"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Wieczorami poleruje srebra rodowe. Jej ulubiona potrawa to rosół."
+    ,"posibble_scenarios":["mortgage52", "mortgage64"]
+  },
+  {
+     "id":"000000172"
+    ,"phonenumber":"100000058"
+    ,"name":"Piotr Olejniczak"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną"
+    ,"Children":"0"
+    ,"aditional_info":"Jest jubilerem, pasjonują go drogocenne kamienie i minerały. Jest smakoszem owoców morza."
+    ,"posibble_scenarios":["mortgage37", "mortgage38"]
+  },
+  {
+     "id":"000000173"
+    ,"phonenumber":"100000059"
+    ,"name":"Oskar Stankiewicz"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną i dziećmi"
+    ,"Children":"1"
+    ,"aditional_info":"Ćwiczy beatbox. Marzy o tym, żeby skoczyć ze spadochronem."
+    ,"posibble_scenarios":["creditcard37", "creditcard38"]
+  },
+  {
+     "id":"000000174"
+    ,"phonenumber":"100000060"
+    ,"name":"Jarosław Nowak"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"kawaler"
+    ,"living_with":"sam"
+    ,"Children":"0"
+    ,"aditional_info":"Hobbystycznie remontuje stare odbiorniki radiowe. Ma bzika na punkcie porządku."
+    ,"posibble_scenarios":["phone37", "phone38"]
+  },
+  {
+     "id":"000000175"
+    ,"phonenumber":"100000061"
+    ,"name":"Eryk Urbański"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"kawaler"
+    ,"living_with":"partnerką"
+    ,"Children":"0"
+    ,"aditional_info":"Jest przekonany, że najlepsze lata ma jeszcze przed sobą. Kolekcjonuje stare zestawy kart do gry."
+    ,"posibble_scenarios":["mortgage39", "mortgage40"]
+  },
+  {
+     "id":"000000176"
+    ,"phonenumber":"100000062"
+    ,"name":"Jan Kaczmarek"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"kawaler"
+    ,"living_with":"rodzicami"
+    ,"Children":"0"
+    ,"aditional_info":"Student leśnictwa, lubi klocki lego i stare plakaty. Grywa na kontrabasie."
+    ,"posibble_scenarios":["creditcard39", "creditcard40"]
+  },
+  {
+     "id":"000000177"
+    ,"phonenumber":"100000063"
+    ,"name":"Stanisław Bąk"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"kawaler"
+    ,"living_with":"dziećmi"
+    ,"Children":"1"
+    ,"aditional_info":"Jest kierowcą ciężarówki. Lubi przywozić magnesy z miejsc, w których był."
+    ,"posibble_scenarios":["phone39", "phone40"]
+  },
+  {
+     "id":"000000178"
+    ,"phonenumber":"100000064"
+    ,"name":"Antoni Czajkowski"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"kawaler"
+    ,"living_with":"partnerką i dziećmi"
+    ,"Children":"1"
+    ,"aditional_info":"Kręci i montuje filmy z imprez okolicznościwoych. Przepada za muzyką country."
+    ,"posibble_scenarios":["mortgage41", "mortgage42"]
+  },
+  {
+     "id":"000000179"
+    ,"phonenumber":"100000055"
+    ,"name":"Michał Dąbrowski"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"kawaler"
+    ,"living_with":"sam"
+    ,"Children":"0"
+    ,"aditional_info":"Nie interesują go sprawy doczesne. Poszukuje sensu życia, odkłada na wyjazd do Tybetu."
+    ,"posibble_scenarios":["mortgage43", "mortgage44"]
+  },
+  {
+     "id":"000000180"
+    ,"phonenumber":"100000056"
+    ,"name":"Jakub Leszczyński"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"kawaler"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Stolarz-hobbysta, buduje karmniki dla ptaków i budki dla małych psów."
+    ,"posibble_scenarios":["creditcard41", "creditcard42"]
+  },
+  {
+     "id":"000000181"
+    ,"phonenumber":"100000057"
+    ,"name":"Maksymilian Kaczor"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"kawaler"
+    ,"living_with":"partnerką"
+    ,"Children":"0"
+    ,"aditional_info":"Fascynuje go teatr współczesny i połączenie między głosem a ciałem. Należy do amatorskiej grupy aktorskiej."
+    ,"posibble_scenarios":["phone41", "phone42"]
+  },
+  {
+     "id":"000000182"
+    ,"phonenumber":"100000058"
+    ,"name":"Piotr Olejniczak"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"kawaler"
+    ,"living_with":"partnerką i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Wędzi kiełbasy w domowej wędzarni. Nie pogardzi kuflem piwa."
+    ,"posibble_scenarios":["mortgage45", "mortgage46"]
+  },
+  {
+     "id":"000000183"
+    ,"phonenumber":"100000059"
+    ,"name":"Oskar Stankiewicz"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną"
+    ,"Children":"0"
+    ,"aditional_info":"Prowadzi blog o ogrodnictwie. Lubi biegać, bierze udział w maratonach."
+    ,"posibble_scenarios":["creditcard43", "creditcard44"]
+  },
+  {
+     "id":"000000184"
+    ,"phonenumber":"100000060"
+    ,"name":"Jarosław Nowak"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Gra na basie w zespole punk-rockowym. Fascynuje się wampiryzmem."
+    ,"posibble_scenarios":["phone43", "phone44"]
+  },
+  {
+     "id":"000000185"
+    ,"phonenumber":"100000061"
+    ,"name":"Eryk Urbański"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną"
+    ,"Children":"0"
+    ,"aditional_info":"Lubi weekendowe wypady na biwak. Jego przysmak to pstrąg z pieca."
+    ,"posibble_scenarios":["mortgage47", "mortgage48"]
+  },
+  {
+     "id":"000000186"
+    ,"phonenumber":"100000062"
+    ,"name":"Jan Kaczmarek"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Zajmuje się domem. Zawodowo sprząta i gotuje, lubi grać w bierki."
+    ,"posibble_scenarios":["creditcard45", "creditcard46"]
+  },
+  {
+     "id":"000000187"
+    ,"phonenumber":"100000063"
+    ,"name":"Stanisław Bąk"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"rozwiedziony"
+    ,"living_with":"sam"
+    ,"Children":"0"
+    ,"aditional_info":"Zasłynął w internecie jako twórca poradnika dla samotnych mężczyzn. Wieczorami słucha muzyki klasycznej."
+    ,"posibble_scenarios":["phone45", "phone46"]
+  },
+  {
+     "id":"000000188"
+    ,"phonenumber":"100000064"
+    ,"name":"Antoni Czajkowski"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"rozwiedziony"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Jest zapalonym prawnikiem. Po pracy gra w piłkę z kolegami."
+    ,"posibble_scenarios":["mortgage49", "mortgage50"]
+  },
+  {
+     "id":"000000189"
+    ,"phonenumber":"100000055"
+    ,"name":"Michał Dąbrowski"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"kawaler"
+    ,"living_with":"sam"
+    ,"Children":"0"
+    ,"aditional_info":"Bardzo lubi gotować dania kuchni wschodniej. Jego hobby to gry video i sprzątanie."
+    ,"posibble_scenarios":["mortgage51", "mortgage52"]
+  },
+  {
+     "id":"000000190"
+    ,"phonenumber":"100000056"
+    ,"name":"Jakub Leszczyński"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"kawaler"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Płynnie posługuje się greką i łaciną. Śpiewa w chórze kościelnym."
+    ,"posibble_scenarios":["creditcard47", "creditcard48"]
+  },
+  {
+     "id":"000000191"
+    ,"phonenumber":"100000057"
+    ,"name":"Maksymilian Kaczor"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"kawaler"
+    ,"living_with":"partnerką"
+    ,"Children":"0"
+    ,"aditional_info":"Nie lubi wychodzić z domu, ceni sobie komfort wersalki oraz smak orzechowej nalewki."
+    ,"posibble_scenarios":["phone47", "phone48"]
+  },
+  {
+     "id":"000000192"
+    ,"phonenumber":"100000058"
+    ,"name":"Piotr Olejniczak"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"kawaler"
+    ,"living_with":"partnerką i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Lubi oglądać telewizję, najbardziej programy reality-show i teleturnieje. Chciałby wziąć udział w jakimś konkursie."
+    ,"posibble_scenarios":["mortgage53", "mortgage54"]
+  },
+  {
+     "id":"000000193"
+    ,"phonenumber":"100000059"
+    ,"name":"Oskar Stankiewicz"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną"
+    ,"Children":"0"
+    ,"aditional_info":"Jego hobby to nurkowanie. Jest zakochany w literaturze rosyjskiej."
+    ,"posibble_scenarios":["creditcard49", "creditcard50"]
+  },
+  {
+     "id":"000000194"
+    ,"phonenumber":"100000060"
+    ,"name":"Jarosław Nowak"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Interesuje go biologia, zwłaszcza pochodzenie człowieka. Marzy o przytuleniu orangutana."
+    ,"posibble_scenarios":["phone49", "phone50"]
+  },
+  {
+     "id":"000000195"
+    ,"phonenumber":"100000061"
+    ,"name":"Eryk Urbański"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną"
+    ,"Children":"0"
+    ,"aditional_info":"Biega rano i wieczorem. Chciałby być piosenkarzem."
+    ,"posibble_scenarios":["mortgage55", "mortgage56"]
+  },
+  {
+     "id":"000000196"
+    ,"phonenumber":"100000062"
+    ,"name":"Jan Kaczmarek"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Często chadza na spacery do lasu. Lubi zbierać grzyby i obserwować sarny."
+    ,"posibble_scenarios":["creditcard51", "creditcard52"]
+  },
+  {
+     "id":"000000197"
+    ,"phonenumber":"100000063"
+    ,"name":"Stanisław Bąk"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"rozwiedziony"
+    ,"living_with":"sam"
+    ,"Children":"0"
+    ,"aditional_info":"Jest trenerem w szkole dla szczeniąt. Codziennie sprawdza notowania na giełdzie."
+    ,"posibble_scenarios":["phone51", "phone52"]
+  },
+  {
+     "id":"000000198"
+    ,"phonenumber":"100000064"
+    ,"name":"Antoni Czajkowski"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"rozwiedziony"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Marynarz z zamiłowania. Latem jeździ na Mazury, marzy mu się wyprawa na morze."
+    ,"posibble_scenarios":["mortgage57", "mortgage58"]
+  },
+  {
+     "id":"000000199"
+    ,"phonenumber":"100000051"
+    ,"name":"Kamil Wesołowski"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną"
+    ,"Children":"0"
+    ,"aditional_info":"Lubi grać w warcaby, niedawno przeszedł na wegetarianizm. Sam uprawia pomidowy."
+    ,"posibble_scenarios":["phone53", "phone54"]
+  },
+  {
+     "id":"000000200"
+    ,"phonenumber":"100000052"
+    ,"name":"Mikołaj Szczepański"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Interesuje się kryminalistyką. Lubi rozwiązywać zapomniane zagadki z archiwum X."
+    ,"posibble_scenarios":["mortgage59", "mortgage60"]
+  },
+  {
+     "id":"000000201"
+    ,"phonenumber":"100000053"
+    ,"name":"Kacper Markiewicz"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną"
+    ,"Children":"0"
+    ,"aditional_info":"Jego hobby to taniec towarzyski. Lubi świeże jarzyny i majonez."
+    ,"posibble_scenarios":["creditcard53", "creditcard44"]
+  },
+  {
+     "id":"000000202"
+    ,"phonenumber":"100000054"
+    ,"name":"Łukasz Kujawa"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Zbiera stare zapalniczki. Amatorsko gra na flecie poprzecznym."
+    ,"posibble_scenarios":["phone55", "phone56"]
+  },
+  {
+     "id":"000000203"
+    ,"phonenumber":"100000055"
+    ,"name":"Michał Dąbrowski"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"rozwiedziony"
+    ,"living_with":"sam"
+    ,"Children":"0"
+    ,"aditional_info":"Gra na gitarze klasycznej i fortepianie. W weekendy występuje na weselach i imprezach okolicznościowych."
+    ,"posibble_scenarios":["mortgage61", "mortgage62"]
+  },
+  {
+     "id":"000000204"
+    ,"phonenumber":"100000056"
+    ,"name":"Jakub Leszczyński"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"rozwiedziony"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Interesuje się kaligrafią i sztuką sakralną. Jego ulubiony kolor to szkarłat."
+    ,"posibble_scenarios":["creditcard55", "creditcard56"]
+  },
+  {
+     "id":"000000205"
+    ,"phonenumber":"100000057"
+    ,"name":"Maksymilian Kaczor"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"kawaler"
+    ,"living_with":"sam"
+    ,"Children":"0"
+    ,"aditional_info":"Ma 2 koty i papugę. Kocha zwierzęta, w czasie wolnym rozwiązuje krzyżówki i ogląda seriale."
+    ,"posibble_scenarios":["phone57", "phone58"]
+  },
+  {
+     "id":"000000206"
+    ,"phonenumber":"100000058"
+    ,"name":"Piotr Olejniczak"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"kawaler"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Zbiera czapki z daszkiem, chociaż ich nie nosi. Przepada za kuchnią włoską."
+    ,"posibble_scenarios":["mortgage63", "mortgage64"]
+  },
+  {
+     "id":"000000207"
+    ,"phonenumber":"100000059"
+    ,"name":"Oskar Stankiewicz"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"kawaler"
+    ,"living_with":"partnerką"
+    ,"Children":"0"
+    ,"aditional_info":"Przepada za filmami science-fiction i komiksami. Lubi jeść zupy i mizerię."
+    ,"posibble_scenarios":["creditcard57", "creditcard58"]
+  },
+  {
+     "id":"000000208"
+    ,"phonenumber":"100000060"
+    ,"name":"Jarosław Nowak"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"kawaler"
+    ,"living_with":"partnerką i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Lubi majsterkować i odnawiać stare meble. Chciałby kiedyś pojechać na Majorkę."
+    ,"posibble_scenarios":["phone59", "phone60"]
+  },
+  {
+     "id":"000000209"
+    ,"phonenumber":"100000061"
+    ,"name":"Eryk Urbański"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną"
+    ,"Children":"2"
+    ,"aditional_info":"Bardzo lubi filmy przyrodnicze. Chciałby być podróżnikiem."
+    ,"posibble_scenarios":["mortgage65", "mortgage66"]
+  },
+  {
+     "id":"000000210"
+    ,"phonenumber":"100000062"
+    ,"name":"Jan Kaczmarek"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"rozwiedziony"
+    ,"living_with":"sam"
+    ,"Children":"2"
+    ,"aditional_info":"Kinoman, lubi czarno-białe filmy, również nieme. Chciałby pojechać do Paryża."
+    ,"posibble_scenarios":["creditcard59", "creditcard60"]
+  },
+  {
+     "id":"000000211"
+    ,"phonenumber":"100000063"
+    ,"name":"Stanisław Bąk"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"kawaler"
+    ,"living_with":"sam"
+    ,"Children":"2"
+    ,"aditional_info":"Często ogląda filmiki o zwierzętach w internecie. Bawi go czeski humor."
+    ,"posibble_scenarios":["phone61", "phone62"]
+  },
+  {
+     "id":"000000212"
+    ,"phonenumber":"100000064"
+    ,"name":"Antoni Czajkowski"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"kawaler"
+    ,"living_with":"partnerką"
+    ,"Children":"2"
+    ,"aditional_info":"Lubi eksperymentować w kuchni. Chodzi na basen dwa razy w tygodniu."
+    ,"posibble_scenarios":["mortgage67", "mortgage68"]
+  },
+  {
+     "id":"000000213"
+    ,"phonenumber":"100000049"
+    ,"name":"Aleksander Sobolewski"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną"
+    ,"Children":"0"
+    ,"aditional_info":"Jazda na rowerze to jego pasja. Lubi żurek i kwaśne żelki o smaku jabłkowym."
+    ,"posibble_scenarios":["mortgage69", "mortgage70"]
+  },
+  {
+     "id":"000000214"
+    ,"phonenumber":"100000050"
+    ,"name":"Igor Cieślik"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Praca to całe jego życie, boi się przejścia na emeryturę. Szarlotka na ciepło to jego przysmak."
+    ,"posibble_scenarios":["creditcard61", "creditcard62"]
+  },
+  {
+     "id":"000000215"
+    ,"phonenumber":"100000051"
+    ,"name":"Kamil Wesołowski"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną"
+    ,"Children":"0"
+    ,"aditional_info":"Lubi chodzić do kina w niedziele. Jest zagorzałym szachistą."
+    ,"posibble_scenarios":["phone64", "phone65"]
+  },
+  {
+     "id":"000000216"
+    ,"phonenumber":"100000052"
+    ,"name":"Mikołaj Szczepański"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Zbiera znaczki, ma już ponad 20 klaserów. Wieczorami pija burbon."
+    ,"posibble_scenarios":["mortgage71", "mortgage72"]
+  },
+  {
+     "id":"000000217"
+    ,"phonenumber":"100000053"
+    ,"name":"Kacper Markiewicz"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"rozwiedziony"
+    ,"living_with":"sam"
+    ,"Children":"0"
+    ,"aditional_info":"Ma 2 koty i chomika. Lubi malować pejzaże i jeść zupki chińskie."
+    ,"posibble_scenarios":["creditcard63", "creditcard64"]
+  },
+  {
+     "id":"000000218"
+    ,"phonenumber":"100000054"
+    ,"name":"Łukasz Kujawa"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"rozwiedziony"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Lubi umawiać się na randki przez internet. Kolekcjonuje monety."
+    ,"posibble_scenarios":["phone65", "phone66"]
+  },
+  {
+     "id":"000000219"
+    ,"phonenumber":"100000055"
+    ,"name":"Michał Dąbrowski"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"kawaler"
+    ,"living_with":"sam"
+    ,"Children":"0"
+    ,"aditional_info":"Lubi grać w gry online i czatować z nieznajomymi. Hoduje szynszyle."
+    ,"posibble_scenarios":["mortgage57", "mortgage38"]
+  },
+  {
+     "id":"000000220"
+    ,"phonenumber":"100000056"
+    ,"name":"Jakub Leszczyński"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"kawaler"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Umie porozumieć się w 13 językach. Nigdy nie był za granicą. Jego przysmak to nózki w galarecie."
+    ,"posibble_scenarios":["creditcard65", "creditcard66"]
+  },
+  {
+     "id":"000000221"
+    ,"phonenumber":"100000057"
+    ,"name":"Maksymilian Kaczor"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"kawaler"
+    ,"living_with":"partnerką"
+    ,"Children":"0"
+    ,"aditional_info":"Jego hobby to lepienie pierogów. Uczy się hiszpańskiego."
+    ,"posibble_scenarios":["phone67", "phone68"]
+  },
+  {
+     "id":"000000222"
+    ,"phonenumber":"100000058"
+    ,"name":"Piotr Olejniczak"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"kawaler"
+    ,"living_with":"partnerką i dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Jest członkiem grupy rekonstrukcyjnej. Interesuje się początkami państwa polskiego."
+    ,"posibble_scenarios":["mortgage67", "mortgage48"]
+  },
+  {
+     "id":"000000223"
+    ,"phonenumber":"100000059"
+    ,"name":"Oskar Stankiewicz"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"żonaty"
+    ,"living_with":"żoną"
+    ,"Children":"2"
+    ,"aditional_info":"Piwosz. Marzy o założeniu własnego browaru rzemieślniczego. Trzy razy w tygodniu jada pizzę."
+    ,"posibble_scenarios":["creditcard67", "creditcard68"]
+  },
+  {
+     "id":"000000224"
+    ,"phonenumber":"100000060"
+    ,"name":"Jarosław Nowak"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"rozwiedziony"
+    ,"living_with":"sam"
+    ,"Children":"2"
+    ,"aditional_info":"Interesuje się architekturą. Dla przyjemności gra w tenisa."
+    ,"posibble_scenarios":["phone69", "phone70"]
+  },
+  {
+     "id":"000000225"
+    ,"phonenumber":"100000061"
+    ,"name":"Eryk Urbański"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"kawaler"
+    ,"living_with":"sam"
+    ,"Children":"2"
+    ,"aditional_info":"Uwielbia robić zakupy. Ma ponad 50 par butów. Lubi ogórki małosolne."
+    ,"posibble_scenarios":["mortgage49", "mortgage60"]
+  },
+  {
+     "id":"000000226"
+    ,"phonenumber":"100000062"
+    ,"name":"Jan Kaczmarek"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"kawalers"
+    ,"living_with":"partnerką"
+    ,"Children":"2"
+    ,"aditional_info":"Lubi szybkie auta i dziką naturę. Chciałby pojechać na safari."
+    ,"posibble_scenarios":["creditcard69", "creditcard70"]
+  },
+  {
+     "id":"000000227"
+    ,"phonenumber":"100000063"
+    ,"name":"Stanisław Bąk"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"wdowiec"
+    ,"living_with":"sam"
+    ,"Children":"2"
+    ,"aditional_info":"Czyta dużo literatury faktu, rozwiązuje sporo krzyżówek. Lubi flaczki wołowe."
+    ,"posibble_scenarios":["phone69", "phone70"]
+  },
+  {
+     "id":"000000228"
+    ,"phonenumber":"100000064"
+    ,"name":"Antoni Czajkowski"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"wdowiec"
+    ,"living_with":"dziećmi"
+    ,"Children":"2"
+    ,"aditional_info":"Lubi wędkować. Nie lubi rodzynek, ale zawsze doceni domowy sernik."
+    ,"posibble_scenarios":["mortgage52", "mortgage64"]
+  }
+]

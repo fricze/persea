@@ -13,7 +13,7 @@ const { vector, concat, apply, parse, get, first, hashMap, map, find, nth, reduc
 const { DB_ID, DB_ADD, TX_DATA, TX_META, DB_AFTER, DB_BEFORE,
         DB_UNIQUE, DB_UNIQUE_IDENTITY } = helpers
 
-const url = 'http://localhost:3005/questions.csv'
+const url = './questions.csv'
 
 const scenarios = require('./data-sources/scenarios.json')
 const myRequest = new Request(url)

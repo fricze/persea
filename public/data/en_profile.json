@@ -1,0 +1,1369 @@
+[
+  {
+     "id":"000000001"
+    ,"phonenumber":"100000010"
+    ,"name":"Aileen McMillan"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"married"
+    ,"living_with":"husband"
+    ,"children":"0"
+    ,"aditional_info":"Se likes novels about love, Italian pasta and modern art. She recently married and is happy. She would like to have a little doggie."
+    ,"posibble_scenarios":["mortgage73", "mortgage74"]
+  },
+  {
+     "id":"000000002"
+    ,"phonenumber":"100000011"
+    ,"name":"Yvonne Ost"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"married"
+    ,"living_with":"husband and children"
+    ,"children":"1"
+    ,"aditional_info":"She is interested in mountain climbing, learns French. Her biggest dream is to get the Crown World together with her family."
+    ,"posibble_scenarios":["creditcard73", "creditcard74"]
+  },
+  {
+     "id":"000000003"
+    ,"phonenumber":"100000012"
+    ,"name":"Mandy Robson"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"unmarried"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"She likes strawberries, chocolate and horseradish. She is fascinated by the culture of Japan, plans to soon start the Japanese course."
+    ,"posibble_scenarios":["phone73", "phone74"]
+  },
+  {
+     "id":"000000004"
+    ,"phonenumber":"100000013"
+    ,"name":"Emily Simpson"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner"
+    ,"children":"0"
+    ,"aditional_info":"A student of psychology, her hobby is watching how people behave in public space."
+    ,"posibble_scenarios":["mortgage75", "mortgage76"]
+  },
+  {
+     "id":"000000005"
+    ,"phonenumber":"100000014"
+    ,"name":"Sharon Smyth"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"unmarried"
+    ,"living_with":"parents"
+    ,"children":"0"
+    ,"aditional_info":"Student of art, has a soul of the artist. She prepares an exhibition of her work on the human brain."
+    ,"posibble_scenarios":["creditcard75", "creditcard76"]
+  },
+  {
+     "id":"000000006"
+    ,"phonenumber":"100000015"
+    ,"name":"Lisa Taylor"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"unmarried"
+    ,"living_with":"children"
+    ,"children":"1"
+    ,"aditional_info":"She enjoys free evenings and hiking trips. She loves a good barbeque."
+    ,"posibble_scenarios":["phone75", "phone76"]
+  },
+  {
+     "id":"000000007"
+    ,"phonenumber":"100000016"
+    ,"name":"Claire Tennyson"
+    ,"gender":"female"
+    ,"age":"23"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner and children"
+    ,"children":"1"
+    ,"aditional_info":"She is a social activist. She is involved in various charitable actions, spends free time in the gym."
+    ,"posibble_scenarios":["mortgage77", "mortgage78"]
+  },
+  {
+     "id":"000000008"
+    ,"phonenumber":"100000007"
+    ,"name":"Bryony Lee"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"unmarried"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"She likes kittens and butter and shopping online. She thinks no one loves her, so she tries to buy herself happiness."
+    ,"posibble_scenarios":["mortgage79", "mortgage80"]
+  },
+  {
+     "id":"000000009"
+    ,"phonenumber":"100000008"
+    ,"name":"Mair Mann"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"unmarried"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"She is interested in audio-visual arts. She co-organizes the festival of electronic music, likes yoga."
+    ,"posibble_scenarios":["creditcard77", "creditcard78"]
+  },
+  {
+     "id":"000000010"
+    ,"phonenumber":"100000009"
+    ,"name":"Anna Markwell"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner"
+    ,"children":"0"
+    ,"aditional_info":"She is a vegetarian, likes hummus and a tofu salad. She learns Russian."
+    ,"posibble_scenarios":["phone77", "phone78"]
+  },
+  {
+     "id":"000000011"
+    ,"phonenumber":"100000010"
+    ,"name":"Aileen McMillan"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner and children"
+    ,"children":"2"
+    ,"aditional_info":"She likes to decorate the interior. She is interested in furniture design, likes home confectionery."
+    ,"posibble_scenarios":["mortgage81", "mortgage82"]
+  },
+  {
+     "id":"000000012"
+    ,"phonenumber":"100000011"
+    ,"name":"Yvonne Ost"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"married"
+    ,"living_with":"husband"
+    ,"children":"0"
+    ,"aditional_info":"She does not like social media. She liklovess to read real books and bake muffins."
+    ,"posibble_scenarios":["creditcard79", "creditcard80"]
+  },
+  {
+     "id":"000000013"
+    ,"phonenumber":"100000012"
+    ,"name":"Mandy Robson"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"married"
+    ,"living_with":"husband and children"
+    ,"children":"2"
+    ,"aditional_info":"She has a horse in a private stable. Her husband often gives her gifts - surprises."
+    ,"posibble_scenarios":["phone79", "phone80"]
+  },
+  {
+     "id":"000000014"
+    ,"phonenumber":"100000013"
+    ,"name":"Emily Simpson"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"married"
+    ,"living_with":"husband"
+    ,"children":"0"
+    ,"aditional_info":"She would like to be a plus size supermodel. She is interested in fashion and design, likes a kayak."
+    ,"posibble_scenarios":["mortgage83", "mortgage84"]
+  },
+  {
+     "id":"000000015"
+    ,"phonenumber":"100000014"
+    ,"name":"Sharon Smyth"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"married"
+    ,"living_with":"husband and children"
+    ,"children":"2"
+    ,"aditional_info":"Her hobby is cooking. Always cook broth on Sundays and on tomato soup on Monday."
+    ,"posibble_scenarios":["creditcard81", "creditcard82"]
+  },
+  {
+     "id":"000000016"
+    ,"phonenumber":"100000015"
+    ,"name":"Lisa Taylor"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"divorced"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"She trains crossfit, very likes physical exercise. She is interested in celebrity life."
+    ,"posibble_scenarios":["phone81", "phone82"]
+  },
+  {
+     "id":"000000017"
+    ,"phonenumber":"100000016"
+    ,"name":"Claire Tennyson"
+    ,"gender":"female"
+    ,"age":"30"
+    ,"family_status":"divorced"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"She likes to shop in shopping malls. Searching for a promotion is her passion."
+    ,"posibble_scenarios":["mortgage85", "mortgage86"]
+  },
+  {
+     "id":"000000018"
+    ,"phonenumber":"100000007"
+    ,"name":"Bryony Lee"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"unmarried"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"She teaches German at elementary school. Her hobbies are cutouts."
+    ,"posibble_scenarios":["mortgage87", "mortgage88"]
+  },
+  {
+     "id":"000000019"
+    ,"phonenumber":"100000008"
+    ,"name":"Mair Mann"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"unmarried"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"She likes to watch movies and series. She prefer eating in the city to cooking."
+    ,"posibble_scenarios":["creditcard83", "creditcard84"]
+  },
+  {
+     "id":"000000020"
+    ,"phonenumber":"100000009"
+    ,"name":"Anna Markwell"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner"
+    ,"children":"0"
+    ,"aditional_info":"She likes to eat popcorn and watch TV series. Sometimes she reads adventure books."
+    ,"posibble_scenarios":["phone83", "phone84"]
+  },
+  {
+     "id":"000000021"
+    ,"phonenumber":"100000010"
+    ,"name":"Aileen McMillan"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner and children"
+    ,"children":"2"
+    ,"aditional_info":"She likes to waste time. She collects old clocks."
+    ,"posibble_scenarios":["mortgage89", "mortgage90"]
+  },
+  {
+     "id":"000000022"
+    ,"phonenumber":"100000011"
+    ,"name":"Yvonne Ost"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"married"
+    ,"living_with":"husband"
+    ,"children":"0"
+    ,"aditional_info":"She is a motorist, has her own workshop, likes to renew old cars."
+    ,"posibble_scenarios":["creditcard85", "creditcard86"]
+  },
+  {
+     "id":"000000023"
+    ,"phonenumber":"100000012"
+    ,"name":"Mandy Robson"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"married"
+    ,"living_with":"husband and children"
+    ,"children":"2"
+    ,"aditional_info":"She knits hats and scarves. She also likes to watch dog racing."
+    ,"posibble_scenarios":["phone85", "phone86"]
+  },
+  {
+     "id":"000000024"
+    ,"phonenumber":"100000013"
+    ,"name":"Emily Simpson"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"married"
+    ,"living_with":"husband"
+    ,"children":"0"
+    ,"aditional_info":"She likes to take photos and publish them in social media. She sews hobbystically decorative pillow covers."
+    ,"posibble_scenarios":["mortgage91", "mortgage92"]
+  },
+  {
+     "id":"000000025"
+    ,"phonenumber":"100000014"
+    ,"name":"Sharon Smyth"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"married"
+    ,"living_with":"husband and children"
+    ,"children":"2"
+    ,"aditional_info":"She learns sign language. She likes to buy elegant cups."
+    ,"posibble_scenarios":["creditcard87", "creditcard88"]
+  },
+  {
+     "id":"000000026"
+    ,"phonenumber":"100000015"
+    ,"name":"Lisa Taylor"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"divorced"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"She invests in herself, goes to dance classes, and trains the box. She also started a web design course."
+    ,"posibble_scenarios":["phone87", "phone88"]
+  },
+  {
+     "id":"000000027"
+    ,"phonenumber":"100000016"
+    ,"name":"Claire Tennyson"
+    ,"gender":"female"
+    ,"age":"40"
+    ,"family_status":"divorced"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"She likes to cherish wood. She has a collection of old furniture and practises a zumba."
+    ,"posibble_scenarios":["mortgage93", "mortgage94"]
+  },
+  {
+     "id":"000000028"
+    ,"phonenumber":"100000003"
+    ,"name":"Leanne Derby"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"married"
+    ,"living_with":"husband"
+    ,"children":"0"
+    ,"aditional_info":"She makes hand made plastic jewelry from recycled materials. The fate of the Earth is at stake."
+    ,"posibble_scenarios":["phone89", "phone90"]
+  },
+  {
+     "id":"000000029"
+    ,"phonenumber":"100000004"
+    ,"name":"Sally Fisher"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"married"
+    ,"living_with":"husband and children"
+    ,"children":"2"
+    ,"aditional_info":"She likes to watch football matches, eat chops and dance. She attends a salsa course."
+    ,"posibble_scenarios":["mortgage95", "mortgage96"]
+  },
+  {
+     "id":"000000030"
+    ,"phonenumber":"100000005"
+    ,"name":"Christiane Heffron"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"married"
+    ,"living_with":"husband"
+    ,"children":"0"
+    ,"aditional_info":"She fighs for the right of fur animals. She likes warm sweaters."
+    ,"posibble_scenarios":["creditcard89", "creditcard80"]
+  },
+  {
+     "id":"000000031"
+    ,"phonenumber":"100000006"
+    ,"name":"Alison Lean"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"married"
+    ,"living_with":"husband and children"
+    ,"children":"2"
+    ,"aditional_info":"She participates in singing lessons. She dreams about appearances on big scenes and about recording her own album."
+    ,"posibble_scenarios":["phone91", "phone92"]
+  },
+  {
+     "id":"000000032"
+    ,"phonenumber":"100000007"
+    ,"name":"Bryony Lee"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"divorced"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"Her passion is patent law. She would like to come up with some groundbreaking invention."
+    ,"posibble_scenarios":["mortgage97", "mortgage98"]
+  },
+  {
+     "id":"000000033"
+    ,"phonenumber":"100000008"
+    ,"name":"Mair Mann"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"divorced"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"She likes home-made bread. She writes limericks."
+    ,"posibble_scenarios":["creditcard91", "creditcard92"]
+  },
+  {
+     "id":"000000034"
+    ,"phonenumber":"100000009"
+    ,"name":"Anna Markwell"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"unmarried"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"She is a volunteer at a shelter for abandoned dogs. She likes dumplings with strawberries and sour cream."
+    ,"posibble_scenarios":["phone93", "phone94"]
+  },
+  {
+     "id":"000000035"
+    ,"phonenumber":"100000010"
+    ,"name":"Aileen McMillan"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"unmarried"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"She meets often with friends. She makes fruit compotes for the winter time."
+    ,"posibble_scenarios":["mortgage99", "mortgage100"]
+  },
+  {
+     "id":"000000036"
+    ,"phonenumber":"100000011"
+    ,"name":"Yvonne Ost"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner"
+    ,"children":"0"
+    ,"aditional_info":"Her hobby is pottery. She also likes to paint and sing. From time to time she dance."
+    ,"posibble_scenarios":["creditcard93", "creditcard94"]
+  },
+  {
+     "id":"000000037"
+    ,"phonenumber":"100000012"
+    ,"name":"Mandy Robson"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner and children"
+    ,"children":"2"
+    ,"aditional_info":"She embraces for fun. She likes to eat horseradish sandwiches."
+    ,"posibble_scenarios":["phone95", "phone96"]
+  },
+  {
+     "id":"000000038"
+    ,"phonenumber":"100000013"
+    ,"name":"Emily Simpson"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"married"
+    ,"living_with":"husband"
+    ,"children":"2"
+    ,"aditional_info":"She recently completed a small business management course. She thinks about starting up her own business, in free time she swims."
+    ,"posibble_scenarios":["mortgage101", "mortgage102"]
+  },
+  {
+     "id":"000000039"
+    ,"phonenumber":"100000014"
+    ,"name":"Sharon Smyth"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"divorced"
+    ,"living_with":"alone"
+    ,"children":"2"
+    ,"aditional_info":"She is fascinated by the supernatural. She watches the movements of celestial bodies and looks for connections between them and life."
+    ,"posibble_scenarios":["creditcard95", "creditcard96"]
+  },
+  {
+     "id":"000000040"
+    ,"phonenumber":"100000015"
+    ,"name":"Lisa Taylor"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"unmarried"
+    ,"living_with":"alone"
+    ,"children":"2"
+    ,"aditional_info":"Her passion is photography. She also likes to watch ski jumping on TV."
+    ,"posibble_scenarios":["phone97", "phone98"]
+  },
+  {
+     "id":"000000041"
+    ,"phonenumber":"100000016"
+    ,"name":"Claire Tennyson"
+    ,"gender":"female"
+    ,"age":"50"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner"
+    ,"children":"2"
+    ,"aditional_info":"Recently returned to US, looking for a good opportunity to invest their savings. She likes dry white wine."
+    ,"posibble_scenarios":["mortgage103", "mortgage104"]
+  },
+  {
+     "id":"000000042"
+    ,"phonenumber":"100000001"
+    ,"name":"Leah Barr"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"married"
+    ,"living_with":"husband"
+    ,"children":"0"
+    ,"aditional_info":"She makes up crosswords for the local newspaper. She never had a pet."
+    ,"posibble_scenarios":["mortgage105", "mortgage106"]
+  },
+  {
+     "id":"000000043"
+    ,"phonenumber":"100000002"
+    ,"name":"Estelle Blewitt"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"married"
+    ,"living_with":"husband and children"
+    ,"children":"2"
+    ,"aditional_info":"She belongs to the circle of rural housewives. She likes to eat red borscht with greaves."
+    ,"posibble_scenarios":["creditcard97", "creditcard98"]
+  },
+  {
+     "id":"000000044"
+    ,"phonenumber":"100000003"
+    ,"name":"Leanne Derby"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"married"
+    ,"living_with":"husband"
+    ,"children":"0"
+    ,"aditional_info":"New technologies and inventions are attracted by her. She collects porcelain pelicans."
+    ,"posibble_scenarios":["phone100", "phone101"]
+  },
+  {
+     "id":"000000045"
+    ,"phonenumber":"100000004"
+    ,"name":"Sally Fisher"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"married"
+    ,"living_with":"husband and children"
+    ,"children":"2"
+    ,"aditional_info":"She is a classic picker. She thinks that anything can come in handy. She has a ferret."
+    ,"posibble_scenarios":["mortgage107", "mortgage108"]
+  },
+  {
+     "id":"000000046"
+    ,"phonenumber":"100000005"
+    ,"name":"Christiane Heffron"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"divorced"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"Her favorite time of the year is summer. She is eating then fruit salad and drinks with ice."
+    ,"posibble_scenarios":["creditcard99", "creditcard100"]
+  },
+  {
+     "id":"000000047"
+    ,"phonenumber":"100000006"
+    ,"name":"Alison Lean"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"divorced"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"She collects small money in jars. She counts that she will make a fortune someday. She likes to eat well."
+    ,"posibble_scenarios":["phone101", "phone102"]
+  },
+  {
+     "id":"000000048"
+    ,"phonenumber":"100000007"
+    ,"name":"Bryony Lee"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"unmarried"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"She has four cats, loves them over everything. In her free time she crocheths."
+    ,"posibble_scenarios":["mortgage93", "mortgage74"]
+  },
+  {
+     "id":"000000049"
+    ,"phonenumber":"100000008"
+    ,"name":"Mair Mann"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"unmarried"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"She enjoys spa. She believes in the power of unconventional medicine."
+    ,"posibble_scenarios":["creditcard101", "creditcard102"]
+  },
+  {
+     "id":"000000050"
+    ,"phonenumber":"100000009"
+    ,"name":"Anna Markwell"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner"
+    ,"children":"0"
+    ,"aditional_info":"Her favorite material is tulle. She always dreamed of being a princess."
+    ,"posibble_scenarios":["phone103", "phone104"]
+  },
+  {
+     "id":"000000051"
+    ,"phonenumber":"100000010"
+    ,"name":"Aileen McMillan"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner and children"
+    ,"children":"2"
+    ,"aditional_info":"She is interested in the geopolitical history of Europe. She likes cakes with cream and coffee."
+    ,"posibble_scenarios":["mortgage103", "mortgage84"]
+  },
+  {
+     "id":"000000052"
+    ,"phonenumber":"100000011"
+    ,"name":"Yvonne Ost"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"married"
+    ,"living_with":"husband"
+    ,"children":"2"
+    ,"aditional_info":"She plays bridge with his neighbors every Thursday. She makes tinctures with different fruits."
+    ,"posibble_scenarios":["creditcard103", "creditcard104"]
+  },
+  {
+     "id":"000000053"
+    ,"phonenumber":"100000012"
+    ,"name":"Mandy Robson"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"divorced"
+    ,"living_with":"alone"
+    ,"children":"2"
+    ,"aditional_info":"Shee likes to organize parties. She bakes delicious cakes and muffins."
+    ,"posibble_scenarios":["phone105", "phone106"]
+  },
+  {
+     "id":"000000054"
+    ,"phonenumber":"100000013"
+    ,"name":"Emily Simpson"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"unmarried"
+    ,"living_with":"alone"
+    ,"children":"2"
+    ,"aditional_info":"She loves chocolate pudding. Her favorite activity is sleeping."
+    ,"posibble_scenarios":["mortgage85", "mortgage96"]
+  },
+  {
+     "id":"000000055"
+    ,"phonenumber":"100000014"
+    ,"name":"Sharon Smyth"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner"
+    ,"children":"2"
+    ,"aditional_info":"She likes to farm, cultivate ornamental flowers and legumes. She loves pearls."
+    ,"posibble_scenarios":["creditcard105", "creditcard106"]
+  },
+  {
+     "id":"000000056"
+    ,"phonenumber":"100000015"
+    ,"name":"Lisa Taylor"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"widow"
+    ,"living_with":"alone"
+    ,"children":"2"
+    ,"aditional_info":"She has a bird with genetic disease, she devotes most of her time to this animal."
+    ,"posibble_scenarios":["phone105", "phone106"]
+  },
+  {
+     "id":"000000057"
+    ,"phonenumber":"100000016"
+    ,"name":"Claire Tennyson"
+    ,"gender":"female"
+    ,"age":"60"
+    ,"family_status":"widow"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"She polishes the family silver in the evening. Her favorite dish is broth."
+    ,"posibble_scenarios":["mortgage88", "mortgage100"]
+  },
+  {
+     "id":"000000058"
+    ,"phonenumber":"100000026"
+    ,"name":"Peter McCree"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"married"
+    ,"living_with":"wife"
+    ,"children":"0"
+    ,"aditional_info":"He is a jeweler, he is passionate about precious stones and minerals. He is a seafood gourmet."
+    ,"posibble_scenarios":["mortgage73", "mortgage74"]
+  },
+  {
+     "id":"000000059"
+    ,"phonenumber":"100000027"
+    ,"name":"William Simpson"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"married"
+    ,"living_with":"wife and children"
+    ,"children":"1"
+    ,"aditional_info":"He exercises beatbox. He dreams of parading with a parachute."
+    ,"posibble_scenarios":["creditcard73", "creditcard74"]
+  },
+  {
+     "id":"000000060"
+    ,"phonenumber":"100000028"
+    ,"name":"Cameron Sutherland"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"unmarried"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"He repairs hobbystically old radio receivers. He's crazy about order."
+    ,"posibble_scenarios":["phone73", "phone74"]
+  },
+  {
+     "id":"000000061"
+    ,"phonenumber":"100000029"
+    ,"name":"Barry Trout"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner"
+    ,"children":"0"
+    ,"aditional_info":"He is convinced that the best years are yet to come. He collects old sets of playing cards."
+    ,"posibble_scenarios":["mortgage75", "mortgage76"]
+  },
+  {
+     "id":"000000062"
+    ,"phonenumber":"100000030"
+    ,"name":"John Walden"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"unmarried"
+    ,"living_with":"parents"
+    ,"children":"0"
+    ,"aditional_info":"Forestry student, likes lego blocks and old posters, plays on double bass."
+    ,"posibble_scenarios":["creditcard75", "creditcard76"]
+  },
+  {
+     "id":"000000063"
+    ,"phonenumber":"100000031"
+    ,"name":"Ivan White"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"unmarried"
+    ,"living_with":"children"
+    ,"children":"1"
+    ,"aditional_info":"He's a truck driver. He likes to bring magnets from places he visited."
+    ,"posibble_scenarios":["phone75", "phone76"]
+  },
+  {
+     "id":"000000064"
+    ,"phonenumber":"100000032"
+    ,"name":"Cailean Woods"
+    ,"gender":"male"
+    ,"age":"23"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner and children"
+    ,"children":"1"
+    ,"aditional_info":"He films and edits occasional events. He loves country music."
+    ,"posibble_scenarios":["mortgage77", "mortgage78"]
+  },
+  {
+     "id":"000000065"
+    ,"phonenumber":"100000023"
+    ,"name":"Nigel Green"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"unmarried"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"He does not care about today. He is looking for a sense of life, saves money for his trip to Tibet."
+    ,"posibble_scenarios":["mortgage79", "mortgage80"]
+  },
+  {
+     "id":"000000066"
+    ,"phonenumber":"100000024"
+    ,"name":"George Hainsworth"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"unmarried"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"A carpenter-hobbyist, he builds bird feeders and small dog kennels."
+    ,"posibble_scenarios":["creditcard77", "creditcard78"]
+  },
+  {
+     "id":"000000067"
+    ,"phonenumber":"100000025"
+    ,"name":"Neil Hart"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner"
+    ,"children":"0"
+    ,"aditional_info":"He is fascinated by contemporary theater and the connection between voice and body. He is an amateur actor."
+    ,"posibble_scenarios":["phone77", "phone78"]
+  },
+  {
+     "id":"000000068"
+    ,"phonenumber":"100000026"
+    ,"name":"Peter McCree"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner and children"
+    ,"children":"2"
+    ,"aditional_info":"He smokes sausages in a homemade smokehouse. He can appreciate a good beer."
+    ,"posibble_scenarios":["mortgage81", "mortgage82"]
+  },
+  {
+     "id":"000000069"
+    ,"phonenumber":"100000027"
+    ,"name":"William Simpson"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"married"
+    ,"living_with":"wife"
+    ,"children":"0"
+    ,"aditional_info":"He writes a blog about gardening. He likes to run and participates in marathons."
+    ,"posibble_scenarios":["creditcard79", "creditcard80"]
+  },
+  {
+     "id":"000000070"
+    ,"phonenumber":"100000028"
+    ,"name":"Cameron Sutherland"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"married"
+    ,"living_with":"wife and children"
+    ,"children":"2"
+    ,"aditional_info":"He plays in a punk-rock band. He is fascinated with vampirism."
+    ,"posibble_scenarios":["phone79", "phone80"]
+  },
+  {
+     "id":"000000071"
+    ,"phonenumber":"100000029"
+    ,"name":"Barry Trout"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"married"
+    ,"living_with":"wife"
+    ,"children":"0"
+    ,"aditional_info":"He likes weekend camping trips. His favourite meal is a smoked salmon."
+    ,"posibble_scenarios":["mortgage83", "mortgage84"]
+  },
+  {
+     "id":"000000072"
+    ,"phonenumber":"100000030"
+    ,"name":"John Walden"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"married"
+    ,"living_with":"wife and children"
+    ,"children":"2"
+    ,"aditional_info":"His house, his castle: He professionally cleans and cooks, likes to play the chess."
+    ,"posibble_scenarios":["creditcard81", "creditcard82"]
+  },
+  {
+     "id":"000000073"
+    ,"phonenumber":"100000031"
+    ,"name":"Ivan White"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"divorced"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"He got famed as the creator of the guide for single men in the internet. In the evening he listens to classical music."
+    ,"posibble_scenarios":["phone81", "phone82"]
+  },
+  {
+     "id":"000000074"
+    ,"phonenumber":"100000032"
+    ,"name":"Cailean Woods"
+    ,"gender":"male"
+    ,"age":"30"
+    ,"family_status":"divorced"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"He is an avid lawyer. After work, he plays football with his colleagues."
+    ,"posibble_scenarios":["mortgage85", "mortgage86"]
+  },
+  {
+     "id":"000000075"
+    ,"phonenumber":"100000023"
+    ,"name":"Nigel Green"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"unmarried"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"He likes to cook oriental cuisine. His hobbies are video games and cleaning."
+    ,"posibble_scenarios":["mortgage87", "mortgage88"]
+  },
+  {
+     "id":"000000076"
+    ,"phonenumber":"100000024"
+    ,"name":"George Hainsworth"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"unmarried"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"He is fluent in Greek and Latin. He sings in a church choir."
+    ,"posibble_scenarios":["creditcard83", "creditcard84"]
+  },
+  {
+     "id":"000000077"
+    ,"phonenumber":"100000025"
+    ,"name":"Neil Hart"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner"
+    ,"children":"0"
+    ,"aditional_info":"He does not like to go out of the house, he appreciates the comfort of his bed and the taste of the walnut liqueur."
+    ,"posibble_scenarios":["phone83", "phone84"]
+  },
+  {
+     "id":"000000078"
+    ,"phonenumber":"100000026"
+    ,"name":"Peter McCree"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner and children"
+    ,"children":"2"
+    ,"aditional_info":"He likes to watch television, most reality shows and Millionaire. He would like to take part in some TV show."
+    ,"posibble_scenarios":["mortgage89", "mortgage90"]
+  },
+  {
+     "id":"000000079"
+    ,"phonenumber":"100000027"
+    ,"name":"William Simpson"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"married"
+    ,"living_with":"wife"
+    ,"children":"0"
+    ,"aditional_info":"His hobby is diving. He loves Russian literature."
+    ,"posibble_scenarios":["creditcard85", "creditcard86"]
+  },
+  {
+     "id":"000000080"
+    ,"phonenumber":"100000028"
+    ,"name":"Cameron Sutherland"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"married"
+    ,"living_with":"wife and children"
+    ,"children":"2"
+    ,"aditional_info":"He is interested in biology, especially in the origin of man. He dreams about hugging the orangutan."
+    ,"posibble_scenarios":["phone85", "phone86"]
+  },
+  {
+     "id":"000000081"
+    ,"phonenumber":"100000029"
+    ,"name":"Barry Trout"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"married"
+    ,"living_with":"wife"
+    ,"children":"0"
+    ,"aditional_info":"He runs in the morning and evening. He would like to be a singer."
+    ,"posibble_scenarios":["mortgage91", "mortgage92"]
+  },
+  {
+     "id":"000000082"
+    ,"phonenumber":"100000030"
+    ,"name":"John Walden"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"married"
+    ,"living_with":"wife and children"
+    ,"children":"2"
+    ,"aditional_info":"He often walks into the forest. He likes to collect mushrooms and watch roe deer."
+    ,"posibble_scenarios":["creditcard87", "creditcard88"]
+  },
+  {
+     "id":"000000083"
+    ,"phonenumber":"100000031"
+    ,"name":"Ivan White"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"divorced"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"He is a trainer at a puppy school. He checks the stock market daily."
+    ,"posibble_scenarios":["phone87", "phone88"]
+  },
+  {
+     "id":"000000084"
+    ,"phonenumber":"100000032"
+    ,"name":"Cailean Woods"
+    ,"gender":"male"
+    ,"age":"40"
+    ,"family_status":"divorced"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"He is a loving sailor. In summer he goes to lake Ontario, he dreams of a trip to the sea."
+    ,"posibble_scenarios":["mortgage93", "mortgage94"]
+  },
+  {
+     "id":"000000085"
+    ,"phonenumber":"100000019"
+    ,"name":"Damian Crofts"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"married"
+    ,"living_with":"wife"
+    ,"children":"0"
+    ,"aditional_info":"He likes to play checkers, he recently switched to vegetarianism. He hisself grows tomatoes."
+    ,"posibble_scenarios":["phone89", "phone90"]
+  },
+  {
+     "id":"000000086"
+    ,"phonenumber":"100000020"
+    ,"name":"Paul Daubney"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"married"
+    ,"living_with":"wife and children"
+    ,"children":"2"
+    ,"aditional_info":"He is interested in criminalistics. He likes to solve forgotten riddles from the X archive."
+    ,"posibble_scenarios":["mortgage95", "mortgage96"]
+  },
+  {
+     "id":"000000087"
+    ,"phonenumber":"100000021"
+    ,"name":"Raymond Dobie"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"married"
+    ,"living_with":"wife"
+    ,"children":"0"
+    ,"aditional_info":"His hobbies are ball dancing. He likes fresh vegetables and mayonnaise."
+    ,"posibble_scenarios":["creditcard89", "creditcard80"]
+  },
+  {
+     "id":"000000088"
+    ,"phonenumber":"100000022"
+    ,"name":"Bill Eddings"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"married"
+    ,"living_with":"wife and children"
+    ,"children":"2"
+    ,"aditional_info":"He collects old lighters. He plays on the transverse flute."
+    ,"posibble_scenarios":["phone91", "phone92"]
+  },
+  {
+     "id":"000000089"
+    ,"phonenumber":"100000023"
+    ,"name":"Nigel Green"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"divorced"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"He plays classical guitar and piano. He plays on weddings and occasional parties during weekends."
+    ,"posibble_scenarios":["mortgage97", "mortgage98"]
+  },
+  {
+     "id":"000000090"
+    ,"phonenumber":"100000024"
+    ,"name":"George Hainsworth"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"divorced"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"He is interested in calligraphy and sacred art. His favorite color is scarlet."
+    ,"posibble_scenarios":["creditcard91", "creditcard92"]
+  },
+  {
+     "id":"000000091"
+    ,"phonenumber":"100000025"
+    ,"name":"Neil Hart"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"unmarried"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"He has two cats and a parrot. He loves animals, solves crosswords and watches series."
+    ,"posibble_scenarios":["phone93", "phone94"]
+  },
+  {
+     "id":"000000092"
+    ,"phonenumber":"100000026"
+    ,"name":"Peter McCree"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"unmarried"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"He collects caps with a peak, though he does not wear them. He loves Italian kitchen."
+    ,"posibble_scenarios":["mortgage99", "mortgage100"]
+  },
+  {
+     "id":"000000093"
+    ,"phonenumber":"100000027"
+    ,"name":"William Simpson"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner"
+    ,"children":"0"
+    ,"aditional_info":"He loves science fiction and comic books. He likes to eat soups and cucumbers."
+    ,"posibble_scenarios":["creditcard93", "creditcard94"]
+  },
+  {
+     "id":"000000094"
+    ,"phonenumber":"100000028"
+    ,"name":"Cameron Sutherland"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner and children"
+    ,"children":"2"
+    ,"aditional_info":"He likes to tinker and renovate old furniture. He would like to go to Majorca once."
+    ,"posibble_scenarios":["phone95", "phone96"]
+  },
+  {
+     "id":"000000095"
+    ,"phonenumber":"100000029"
+    ,"name":"Barry Trout"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"married"
+    ,"living_with":"wife"
+    ,"children":"2"
+    ,"aditional_info":"He loves films about nature. He would like to be a traveler."
+    ,"posibble_scenarios":["mortgage101", "mortgage102"]
+  },
+  {
+     "id":"000000096"
+    ,"phonenumber":"100000030"
+    ,"name":"John Walden"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"divorced"
+    ,"living_with":"alone"
+    ,"children":"2"
+    ,"aditional_info":"He is a regular visitor of cinemas, he likes black and white movies, also silent. He would like to go to Paris."
+    ,"posibble_scenarios":["creditcard95", "creditcard96"]
+  },
+  {
+     "id":"000000097"
+    ,"phonenumber":"100000031"
+    ,"name":"Ivan White"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"unmarried"
+    ,"living_with":"alone"
+    ,"children":"2"
+    ,"aditional_info":"He often watches animal videos online. He likes british humor."
+    ,"posibble_scenarios":["phone97", "phone98"]
+  },
+  {
+     "id":"000000098"
+    ,"phonenumber":"100000032"
+    ,"name":"Cailean Woods"
+    ,"gender":"male"
+    ,"age":"50"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner"
+    ,"children":"2"
+    ,"aditional_info":"He likes to experiment in the kitchen. He goes to the pool twice a week."
+    ,"posibble_scenarios":["mortgage103", "mortgage104"]
+  },
+  {
+     "id":"000000099"
+    ,"phonenumber":"100000017"
+    ,"name":"Gary Adams"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"married"
+    ,"living_with":"wife"
+    ,"children":"0"
+    ,"aditional_info":"Cycling is his passion. He likes sour soup and sour apple jelly."
+    ,"posibble_scenarios":["mortgage105", "mortgage106"]
+  },
+  {
+     "id":"000000100"
+    ,"phonenumber":"100000018"
+    ,"name":"Philip Anderson"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"married"
+    ,"living_with":"wife and children"
+    ,"children":"2"
+    ,"aditional_info":"Work is his whole life, he is afraid of retirement. Apple pie is his favourite delicatessen."
+    ,"posibble_scenarios":["creditcard97", "creditcard98"]
+  },
+  {
+     "id":"000000101"
+    ,"phonenumber":"100000019"
+    ,"name":"Damian Crofts"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"married"
+    ,"living_with":"wife"
+    ,"children":"0"
+    ,"aditional_info":"He likes to go to the cinema on Sundays. He is an ardent chess player."
+    ,"posibble_scenarios":["phone100", "phone101"]
+  },
+  {
+     "id":"000000102"
+    ,"phonenumber":"100000020"
+    ,"name":"Paul Daubney"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"married"
+    ,"living_with":"wife and children"
+    ,"children":"2"
+    ,"aditional_info":"He collects stamps, has more than 20 albums. In the evening, he drinks bourbon."
+    ,"posibble_scenarios":["mortgage107", "mortgage108"]
+  },
+  {
+     "id":"000000103"
+    ,"phonenumber":"100000021"
+    ,"name":"Raymond Dobie"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"divorced"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"It has two cats and a hamster. He likes to paint landscapes and eat Chinese soup."
+    ,"posibble_scenarios":["creditcard99", "creditcard100"]
+  },
+  {
+     "id":"000000104"
+    ,"phonenumber":"100000022"
+    ,"name":"Bill Eddings"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"divorced"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"He likes to date on the internet. He collects coins."
+    ,"posibble_scenarios":["phone101", "phone102"]
+  },
+  {
+     "id":"000000105"
+    ,"phonenumber":"100000023"
+    ,"name":"Nigel Green"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"unmarried"
+    ,"living_with":"alone"
+    ,"children":"0"
+    ,"aditional_info":"He likes to play online games and chat with strangers. Grows chinchillas."
+    ,"posibble_scenarios":["mortgage93", "mortgage74"]
+  },
+  {
+     "id":"000000106"
+    ,"phonenumber":"100000024"
+    ,"name":"George Hainsworth"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"unmarried"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"He cans speak in 13 languages. He was never abroad. His favourite food is the pin in jelly."
+    ,"posibble_scenarios":["creditcard101", "creditcard102"]
+  },
+  {
+     "id":"000000107"
+    ,"phonenumber":"100000025"
+    ,"name":"Neil Hart"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner"
+    ,"children":"0"
+    ,"aditional_info":"His hobbies is makind the dumpling. He learns Spanish."
+    ,"posibble_scenarios":["phone103", "phone104"]
+  },
+  {
+     "id":"000000108"
+    ,"phonenumber":"100000026"
+    ,"name":"Peter McCree"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"unmarried"
+    ,"living_with":"partner and children"
+    ,"children":"2"
+    ,"aditional_info":"He is a member of the historical group. He is interested in the origins of the US."
+    ,"posibble_scenarios":["mortgage103", "mortgage84"]
+  },
+  {
+     "id":"000000109"
+    ,"phonenumber":"100000027"
+    ,"name":"William Simpson"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"married"
+    ,"living_with":"wife"
+    ,"children":"2"
+    ,"aditional_info":"Beer-lover. He dreams of setting up his own craft brewery. He eats pizza three times a week"
+    ,"posibble_scenarios":["creditcard103", "creditcard104"]
+  },
+  {
+     "id":"000000110"
+    ,"phonenumber":"100000028"
+    ,"name":"Cameron Sutherland"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"divorced"
+    ,"living_with":"alone"
+    ,"children":"2"
+    ,"aditional_info":"He is interested in architecture. For the pleasure, he plays tennis."
+    ,"posibble_scenarios":["phone105", "phone106"]
+  },
+  {
+     "id":"000000111"
+    ,"phonenumber":"100000029"
+    ,"name":"Barry Trout"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"unmarried"
+    ,"living_with":"alone"
+    ,"children":"2"
+    ,"aditional_info":"He loves to shop. He has over 50 pairs of shoes. He likes small cucumbers."
+    ,"posibble_scenarios":["mortgage85", "mortgage96"]
+  },
+  {
+     "id":"000000112"
+    ,"phonenumber":"100000030"
+    ,"name":"John Walden"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"unmarrieds"
+    ,"living_with":"partner"
+    ,"children":"2"
+    ,"aditional_info":"He likes fast cars and wild nature. He would like to go on safari."
+    ,"posibble_scenarios":["creditcard105", "creditcard106"]
+  },
+  {
+     "id":"000000113"
+    ,"phonenumber":"100000031"
+    ,"name":"Ivan White"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"widower"
+    ,"living_with":"alone"
+    ,"children":"2"
+    ,"aditional_info":"He reads a lot of factual literature, solves a lot of crossword puzzles. He likes beef tripe."
+    ,"posibble_scenarios":["phone105", "phone106"]
+  },
+  {
+     "id":"000000114"
+    ,"phonenumber":"100000032"
+    ,"name":"Cailean Woods"
+    ,"gender":"male"
+    ,"age":"60"
+    ,"family_status":"widower"
+    ,"living_with":"children"
+    ,"children":"2"
+    ,"aditional_info":"He likes to angle. He does not like raisins, but he always appreciates home cheesecake."
+    ,"posibble_scenarios":["mortgage88", "mortgage100"]
+  }]
