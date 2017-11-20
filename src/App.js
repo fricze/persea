@@ -201,7 +201,7 @@ class App extends Component {
             lektaChat$,
             lang$,
             (finalAnswer, answers, profile, person, scenario, lekta, lang) => ({
-                finalAnswer, profile, person, scenario, lekta, lang
+                finalAnswer, answers, profile, person, scenario, lekta, lang
             })
         ).pipe(
             map(postData => ({
