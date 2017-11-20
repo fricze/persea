@@ -188,6 +188,10 @@ class App extends Component {
             this.setState({ scenario: x })
         })
 
+        answers$.subscribe(x => {
+            console.log('answers', x)
+        })
+
         combineLatest(
             finalAnswer$,
             answers$,
