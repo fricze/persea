@@ -52,7 +52,7 @@ app.post('/final', function (req, res) {
   })
 })
 
-const port = 3010
+const port = 3000
 
 app.listen(port, function () {
   console.log(`Data server listening on port ${port}!`)
