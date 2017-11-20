@@ -198,7 +198,7 @@ class App extends Component {
                 scenarioName: postData.scenario['scenario/name'],
             }))
         ).subscribe(
-            postData => fetch('http://localhost:3010/final', {
+            postData => fetch('./final', {
                 method: "POST",
                 body: JSON.stringify(postData),
             }).then((response) => response.text())
