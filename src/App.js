@@ -3,7 +3,7 @@ import './App.css'
 import h from 'react-hyperscript'
 import {
     toPairs, pathOr, range, contains, equals,
-    and, map
+    and, map, identity
 } from 'ramda'
 import elements from 'hyperscript-helpers'
 import {
@@ -20,6 +20,12 @@ import {
 import Research from './screens/Research'
 import { filter } from 'rxjs/operators/filter'
 import { map as rxMap } from 'rxjs/operators/map'
+import { mapTo } from 'rxjs/operators/mapTo'
+import { take, toArray } from 'rxjs/operators'
+import { shareReplay } from 'rxjs/operators/shareReplay'
+import { mergeMap } from 'rxjs/operators/mergeMap'
+import { pluck } from 'rxjs/operators/pluck'
+import { catchError } from 'rxjs/operators/catchError'
 import { tap } from 'rxjs/operators/tap'
 import { combineLatest } from 'rxjs/observable/combineLatest'
 import textsEn from './data-sources/persea_en.json'
@@ -45,21 +51,26 @@ const profilesObj = {
 const { vector, parse, toJs } = mori
 const {
     DB_ID, DB_ADD, TX_DATA, TX_META, DB_AFTER, DB_BEFORE,
-    DB_UNIQUE, DB_UNIQUE_IDENTITY, DB_CARDINALITY, DB_CARDINALITY_MANY
+    DB_UNIQUE, DB_UNIQUE_IDENTITY, DB_CARDINALITY,
+    DB_CARDINALITY_MANY
 } = helpers
 
 nextTx(tx$, vector(vector(DB_ADD, -1, `__holder`, `system`)))
 
 const { h1, h2, p, div } = elements(h)
 
+const toJsTransformers = [
+    rxMap(x => toJs(x)),
+    filter(x => x && x[0] && x[0][0]),
+    rxMap(x => x[0][0]),
+]
+
 const lang$ = q$(
     report$,
     parse(`[:find ?l
             :where [_ "app/lang" ?l]]`)
 ).pipe(
-    rxMap(x => toJs(x)),
-    filter(x => x && x[0] && x[0][0]),
-    rxMap(x => x[0][0]),
+    ...toJsTransformers
 )
 
 const formKeys = [
@@ -74,12 +85,6 @@ const formKeys = [
 const pullPerson = `
 (pull ?e [${formKeys.map(e => `"${e}"`).join(' ')}])
 `
-
-const toJsTransformers = [
-    rxMap(x => toJs(x)),
-    filter(x => x && x[0] && x[0][0]),
-    rxMap(x => x[0][0]),
-]
 
 const personData$ = q$(
     report$,
@@ -124,23 +129,26 @@ const profileData$ = q$(
 )
 
 const lastQuestionKeys = [
-    "last_question_text",
-    "last_question_answerA",
-    "last_question_answerB",
-    "last_question_answerC",
-    "last_question_answerD",
-    "last_question_answerE",
-    "last_question_answerF",
-    "thank_you_text",
+    'last_question_text',
+    'last_question_answerA',
+    'last_question_answerB',
+    'last_question_answerC',
+    'last_question_answerD',
+    'last_question_answerE',
+    'last_question_answerF',
+    'thank_you_text',
 ]
 
 class App extends Component {
-    componentWillMount() {
-        lang$.subscribe(x => this.setState({ lang: x }))
-
-        lektaChat$.subscribe(x => this.setState({
-            lektaChat: x
+    stateFromStream(source$, key) {
+        source$.subscribe(value => this.setState({
+            [key]: value
         }))
+    }
+
+    componentWillMount() {
+        this.stateFromStream(lang$, 'lang')
+        this.stateFromStream(lektaChat$, 'lektaChat')
 
         personData$.subscribe(x => this.setState({ person: x }))
 
@@ -153,7 +161,9 @@ class App extends Component {
                 const chosenGender = person['person/gender']
                 const chosenAge = Number(person['person/age'])
 
-                const acceptedAge = range(chosenAge - 5, chosenAge + 5)
+                const acceptedAge = range(
+                    chosenAge - 6,
+                    chosenAge + 6)
 
                 const profilesData = profiles.filter(
                     ([ id, { age, gender } ]) => and(
@@ -170,29 +180,39 @@ class App extends Component {
 
         profileData$.subscribe(x => this.setState({ profile: x }))
 
-        const chosenScenario$ = combineLatest(
+        const randomScenarioName$ = combineLatest(
             scenariosData$,
             profileData$,
-            (scenarios, profile) => {
-                const scenario = profile.posibble_scenarios[
-                    Math.floor(Math.random()*profile.posibble_scenarios.length)
-                ]
+            (scenarios, profile) => [ scenarios, profile ]
+        ).pipe(
+            take(1),
+            rxMap(([ scenarios, profile ]) => profile.posibble_scenarios[
+                Math.floor(Math.random() * profile.posibble_scenarios.length)
+            ]),
+            shareReplay(1)
+        )
 
-                return scenarios.find(
-                    s => s['scenario/name'] === scenario
-                )
-            }
+        const chosenScenario$ = combineLatest(
+            scenariosData$,
+            randomScenarioName$,
+            (scenarios, name) => scenarios.find(
+                s => s['scenario/name'] === name
+            )
         )
 
         chosenScenario$.subscribe(x => {
             this.setState({ scenario: x })
         })
 
-        answers$.subscribe(x => {
-            console.log('answers', x)
-        })
+        const fetchPostFinal = map(postData => fetch('./final', {
+            method: "POST",
+            body: JSON.stringify(postData),
+        }).then((response) => ({
+            response,
+            success: response.ok
+        })))
 
-        combineLatest(
+        const finalRequest$ = combineLatest(
             finalAnswer$,
             answers$,
             profileData$,
@@ -200,9 +220,11 @@ class App extends Component {
             chosenScenario$,
             lektaChat$,
             lang$,
-            (finalAnswer, answers, profile, person, scenario, lekta, lang) => ({
-                finalAnswer, answers, profile, person, scenario, lekta, lang
-            })
+            (finalAnswer, answers, profile,
+             person, scenario, lekta, lang) => ({
+                 finalAnswer, answers, profile, person,
+                 scenario, lekta, lang
+             })
         ).pipe(
             map(postData => ({
                 lang: postData.lang,
@@ -212,13 +234,17 @@ class App extends Component {
                 finalAnswer: postData.finalAnswer,
                 profileId: postData.profile.id,
                 scenarioName: postData.scenario['scenario/name'],
-            }))
-        ).subscribe(
-            postData => fetch('./final', {
-                method: "POST",
-                body: JSON.stringify(postData),
-            }).then((response) => response.text())
+            })),
+            fetchPostFinal,
+            mergeMap(identity),
+            pluck('success'),
+            map(success => ({
+                true: 'success',
+                false: 'failure'
+            })[success]),
         )
+
+        this.stateFromStream(finalRequest$, 'dataSaved')
     }
 
     state = {
@@ -259,12 +285,12 @@ class App extends Component {
 
             (questions.length && this.state.profile) ? h(
                 'div#Questions',
-                questions.map(question => h(YesNoQuestion, {
+                [ h(YesNoQuestion, {
                     texts: lang,
-                    question,
+                    question: questions[0],
                     scenario: this.state.scenario,
                     profile: this.state.profile
-                }))
+                }) ]
             ) : null,
 
             (!this.state.lektaChat && scenarioFinished) ? h(Chat, {
@@ -279,7 +305,9 @@ class App extends Component {
                 })
             }) : null,
 
-            this.state.lektaChat ? h(FinalQuestion, {
+            this.state.lektaChat ?
+            h(FinalQuestion, {
+                dataSaved: this.state.dataSaved,
                 texts: lang,
                 scenario: this.state.scenario,
                 person: this.state.person,

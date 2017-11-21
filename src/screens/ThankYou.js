@@ -9,8 +9,12 @@ const {
     label, button, input
 } = helpers(h)
 
-const ThankYou = ({ texts }) => div('#ThankYou', [
+const ThankYouSuccess = ({ texts }) => div('#ThankYou', [
     p(texts.thank_you_text),
 ])
 
-export default ThankYou
+const ThankYouFailure = ({ texts }) => div('#ThankYou', [
+    p(texts.thank_you_text),
+])
+
+export { ThankYouSuccess, ThankYouFailure }

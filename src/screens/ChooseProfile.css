@@ -1,5 +1,6 @@
 #ChooseProfile .InfoText {
-  margin: 1rem 0; }
+  margin: 1rem 0;
+  line-height: 1.5; }
 
 #ChooseProfile .Profiles {
   display: flex;

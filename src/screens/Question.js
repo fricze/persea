@@ -1,3 +1,4 @@
+import ReactDOM from 'react-dom'
 import { Component } from 'react'
 import './Question.css'
 import h from 'react-hyperscript'
@@ -8,6 +9,11 @@ import {
 import { mori, helpers } from 'datascript-mori'
 import { tx$ } from '../db'
 import { Profile } from './Profile'
+import { ThankYouSuccess, ThankYouFailure } from './ThankYou'
+import { propOr } from 'ramda'
+import { retry } from 'rxjs/operators/retry'
+import { mergeMap } from 'rxjs/operators/mergeMap'
+import { of } from 'rxjs/observable/of'
 
 const { DB_ADD } = helpers
 const { vector, toClj } = mori
@@ -17,8 +23,34 @@ const {
     label, button, input, form
 } = elements(h)
 
+/* class YourProfileHeader extends Component {
+ *     constructor(props) {
+ *         super(props);
+ *         this.el = document.createElement('div');
+ *     }
+ * 
+ *     componentDidMount() {
+ *         this.Question = document.querySelector('.Question')
+ * 
+ *         this.Question.appendChild(this.el)
+ *     }
+ * 
+ *     componentWillUnmount() {
+ *         this.Question.removeChild(this.el)
+ *     }
+ * 
+ *     render() {
+ *         return ReactDOM.createPortal(
+ *             h3(this.props.texts.your_profile_header),
+ *             this.el,
+ *         )
+ *     }
+ * }*/
+
+const YourProfileHeader = ({ texts }) => h3(texts.your_profile_header)
+
 const YourProfile = ({ texts, profile }) => div('#YourProfile', [
-    h3(texts.your_profile_header),
+    h(YourProfileHeader, { texts }),
     Profile({
         texts, activateProfile: () => void 0,
         active: false
@@ -31,8 +63,9 @@ const YourFinSituation = ({ texts, scenario }) => div('#YourFinSituation', [
     div('.Row', [ label(texts.planned_expenditure_label + ': '), span(scenario['scenario/planed_expenditure']) ]),
 ])
 
-const transactAmount = (name, questions, amount, finished,
-                        question, answer
+const transactAmount = (
+    name, questions, amount, finished,
+    question, answer
 ) => nextTx(tx$, vector(
     vector(DB_ADD, vector('scenario/name', name),
            'scenario/questions', questions),
@@ -41,10 +74,8 @@ const transactAmount = (name, questions, amount, finished,
     vector(DB_ADD, vector('scenario/name', name),
            'scenario/finished', finished),
 
-    vector(DB_ADD, -1,
-           'answered/id', question),
-    vector(DB_ADD, -1,
-           'answered/answer', answer),
+    vector(DB_ADD, -1, 'answered/id', question),
+    vector(DB_ADD, -1, 'answered/answer', answer),
 ))
 
 const transactFinalAnswer = (answer) =>
@@ -120,13 +151,20 @@ const YesNoQuestion = ({ texts, question, scenario, profile }) =>
         YesNoQuestionContent({ question, scenario }),
     ])
 
+const thankYouScreen = {
+    success: ThankYouSuccess,
+    failure: ThankYouFailure
+}
+
 const FinalQuestion = ({
-    texts, question, scenario, profile, lastQuestion
+    texts, question, scenario, profile,
+    lastQuestion, dataSaved
 }) =>
     div('.Question', [
         YourProfile({ texts, profile }),
         YourFinSituation({ texts, scenario }),
         LastQuestionContent({ lastQuestion, scenario }),
+        propOr(div, dataSaved, thankYouScreen)({ texts }),
     ])
 
 const OpenQuestion = ({ texts, scenario }) =>
@@ -233,7 +271,7 @@ const techniques = [
 ]
 
 const lektaData = (lang, phoneNumber) => {
-    const randomTechnique = Math.floor(Math.random() * techniques.length)
+    const randomTechnique = techniques[Math.floor(Math.random() * techniques.length)]
 
     return {
         "language": lang,
@@ -307,25 +345,32 @@ class Chat extends Component {
 
         const data = lektaData(lang, profile["phonenumber"])
 
-        fetch(lektaUrl, {
-            method: 'post',
-            headers: {
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-        }).then(res => res.json())
-          .then(({
-              id, answer
-          }) => this.setState({
-              lekta: {
-                  id,
-                  chat: this.state.lekta.chat.concat([{
-                      type: 'lekta',
-                      answer
-                  }])
-              }
-          }))
+        of(lektaUrl)
+            .pipe(
+                mergeMap(url => fetch(lektaUrl, {
+                    method: 'post',
+                    headers: {
+                        'Accept': 'application/json, text/plain, */*',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                })),
+                retry(3),
+                mergeMap(res => res.json()),
+            )
+            .subscribe(({
+                id, answer
+            }) => {
+                this.setState({
+                    lekta: {
+                        id,
+                        chat: this.state.lekta.chat.concat([{
+                            type: 'lekta',
+                            answer
+                        }])
+                    }
+                })
+            })
     }
 
     render() {

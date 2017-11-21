@@ -7,6 +7,7 @@ import { report$, tx$ } from './db'
 import Papa from 'papaparse'
 import { combineLatest } from 'rxjs/observable/combineLatest'
 import { filter } from 'rxjs/operators/filter'
+import { tap } from 'rxjs/operators/tap'
 import { map as rxMap } from 'rxjs/operators/map'
 
 const { vector, concat, apply, parse, get, first, hashMap, map, find, nth, reduce, toJs, toClj, into } = mori
@@ -53,7 +54,7 @@ const scenarioHeads = [
 
 const scenariosTrans = scenarios.map((scenario, idx) => {
     return toPairs(scenario).map(([ name, value ]) => {
-        return [ DB_ADD, -idx - 1, `scenario/${name}`, value ]
+        return [ DB_ADD, (-idx - 1), `scenario/${name}`, value ]
     })
 }).reduce((acc, el) => acc.concat(el), [])
 
@@ -63,13 +64,15 @@ const pullS = `
 (pull ?e [${scenarioHeads.map(e => `"${e}"`).join(' ')} "question/question_id"])
 `
 
+const scenariosPull = `[:find ${pullS}
+                       :where [?e "scenario/name"] ]`
+
 const scenarios$ = q$(
     report$,
-    parse(`[:find ${pullS}
-            :where [?e "scenario/name"]
-]`)
+    parse(scenariosPull)
 ).pipe(
-    rxMap(x => toJs(x))
+    rxMap(x => toJs(x)),
+    tap()
 )
 
 export const data$ = combineLatest(
