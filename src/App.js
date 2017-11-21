@@ -204,7 +204,14 @@ class App extends Component {
             this.setState({ scenario: x })
         })
 
-        const fetchPostFinal = map(postData => fetch('./final', {
+      // {"Parameter":{"ParameterCategory":"terminal","ParameterType":"result","ParameterValue":{"Result":"will_pay"}}}
+
+        /* lektaResult*/
+
+        /* const finalUrl = 'http://persearesearch.com/final'*/
+        const finalUrl = './final'
+
+        const fetchPostFinal = map(postData => fetch(finalUrl, {
             method: "POST",
             body: JSON.stringify(postData),
         }).then((response) => ({
@@ -237,14 +244,16 @@ class App extends Component {
             })),
             fetchPostFinal,
             mergeMap(identity),
+            shareReplay(1),
+        )
+
+        this.stateFromStream(finalRequest$.pipe(
             pluck('success'),
             map(success => ({
                 true: 'success',
                 false: 'failure'
             })[success]),
-        )
-
-        this.stateFromStream(finalRequest$, 'dataSaved')
+        ), 'dataSaved')
     }
 
     state = {
