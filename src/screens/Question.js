@@ -54,7 +54,15 @@ const YourProfile = ({ texts, profile }) => div('#YourProfile', [
     Profile({
         texts, activateProfile: () => void 0,
         active: false
-    })(profile)
+    })(profile),
+    p([
+        span({ className: 'ProfileInfoLabel' }, texts.profile_verif_name_label + ': '),
+        span(texts.profile_verif_name_value),
+    ]),
+    p([
+        span({ className: 'ProfileInfoLabel' }, texts.profile_verif_city_label + ': '),
+        span(texts.profile_verif_city_value),
+    ])
 ])
 
 const YourFinSituation = ({ texts, scenario }) => div('#YourFinSituation', [
