@@ -346,7 +346,8 @@ class Chat extends Component {
                   vector(DB_ADD, -1, `lekta/chat`,
                          JSON.stringify(this.state.lekta.chat)),
                   vector(DB_ADD, -1, 'lekta/result',
-                         JSON.stringify(data.Parameter.ParameterValue))
+                         JSON.stringify(
+                             JSON.parse(data.context).Parameter.ParameterValue))
               ))
           })
     }
