@@ -27,8 +27,8 @@ const setLang = (lang) => nextTx(tx$, vector(
 
 const ChooseLanguage = ({ state, state$ }) =>
     div('#ChooseLanguage', [
-        h1('Choose your language - wybierz język - vyber jazyk'),
-        h2('(native if possible – ojczysty jeśli to możliwe – matersky pokud mozno)'),
+        h1('Choose your language - wybierz język - vyber si jazyk'),
+        h2('(native if possible – ojczysty jeśli to możliwe – mateřský pokud možno)'),
         ul(map(lang => li({ onClick: setLang.bind(null, lang) },
                           [ span(lang) ]), Languages))
     ])
