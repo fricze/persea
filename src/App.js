@@ -102,6 +102,14 @@ const lektaChat$ = q$(
     ...toJsTransformers
 )
 
+const lektaResult$ = q$(
+  report$,
+  parse(`[:find ?r
+            :where [_ "lekta/result" ?r]]`)
+).pipe(
+  ...toJsTransformers
+)
+
 const finalAnswer$ = q$(
     report$,
     parse(`[:find ?c
@@ -226,11 +234,12 @@ class App extends Component {
             personData$,
             chosenScenario$,
             lektaChat$,
+            lektaResult$,
             lang$,
             (finalAnswer, answers, profile,
-             person, scenario, lekta, lang) => ({
+             person, scenario, lekta, result, lang) => ({
                  finalAnswer, answers, profile, person,
-                 scenario, lekta, lang
+                 scenario, lekta, result, lang
              })
         ).pipe(
             map(postData => ({
@@ -238,6 +247,7 @@ class App extends Component {
                 lekta: JSON.stringify(postData.lekta),
                 answers: JSON.stringify(postData.answers),
                 person: JSON.stringify(postData.person),
+                result: JSON.stringify(postData.result),
                 finalAnswer: postData.finalAnswer,
                 profileId: postData.profile.id,
                 scenarioName: postData.scenario['scenario/name'],

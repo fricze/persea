@@ -323,6 +323,7 @@ class Chat extends Component {
                 "input": text,
             })
         }).then(res => res.json())
+          .catch(x => ({}))
           .then(data => {
               const { answer, closed } = data
 
@@ -343,7 +344,9 @@ class Chat extends Component {
 
               nextTx(tx$, vector(
                   vector(DB_ADD, -1, `lekta/chat`,
-                         JSON.stringify(this.state.lekta.chat))
+                         JSON.stringify(this.state.lekta.chat)),
+                  vector(DB_ADD, -1, 'lekta/result',
+                         JSON.stringify(data.Parameter.ParameterValue))
               ))
           })
     }
