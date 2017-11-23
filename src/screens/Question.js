@@ -284,16 +284,37 @@ const techniques = [
     'pt97', 'pt98', 'pt99'
 ]
 
+const styles = [
+    'polite', 'casual', 'authoritative'
+]
+
+const persuasiveStrategy = [
+    'waiter',
+    'smallmoney',
+    'plucking',
+    'deadfish',
+    'optician',
+    'alreadydone',
+    'salami',
+    'whatif',
+    'carrot',
+    'basic',
+]
+
+const random = arr => arr[Math.floor(Math.random() * arr.length)]
+
 const lektaData = (lang, phoneNumber) => {
-    const randomTechnique = techniques[Math.floor(Math.random() * techniques.length)]
+    const randomTechnique = random(techniques)
+    const randomStyle = random(styles)
+    const randomStrategy = random(persuasiveStrategy)
 
     return {
         "language": lang,
         "interface": "Written",
         "operation": "Fluency",
         "context": `{ "InputContextData": { "DebtorPhoneNumber": "${phoneNumber}",
-        "SystemNLGStyle": "polite",
-        "PersuasiveStrategy": "waiter",
+        "SystemNLGStyle": "${ randomStyle }",
+        "PersuasiveStrategy": "${ randomStrategy }",
         "PersuasiveTechniques": "${randomTechnique}" }}`
     }
 }
@@ -362,6 +383,11 @@ class Chat extends Component {
         } = this.props
 
         const data = lektaData(lang, profile["phonenumber"])
+
+        nextTx(tx$, vector(
+            vector(DB_ADD, -1, `lekta/startData`,
+                   JSON.stringify(data)),
+        ))
 
         of(lektaUrl)
             .pipe(
