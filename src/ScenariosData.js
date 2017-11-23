@@ -50,13 +50,19 @@ const scenarioHeads = [
     'questions',
     'starting_amount',
     'finished',
+    'daysToSalary',
 ].map(e => `scenario/${e}`)
 
-const scenariosTrans = scenarios.map((scenario, idx) => {
-    return toPairs(scenario).map(([ name, value ]) => {
-        return [ DB_ADD, (-idx - 1), `scenario/${name}`, value ]
-    })
-}).reduce((acc, el) => acc.concat(el), [])
+const scenariosTrans = scenarios
+      .map(scenario => ({
+          ...scenario,
+          daysToSalary: 24,
+      }))
+      .map((scenario, idx) =>
+           toPairs(scenario).map(([ name, value ]) => {
+               return [ DB_ADD, (-idx - 1), `scenario/${name}`, value ]
+           }))
+      .reduce((acc, el) => acc.concat(el), [])
 
 nextTx(tx$, toClj(scenariosTrans))
 

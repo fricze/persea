@@ -71,11 +71,13 @@ const YourFinSituation = ({ texts, scenario }) => div('#YourFinSituation', [
                   span(scenario['scenario/starting_amount'] + ' ' + texts.currency_shortcut) ]),
     div('.Row', [ label(texts.planned_expenditure_label + ': '),
                   span(scenario['scenario/planed_expenditure'] + ' ' + texts.currency_shortcut) ]),
+    div('.Row', [ label(texts.days_to_salary + ': '),
+                  span(scenario['scenario/daysToSalary']) ]),
 ])
 
 const transactAmount = (
     name, questions, amount, finished,
-    question, answer
+    question, answer, daysToSalary
 ) => nextTx(tx$, vector(
     vector(DB_ADD, vector('scenario/name', name),
            'scenario/questions', questions),
@@ -83,6 +85,8 @@ const transactAmount = (
            'scenario/starting_amount', amount),
     vector(DB_ADD, vector('scenario/name', name),
            'scenario/finished', finished),
+    vector(DB_ADD, vector('scenario/name', name),
+           'scenario/daysToSalary', daysToSalary),
 
     vector(DB_ADD, -1, 'answered/id', question),
     vector(DB_ADD, -1, 'answered/answer', answer),
@@ -104,20 +108,22 @@ const YesNoQuestionContent = ({ question, scenario }) => {
 
     const finished = !_questions.length
 
+    const newDaysToSalary = Number(scenario['scenario/daysToSalary']) - 1
+
     return div('#YesNoQuestion', [
         p(question['question/question_text']),
         button({
             onClick: () => transactAmount(
                 scenario['scenario/name'], questions,
                 amount + Number(question['question/answerA_action']),
-                finished, question['question/question_id'], 'A'
+                finished, question['question/question_id'], 'A', newDaysToSalary
             )
         }, question['question/answerA_text']),
         button({
             onClick: () => transactAmount(
                 scenario['scenario/name'], questions,
                 amount + Number(question['question/answerB_action']),
-                finished, question['question/question_id'], 'B'
+                finished, question['question/question_id'], 'B', newDaysToSalary
             )
         }, question['question/answerB_text']),
     ])
