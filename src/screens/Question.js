@@ -138,6 +138,7 @@ const LastQuestionContent = ({ lastQuestion, scenario }) => {
 
     return div('#YesNoQuestion', [
         p(lastQuestion.last_question_text),
+        p(lastQuestion.last_question_debt_label + scenario['scenario/debt']),
     ].concat(answers.map(
         answerKey => button({
             onClick: () => transactFinalAnswer(

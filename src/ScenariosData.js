@@ -51,6 +51,7 @@ const scenarioHeads = [
     'starting_amount',
     'finished',
     'daysToSalary',
+    'debt',
 ].map(e => `scenario/${e}`)
 
 const scenariosTrans = scenarios
