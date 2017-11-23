@@ -67,12 +67,9 @@ const YourProfile = ({ texts, profile }) => div('#YourProfile', [
 
 const YourFinSituation = ({ texts, scenario }) => div('#YourFinSituation', [
     h3(texts.financial_situation_header),
-    div('.Row', [ label(texts.account_balance_label + ': '),
-                  span(scenario['scenario/starting_amount'] + ' ' + texts.currency_shortcut) ]),
-    div('.Row', [ label(texts.planned_expenditure_label + ': '),
-                  span(scenario['scenario/planed_expenditure'] + ' ' + texts.currency_shortcut) ]),
-    div('.Row', [ label(texts.days_to_salary + ': '),
-                  span(scenario['scenario/daysToSalary']) ]),
+    div('.Row', [ span(texts.account_balance_label + ': ' + scenario['scenario/starting_amount'] + texts.currency_shortcut) ]),
+    div('.Row', [ span(texts.planned_expenditure_label + ': ' + scenario['scenario/planed_expenditure'] + texts.currency_shortcut) ]),
+    div('.Row', [ span(texts.days_to_salary + ': ' + scenario['scenario/daysToSalary']) ]),
 ])
 
 const transactAmount = (

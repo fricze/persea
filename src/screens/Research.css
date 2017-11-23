@@ -1,5 +1,9 @@
 #Research h2 {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  text-align: center; }
+
+#Research p {
+  text-align: center; }
 
 #Research form {
   display: flex;
