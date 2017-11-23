@@ -50,6 +50,7 @@
   "currency_shortcut": "zł",
   "send_button": "Wyślij",
   "last_question_text": "Bez względu na to, co zadeklarowałeś podczas dialogu, ale biorąc pod uwagę swoją sytuację finansową, co decydujesz się zrobić?",
+  "last_question_debt_label": "Twoje zadłużenie jest: ",
   "last_question_answerA": "Spłacę całe zadłużenie w terminie z konta",
   "last_question_answerB": "Spłacę całe zadłużenie w terminie - pożyczam pieniądze",
   "last_question_answerC": "Nie zapłacę w terminie, bo nie mam pieniędzy",

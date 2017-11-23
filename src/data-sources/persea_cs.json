@@ -50,6 +50,7 @@
   "currency_shortcut": "Kč",
   "send_button": "Poslat",
   "last_question_text": "Bez ohledu na to, co jste slíbil(a) v průběhu dialogu, ale berouc v potaz stav svého konta, co se rozhodujete udělat?",
+  "last_question_debt_label": "Tvůj dluh je: ",
   "last_question_answerA": "Zaplatím celý dluh v termínu z konta",
   "last_question_answerB": "Zaplatím celý dluh v termínu - půjčím si peníze",
   "last_question_answerC": "Nezaplatím v termínu, protože nemám peníze",

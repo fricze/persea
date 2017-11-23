@@ -50,6 +50,7 @@
   "currency_shortcut": "$",
   "send_button": "Send",
   "last_question_text": "No matter what you promised during the dialogue, but taking into account the amount on your account, what do you decide to do?",
+  "last_question_debt_label": "Your debt is: ",
   "last_question_answerA": "I will pay all the debt in due time from the account",
   "last_question_answerB": "I will pay all the debt in due time - I will borrow money",
   "last_question_answerC": "I will NOT pay in due time because I do not have the moneye",
