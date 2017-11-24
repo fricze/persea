@@ -28,17 +28,17 @@ const {
  *         super(props);
  *         this.el = document.createElement('div');
  *     }
- * 
+ *
  *     componentDidMount() {
  *         this.Question = document.querySelector('.Question')
- * 
+ *
  *         this.Question.appendChild(this.el)
  *     }
- * 
+ *
  *     componentWillUnmount() {
  *         this.Question.removeChild(this.el)
  *     }
- * 
+ *
  *     render() {
  *         return ReactDOM.createPortal(
  *             h3(this.props.texts.your_profile_header),
@@ -284,16 +284,24 @@ const techniques = [
     'pt97', 'pt98', 'pt99'
 ]
 
+const strategies = ['waiter', 'smallmoney', 'plucking', 'deadfish',
+                    'optician', 'alreadydone', 'salami', 'whatif', 'carrot', 'basic'
+]
+
+const styles = ['polite', 'casual', 'authoritative']
+
 const lektaData = (lang, phoneNumber) => {
     const randomTechnique = techniques[Math.floor(Math.random() * techniques.length)]
+    const randomStrategy = strategies[Math.floor(Math.random() * strategies.length)]
+    const randomStyle = styles[Math.floor(Math.random() * styles.length)]
 
     return {
         "language": lang,
         "interface": "Written",
         "operation": "Fluency",
         "context": `{ "InputContextData": { "DebtorPhoneNumber": "${phoneNumber}",
-        "SystemNLGStyle": "polite",
-        "PersuasiveStrategy": "waiter",
+        "SystemNLGStyle": "${randomStyle}",
+        "PersuasiveStrategy": "${randomStrategy}",
         "PersuasiveTechniques": "${randomTechnique}" }}`
     }
 }
