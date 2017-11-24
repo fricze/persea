@@ -28,17 +28,17 @@ const {
  *         super(props);
  *         this.el = document.createElement('div');
  *     }
- * 
+ *
  *     componentDidMount() {
  *         this.Question = document.querySelector('.Question')
- * 
+ *
  *         this.Question.appendChild(this.el)
  *     }
- * 
+ *
  *     componentWillUnmount() {
  *         this.Question.removeChild(this.el)
  *     }
- * 
+ *
  *     render() {
  *         return ReactDOM.createPortal(
  *             h3(this.props.texts.your_profile_header),
@@ -313,8 +313,8 @@ const lektaData = (lang, phoneNumber) => {
         "interface": "Written",
         "operation": "Fluency",
         "context": `{ "InputContextData": { "DebtorPhoneNumber": "${phoneNumber}",
-        "SystemNLGStyle": "${ randomStyle }",
-        "PersuasiveStrategy": "${ randomStrategy }",
+        "SystemNLGStyle": "${randomStyle}",
+        "PersuasiveStrategy": "${randomStrategy}",
         "PersuasiveTechniques": "${randomTechnique}" }}`
     }
 }
