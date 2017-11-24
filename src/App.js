@@ -253,10 +253,10 @@ class App extends Component {
         ).pipe(
             map(postData => ({
                 lang: postData.lang,
-                lekta: JSON.stringify(postData.lekta),
+                lekta: (postData.lekta),
                 answers: JSON.stringify(postData.answers),
                 person: JSON.stringify(postData.person),
-                result: JSON.stringify(postData.result),
+                result: (postData.result),
                 startData: postData.startData,
                 finalAnswer: postData.finalAnswer,
                 profileId: postData.profile.id,

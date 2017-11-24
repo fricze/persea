@@ -126,7 +126,7 @@ const YesNoQuestionContent = ({ question, scenario }) => {
     ])
 }
 
-const LastQuestionContent = ({ lastQuestion, scenario }) => {
+const LastQuestionContent = ({ lastQuestion, scenario, texts, }) => {
     const answers = [
         'last_question_answerA',
         'last_question_answerB',
@@ -138,7 +138,8 @@ const LastQuestionContent = ({ lastQuestion, scenario }) => {
 
     return div('#YesNoQuestion', [
         p(lastQuestion.last_question_text),
-        p(lastQuestion.last_question_debt_label + scenario['scenario/debt']),
+        p(String(texts.last_question_debt_label) +
+          String(scenario['scenario/debt']) + String(texts.currency_shortcut)),
     ].concat(answers.map(
         answerKey => button({
             onClick: () => transactFinalAnswer(
@@ -177,7 +178,7 @@ const FinalQuestion = ({
     div('.Question', [
         YourProfile({ texts, profile }),
         YourFinSituation({ texts, scenario }),
-        LastQuestionContent({ lastQuestion, scenario }),
+        LastQuestionContent({ lastQuestion, scenario, texts, }),
         propOr(div, dataSaved, thankYouScreen)({ texts }),
     ])
 
