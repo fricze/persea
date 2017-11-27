@@ -137,14 +137,14 @@ class Research extends Component {
                 label('.label-first', [
                     select({
                         value: this.state.gender, onChange: e => this.handleChange('gender', e.target.value)
-                    }, map(x => option(x), texts.gender_options)),
+                    }, map(x => option(x, x.label), texts.gender_options)),
                     span(texts.gender_label)
                 ]),
 
                 label('.label-first', [
                     select({
                         value: this.state.education, onChange: e => this.handleChange('education', e.target.value)
-                    }, map(x => option(x), texts.education_options)
+                    }, map(x => option(x, x.label), texts.education_options)
                     ),
                     span(texts.education_label)
                 ]),
