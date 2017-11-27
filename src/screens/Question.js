@@ -368,12 +368,13 @@ class Chat extends Component {
                   return;
               }
 
+              const context = data.context ? JSON.parse(data.context).Parameter.ParameterValue : {}
+
               nextTx(tx$, vector(
                   vector(DB_ADD, -1, `lekta/chat`,
                          JSON.stringify(this.state.lekta.chat)),
                   vector(DB_ADD, -1, 'lekta/result',
-                         JSON.stringify(
-                             JSON.parse(data.context).Parameter.ParameterValue))
+                         JSON.stringify(context))
               ))
           })
     }
